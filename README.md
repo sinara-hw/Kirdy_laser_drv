@@ -8,7 +8,7 @@ Low noise precision laser diode driver
   
 - 300mA max output  
 - 4V compliance 
-- DC to 10MHz modulation input with selectable modulation gains
+- DC to 10MHz modulation input (+/- 1V max) with selectable modulation gains
   - 0.25mA/V 
   - 2.5mA/V 
   - 25mA/V 
