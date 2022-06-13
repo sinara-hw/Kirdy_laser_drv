@@ -108,6 +108,9 @@
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/066d5892-5cd5-4bea-b526-a87f3a5c11e8"
       (reference "R?") (unit 1) (value "100") (footprint "")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/276ec956-181f-40ad-b3fb-6d83e4859fd0"
+      (reference "R?") (unit 1) (value "0") (footprint "")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/3ee38521-8197-424b-afd0-d940f0fbf437"
       (reference "R?") (unit 1) (value "100") (footprint "")
     )
