@@ -328,6 +328,14 @@
     [
       "5c501399-91aa-4646-9dc0-aa6b782690af",
       "REFDAC"
+    ],
+    [
+      "e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070",
+      "MCU"
+    ],
+    [
+      "bda728c0-b189-4e05-8d4f-58a38acf883b",
+      "thermostat"
     ]
   ],
   "text_variables": {}
