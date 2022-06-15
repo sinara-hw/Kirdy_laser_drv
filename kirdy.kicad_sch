@@ -250,6 +250,9 @@
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/799206b5-376e-4365-9dbe-4ba1050c7f50"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/7b5b96f9-d283-4b61-a496-283c564048e5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/7c3a7fd2-8a01-4018-8431-715b54a03df5"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -360,6 +363,9 @@
     )
     (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/ebaed2aa-ba5c-4923-b1ef-583ece22aa2c"
       (reference "#PWR?") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/ee88ec51-1309-4fa1-88de-14e0cf5945c5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/efa228e2-c8f0-4e39-afae-85f66596e90f"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
@@ -512,7 +518,7 @@
       (reference "C?") (unit 1) (value "10n") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c6075b38-12c8-4ff5-9ba1-c690b686db71"
-      (reference "C?") (unit 1) (value "1u") (footprint "")
+      (reference "C?") (unit 1) (value "2u") (footprint "")
     )
     (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/cc99f6b0-370c-427d-ab7d-b71c65eb361a"
       (reference "C?") (unit 1) (value "10u") (footprint "")
@@ -570,6 +576,12 @@
     )
     (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/b31815cc-6d80-43d7-aa80-8f2cba5ff682"
       (reference "FL?") (unit 1) (value "5A") (footprint "")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/1bdb312d-fc24-4d7d-a4f8-bca2f744ab31"
+      (reference "J?") (unit 1) (value "DNP") (footprint "")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/db710fad-151b-4b84-91da-ba7f8953d72e"
+      (reference "J?") (unit 1) (value "DNP") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/fc3e1e88-39dd-4e44-9550-0de98037638f"
       (reference "J?") (unit 1) (value "MOD_IN") (footprint "")
