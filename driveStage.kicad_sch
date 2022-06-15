@@ -1596,7 +1596,7 @@
     (uuid f4aa95ee-67ac-4fcd-85aa-5023d306944b)
   )
 
-  (hierarchical_label "LDAC" (shape input) (at 135.89 162.56 180)
+  (hierarchical_label "~{LDAC}" (shape input) (at 135.89 162.56 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 5b34ddf5-9df7-45e4-a0e3-b85c98232e9a)
   )
@@ -1620,7 +1620,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid e14c7018-e269-41ea-942d-ea6284eb593c)
   )
-  (hierarchical_label "CS" (shape input) (at 135.89 154.94 180)
+  (hierarchical_label "~{CS}" (shape input) (at 135.89 154.94 180)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid fd210313-4fe2-44b3-9793-9c25aa5d0f90)
   )
