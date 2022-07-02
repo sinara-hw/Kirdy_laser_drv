@@ -336,6 +336,10 @@
     [
       "bda728c0-b189-4e05-8d4f-58a38acf883b",
       "thermostat"
+    ],
+    [
+      "b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d",
+      "digital supply"
     ]
   ],
   "text_variables": {}
