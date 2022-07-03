@@ -1,8 +1,16 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 3cc083c4-1cdf-43d5-8a41-a9446372ccd8)
+  (uuid 57f36487-8397-4532-bfa7-1cf60c82a91f)
 
   (paper "A3")
+
+  (title_block
+    (title "Kirdy")
+    (date "2022-07-03")
+    (rev "r0.1")
+    (company "M-Labs")
+    (comment 1 "Alex Wong Tat Hang")
+  )
 
   (lib_symbols
     (symbol "Connector:Barrel_Jack" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)

@@ -1,8 +1,16 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid 8460278c-da4f-4113-bc21-ab593e2a565e)
+  (uuid 6bb0e69a-93b7-4ebd-aef5-e8998694a97e)
 
   (paper "A3")
+
+  (title_block
+    (title "Kirdy")
+    (date "2022-07-03")
+    (rev "r0.1")
+    (company "M-Labs")
+    (comment 1 "Alex Wong Tat Hang")
+  )
 
   (lib_symbols
     (symbol "Connector:RJ45_Abracon_ARJP11A-MASA-B-A-EMU2" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)

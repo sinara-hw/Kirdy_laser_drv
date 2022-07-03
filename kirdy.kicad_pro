@@ -344,6 +344,10 @@
     [
       "0dd24396-d186-4488-abd9-8b249dfb8a49",
       "Ehternet"
+    ],
+    [
+      "70187dee-b8b1-417f-999f-47b1dfda0f58",
+      "USB"
     ]
   ],
   "text_variables": {}

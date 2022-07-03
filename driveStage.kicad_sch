@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Kirdy")
+    (date "2022-07-03")
+    (rev "r0.1")
+    (company "M-Labs")
+    (comment 1 "Alex Wong Tat Hang")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:ADA4898-1YRDZ" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 3.81 3.81 0)
