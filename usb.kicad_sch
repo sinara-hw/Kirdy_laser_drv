@@ -1,6 +1,6 @@
 (kicad_sch (version 20211123) (generator eeschema)
 
-  (uuid a7d9a7bd-b0d3-4882-af3e-108353d8661b)
+  (uuid 1caa71b1-f371-4b1a-bad3-9fc7d7eef0a1)
 
   (paper "A3")
 
@@ -898,9 +898,9 @@
   )
 
   (no_connect (at 222.25 106.68) (uuid 0353ded9-a686-4e40-b304-384a7e595edb))
-  (no_connect (at 222.25 101.6) (uuid 0353ded9-a686-4e40-b304-384a7e595edb))
+  (no_connect (at 222.25 101.6) (uuid 0353ded9-a686-4e40-b304-384a7e595edc))
   (no_connect (at 143.51 118.11) (uuid 3cf4d690-b538-406b-84f4-e8782a5e88d7))
-  (no_connect (at 143.51 115.57) (uuid 3cf4d690-b538-406b-84f4-e8782a5e88d7))
+  (no_connect (at 143.51 115.57) (uuid 3cf4d690-b538-406b-84f4-e8782a5e88d8))
 
   (wire (pts (xy 143.51 106.68) (xy 143.51 107.95))
     (stroke (width 0) (type default) (color 0 0 0 0))
