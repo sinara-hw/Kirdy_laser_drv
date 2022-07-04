@@ -1545,6 +1545,9 @@
     (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/429907a1-e791-43c2-91ec-dc42dfb41ffd"
       (reference "#PWR0161") (unit 1) (value "+3V3") (footprint "")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/129100a3-1721-4302-8b80-db4bf0eb959d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c6075b38-12c8-4ff5-9ba1-c690b686db71"
       (reference "C1") (unit 1) (value "2u PET") (footprint "Capacitor_SMD:C_1812_4532Metric")
     )
@@ -2057,6 +2060,9 @@
     )
     (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/3c3293bc-1ab6-40ca-9b38-b5f2ea156331"
       (reference "C171") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/ad11c03b-fb1c-426d-9b62-1b88cdbd0497"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/e2529b99-2d1f-424b-948b-cb83b5441da0"
       (reference "D1") (unit 1) (value "AQ4020-01FTG-C") (footprint "Diode_SMD:D_SOD-323")
