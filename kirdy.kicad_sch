@@ -1546,7 +1546,7 @@
       (reference "#PWR0161") (unit 1) (value "+3V3") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/129100a3-1721-4302-8b80-db4bf0eb959d"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0162") (unit 1) (value "GND") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c6075b38-12c8-4ff5-9ba1-c690b686db71"
       (reference "C1") (unit 1) (value "2u PET") (footprint "Capacitor_SMD:C_1812_4532Metric")
@@ -2062,7 +2062,7 @@
       (reference "C171") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_1206_3216Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/ad11c03b-fb1c-426d-9b62-1b88cdbd0497"
-      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+      (reference "C172") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/e2529b99-2d1f-424b-948b-cb83b5441da0"
       (reference "D1") (unit 1) (value "AQ4020-01FTG-C") (footprint "Diode_SMD:D_SOD-323")
@@ -2127,8 +2127,8 @@
     (path "/70187dee-b8b1-417f-999f-47b1dfda0f58/902c355a-3101-4ebc-b8c5-69c823fc226d"
       (reference "FB12") (unit 1) (value "1K@100MHz") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
-    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/b31815cc-6d80-43d7-aa80-8f2cba5ff682"
-      (reference "FL1") (unit 1) (value "5A") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
+    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/d706a546-ab46-4a61-8ebb-06726706082f"
+      (reference "FL1") (unit 1) (value "WE-SL5") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/de47c171-9321-4080-bde6-9288449fa436"
       (reference "FL2") (unit 1) (value "2x1m") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
