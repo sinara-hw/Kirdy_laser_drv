@@ -1052,11 +1052,11 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 44ef3896-edfb-4a77-a773-5b75da6c8f8d)
     )
-    (pin "NTC-" passive (at 262.89 161.29 0)
+    (pin "NTC-" passive (at 262.89 158.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0cbedbfa-13d5-4f49-b223-5533e7c6a9c1)
     )
-    (pin "NTC+" passive (at 262.89 158.75 0)
+    (pin "NTC+" passive (at 262.89 161.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6a1acaaa-3f89-40bd-9670-1fd08ed9a1ac)
     )
@@ -1866,6 +1866,9 @@
     )
     (path "/cdfa71ec-46b6-4699-81aa-1245545c75d5"
       (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/4f13ebe9-08cd-4ba9-bc89-16360860ea49"
+      (reference "#PWR0166") (unit 1) (value "GND") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c6075b38-12c8-4ff5-9ba1-c690b686db71"
       (reference "C1") (unit 1) (value "2u PET") (footprint "Capacitor_SMD:C_1812_4532Metric")
@@ -2838,6 +2841,9 @@
     )
     (path "/1ab5901c-429f-4ac8-ba17-2272e5c27526"
       (reference "R101") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/9272f163-d45e-4e7e-b58d-6053252e01b5"
+      (reference "R102") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/6f857960-a9ff-452e-bba2-080502805e7a"
       (reference "SW1") (unit 1) (value "SW_DIP_x03") (footprint "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_Omron_A6S-310x_W8.9mm_P2.54mm")
