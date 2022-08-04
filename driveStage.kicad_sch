@@ -1326,7 +1326,6 @@
     )
   )
 
-
   (junction (at 229.87 46.99) (diameter 0) (color 0 0 0 0)
     (uuid 00a4b1b7-f9ab-4009-8ad5-acf8c9216ecb)
   )
@@ -2550,7 +2549,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 4f339c66-c682-43a9-8f4e-7ad41804bdc2)
     (property "Reference" "R8" (id 0) (at 284.48 110.49 90))
-    (property "Value" "300" (id 1) (at 284.48 113.03 90))
+    (property "Value" "100" (id 1) (at 284.48 113.03 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 284.48 118.618 90)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3119,7 +3118,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid affb61ec-84ab-440d-a648-f96126f479ed)
     (property "Reference" "R7" (id 0) (at 284.48 64.77 90))
-    (property "Value" "100" (id 1) (at 284.48 67.31 90))
+    (property "Value" "300" (id 1) (at 284.48 67.31 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 284.48 72.898 90)
       (effects (font (size 1.27 1.27)) hide)
     )

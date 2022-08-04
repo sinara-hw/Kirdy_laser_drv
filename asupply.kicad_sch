@@ -3304,7 +3304,7 @@
     (in_bom yes) (on_board yes)
     (uuid 0e6b35e9-52b5-4dbe-a387-f757acfe4067)
     (property "Reference" "R23" (id 0) (at 203.2 86.36 90))
-    (property "Value" "9k09" (id 1) (at 203.2 83.82 90))
+    (property "Value" "91k" (id 1) (at 203.2 83.82 90))
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (id 2) (at 203.2 85.598 90)
       (effects (font (size 1.27 1.27) bold) hide)
     )
