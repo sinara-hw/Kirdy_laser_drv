@@ -1560,6 +1560,9 @@
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/bd5e5592-3430-4d48-a6cc-be19b882a657"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/c5d45111-4e7f-409a-9212-63e9d4bca09a"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c6a2f32b-6702-4677-ab90-864affeeb1d2"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
@@ -2088,6 +2091,9 @@
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/02736d4f-0f22-43ae-8820-7191c92ee631"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/098d5cb0-f4e3-4e05-971f-2740da8a2b8e"
+      (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/0e7cce94-f4cd-43d9-8e89-40e91f1c4ce7"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
@@ -2099,6 +2105,12 @@
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/3d699251-1e46-405e-9b3b-bf755a85877f"
       (reference "C?") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/46dce890-3c9a-4ee9-b7bc-857e7fb8322d"
+      (reference "C?") (unit 1) (value "220u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W")
+    )
+    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/597c7435-e2ff-4553-b80e-df55ed0137a1"
+      (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/652f378a-054c-4544-8457-ac00712f2a11"
       (reference "C?") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0805_2012Metric")
@@ -2112,6 +2124,9 @@
     (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/8658f941-8efa-4d0e-9d21-1d17b70d49f3"
       (reference "C?") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/86e253d4-6894-4e80-b79f-3fc2b3482ad9"
+      (reference "C?") (unit 1) (value "10u PP") (footprint "Capacitor_SMD:C_1812_4532Metric")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/8cf73d73-cb7f-4e70-aab9-cc27bc5bab08"
       (reference "C?") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
@@ -2123,9 +2138,6 @@
     )
     (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/c45b58c3-a5d8-4dd1-8d9c-5730303a6603"
       (reference "C?") (unit 1) (value "220u") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W")
-    )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c715d441-b33b-4070-bd4a-12ecf4a79ecb"
-      (reference "C?") (unit 1) (value "100n PPS") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/f1c4f584-ffdf-42fb-96f2-b660c8096bf3"
       (reference "C?") (unit 1) (value "100n PPS") (footprint "Capacitor_SMD:C_1210_3225Metric")
@@ -2256,6 +2268,9 @@
     (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/21894db4-b018-4dc7-aed0-dd67ad5be7a7"
       (reference "L?") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
+    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/62a3a113-d718-4984-ab2a-c3bee3378b07"
+      (reference "L?") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1008_2520Metric")
+    )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/655a7949-7d16-4745-bb45-374263b8a7ee"
       (reference "L?") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
@@ -2287,10 +2302,10 @@
       (reference "R4") (unit 1) (value "1") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/affb61ec-84ab-440d-a648-f96126f479ed"
-      (reference "R7") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R7") (unit 1) (value "300") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4f339c66-c682-43a9-8f4e-7ad41804bdc2"
-      (reference "R8") (unit 1) (value "300") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R8") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/ddab3ca0-d434-4e8d-a597-d541dc593b38"
       (reference "R9") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2563,7 +2578,7 @@
       (reference "R?") (unit 1) (value "51k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4291f101-6db5-41d4-aa1a-2c040fa22862"
-      (reference "R?") (unit 1) (value "10") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R?") (unit 1) (value "3.3") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4f64b091-9371-40c1-8d40-38efea4e2487"
       (reference "R?") (unit 1) (value "10") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2577,20 +2592,11 @@
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/b941920e-9542-49e0-9c93-5834ae2bc2e1"
       (reference "R?") (unit 1) (value "90") (footprint "")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/d07f9958-214c-4099-809b-38c5eaf3328e"
+      (reference "R?") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/6f857960-a9ff-452e-bba2-080502805e7a"
       (reference "SW1") (unit 1) (value "SW_DIP_x03") (footprint "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_Omron_A6S-310x_W8.9mm_P2.54mm")
-    )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/35e92a97-6ac1-4b96-a1d2-02c2da5747ea"
-      (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-    )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/e9808db2-2a1a-4240-9a0b-515e330e0b3e"
-      (reference "TP2") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-    )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/b998332a-9555-4b7a-9026-57318330bfd0"
-      (reference "TP3") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
-    )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/1012d09e-0cec-4d66-ab4a-77c76ac4e0ba"
-      (reference "TP4") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/3b3235f5-5265-4888-abd2-191de158fe92"
       (reference "TP9") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_2.0x2.0mm")
