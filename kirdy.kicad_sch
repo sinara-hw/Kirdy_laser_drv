@@ -2127,6 +2127,9 @@
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/86e253d4-6894-4e80-b79f-3fc2b3482ad9"
       (reference "C?") (unit 1) (value "10u PP") (footprint "Capacitor_SMD:C_1812_4532Metric")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/884eb2f2-77b6-4bf8-aa3d-10aa9aa7177e"
+      (reference "C?") (unit 1) (value "1n6") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/8cf73d73-cb7f-4e70-aab9-cc27bc5bab08"
       (reference "C?") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
