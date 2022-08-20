@@ -1566,9 +1566,6 @@
     (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/c5d45111-4e7f-409a-9212-63e9d4bca09a"
       (reference "#PWR0164") (unit 1) (value "GND") (footprint "")
     )
-    (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/e3b316a5-362f-42db-a12f-e5c4304c4865"
-      (reference "#PWR0165") (unit 1) (value "GND") (footprint "")
-    )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/a3815d57-f9af-4888-a0c3-76d92b69217b"
       (reference "#PWR0166") (unit 1) (value "GND") (footprint "")
     )
@@ -1577,6 +1574,12 @@
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/f4369fa2-af0e-438c-a76f-822b8b2e5a75"
       (reference "#PWR0168") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/204db654-9b02-418c-8542-8b9e51afa9b4"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/9346b6b7-2e1c-4a63-8c5c-bdc0c4f0fb76"
+      (reference "#PWR?") (unit 1) (value "+12V") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/c6075b38-12c8-4ff5-9ba1-c690b686db71"
       (reference "C1") (unit 1) (value "2u PET") (footprint "Capacitor_SMD:C_1812_4532Metric")
@@ -2151,6 +2154,9 @@
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4ab573b1-f926-4a0f-ae0d-03c49cfe7192"
       (reference "C?") (unit 1) (value "100n PPS") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
+    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/c37656b9-8d2a-4e05-9ed8-41d6b8e8eb7c"
+      (reference "C?") (unit 1) (value "10u PP") (footprint "Capacitor_SMD:C_1812_4532Metric")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/e2529b99-2d1f-424b-948b-cb83b5441da0"
       (reference "D1") (unit 1) (value "AQ4020-01FTG-C") (footprint "Diode_SMD:D_SOD-323")
     )
@@ -2177,6 +2183,9 @@
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/4836e04e-dac9-4ef0-ae81-28532ef0cf24"
       (reference "D9") (unit 1) (value "SMBJ13A-13-F") (footprint "Diode_SMD:D_SMB")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/19e9a171-ab54-4bbc-86c4-445e01d1845d"
+      (reference "D?") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/00d2c618-4292-4f2f-991b-ba7c659af83f"
       (reference "FB1") (unit 1) (value "1K@100MHz") (footprint "Inductor_SMD:L_1210_3225Metric")
@@ -2253,6 +2262,9 @@
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/4f8fd37f-1f92-4f42-99da-8087c126ffc1"
       (reference "JP1") (unit 1) (value "DNP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/2bf9aff7-73fd-421c-a613-04fdc1423fc0"
+      (reference "K?") (unit 1) (value "G5V-1 DC12") (footprint "Relay_THT:Relay_SPDT_Omron_G5V-1")
+    )
     (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/28d5b5f7-d263-4d08-9c42-a69005b48ed7"
       (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1008_2520Metric")
     )
@@ -2300,6 +2312,9 @@
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/e53087c8-f81e-415d-a5b2-dbc33b1049d7"
       (reference "Q6") (unit 1) (value "BC857") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/f5d26c85-25fd-43bc-a986-08ef969322df"
+      (reference "Q?") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/b941920e-9542-49e0-9c93-5834ae2bc2e1"
       (reference "R1") (unit 1) (value "90") (footprint "")
@@ -2598,6 +2613,12 @@
     (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/14e84f03-c298-4bbc-86cf-dce6f22e36bf"
       (reference "R99") (unit 1) (value "51k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/1cfa3abd-5d61-4429-9a1e-12135efbf023"
+      (reference "R?") (unit 1) (value "2k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/a351d096-b1d3-4c0c-89cd-11335ef4594c"
+      (reference "R?") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/6f857960-a9ff-452e-bba2-080502805e7a"
       (reference "SW1") (unit 1) (value "SW_DIP_x03") (footprint "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_Omron_A6S-310x_W8.9mm_P2.54mm")
     )
@@ -2768,9 +2789,6 @@
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/f0adf31d-598f-4c7a-aa5b-27d5acf2b36b"
       (reference "U22") (unit 1) (value "TPS54620") (footprint "Package_DFN_QFN:Texas_S-PVQFN-N14")
-    )
-    (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/5d99e086-683a-4196-8dba-d4c7e93cadcd"
-      (reference "U23") (unit 1) (value "AG5300") (footprint "kirdy:AG5300")
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/3c4cf889-35db-49d1-8a33-e5314d37999b"
       (reference "U24") (unit 1) (value "PM1202") (footprint "kirdy:PM1202")
