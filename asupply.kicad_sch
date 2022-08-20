@@ -5668,7 +5668,7 @@
   (symbol (lib_id "Device:C") (at 226.06 119.38 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c37656b9-8d2a-4e05-9ed8-41d6b8e8eb7c)
-    (property "Reference" "C?" (id 0) (at 229.87 121.92 0)
+    (property "Reference" "C193" (id 0) (at 229.87 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u PP" (id 1) (at 229.87 119.38 0)
