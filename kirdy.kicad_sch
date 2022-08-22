@@ -337,6 +337,10 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 97988542-09c4-4d61-b238-0a6e34728569)
   )
+  (wire (pts (xy 218.44 132.08) (xy 231.14 132.08))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 9db25cde-db77-48c5-83a5-779bd03ebf82)
+  )
   (wire (pts (xy 146.05 134.62) (xy 158.75 134.62))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid a9cfc216-4c55-47ba-a1b9-7ead9a8f26f8)
@@ -694,6 +698,10 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 115470ce-4f92-4857-9f30-9a6ee37e9ce4)
     )
+    (pin "~{LD_SHORT}" input (at 231.14 132.08 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 4910aac9-4c20-4644-a424-12eeb3faf780)
+    )
   )
 
   (sheet (at 114.3 81.28) (size 31.75 16.51) (fields_autoplaced)
@@ -993,6 +1001,10 @@
     (pin "LD_EN" output (at 218.44 90.17 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2843fb72-6923-4187-a391-e702252fbf01)
+    )
+    (pin "~{LD_SHORT}" output (at 218.44 132.08 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 8a0d0a5d-af0d-49cf-8b32-846c21d1e7e6)
     )
   )
 
@@ -2199,8 +2211,8 @@
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/4836e04e-dac9-4ef0-ae81-28532ef0cf24"
       (reference "D9") (unit 1) (value "SMBJ13A-13-F") (footprint "Diode_SMD:D_SMB")
     )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/19e9a171-ab54-4bbc-86c4-445e01d1845d"
-      (reference "D11") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/6aca7311-8d85-44d3-8665-a40868fca600"
+      (reference "D?") (unit 1) (value "BZT52C12-7-F") (footprint "")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/b3ba0930-2eea-4744-bddd-3e155eaaed29"
       (reference "D?") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
@@ -2283,8 +2295,8 @@
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/4f8fd37f-1f92-4f42-99da-8087c126ffc1"
       (reference "JP1") (unit 1) (value "DNP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/2bf9aff7-73fd-421c-a613-04fdc1423fc0"
-      (reference "K1") (unit 1) (value "G5V-1 DC12") (footprint "Relay_THT:Relay_SPDT_Omron_G5V-1")
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/2d41fa50-74af-41c1-be3c-448593856d9b"
+      (reference "K?") (unit 1) (value "DIP12-1C90-51L") (footprint "Relay_THT:Relay_StandexMeder_DIP_LowProfile")
     )
     (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/28d5b5f7-d263-4d08-9c42-a69005b48ed7"
       (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1008_2520Metric")
