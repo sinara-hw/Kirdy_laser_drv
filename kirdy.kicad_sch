@@ -281,10 +281,6 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 662ee016-46ff-49a5-bbce-87ec9ffa86eb)
   )
-  (wire (pts (xy 146.05 87.63) (xy 158.75 87.63))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 6bd9486e-00cd-46ae-8ea6-c88b2e12cf41)
-  )
   (wire (pts (xy 262.89 113.03) (xy 281.94 113.03))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 720c0690-4eac-45ab-a8ec-47c31ee6ba18)
@@ -364,10 +360,6 @@
   (wire (pts (xy 218.44 186.69) (xy 231.14 186.69))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid bc88b5fd-7b97-407f-a82e-1e05149a1a2d)
-  )
-  (wire (pts (xy 218.44 125.73) (xy 231.14 125.73))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid c2558597-369b-43a2-88d2-f5df66f67306)
   )
   (wire (pts (xy 218.44 181.61) (xy 231.14 181.61))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -690,10 +682,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6afcaaed-c30a-4575-92d7-a9f012656d00)
     )
-    (pin "PD_BIAS" input (at 231.14 125.73 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 13f4adda-85ae-4a5a-aa2b-515000dbfd28)
-    )
     (pin "PD_MON" output (at 231.14 128.27 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 115470ce-4f92-4857-9f30-9a6ee37e9ce4)
@@ -729,10 +717,6 @@
     (pin "POE_PWR_SRC" output (at 146.05 90.17 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid b28a02a3-d6ed-47f9-a3d5-006e75b4d2d7)
-    )
-    (pin "AT_EVENT" output (at 146.05 87.63 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid b22404c8-5c74-42ed-9c3d-7c7824a0815a)
     )
   )
 
@@ -862,10 +846,6 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 62c6e923-540e-4fa2-9c92-65ff030efd0f)
     )
-    (pin "PD_BIAS" output (at 218.44 125.73 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-      (uuid d081934e-164e-479c-a74f-70bfd9c4f21b)
-    )
     (pin "TEC_SHDN" output (at 218.44 186.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 50faf5d5-c385-40f2-99c9-284cb02cb342)
@@ -921,10 +901,6 @@
     (pin "LDAC_LOAD" output (at 218.44 115.57 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid def9d9e1-4873-4b2d-8896-bbfde3b0b682)
-    )
-    (pin "AT_EVENT" input (at 158.75 87.63 180)
-      (effects (font (size 1.27 1.27)) (justify left))
-      (uuid 848d94c3-d64a-47df-8efa-680369bd69d8)
     )
     (pin "POE_PWR_SRC" input (at 158.75 90.17 180)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -2211,14 +2187,14 @@
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/4836e04e-dac9-4ef0-ae81-28532ef0cf24"
       (reference "D9") (unit 1) (value "SMBJ13A-13-F") (footprint "Diode_SMD:D_SMB")
     )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/6aca7311-8d85-44d3-8665-a40868fca600"
-      (reference "D?") (unit 1) (value "BZT52C12-7-F") (footprint "")
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/f2761729-a859-414e-8d2f-dbe039daf844"
+      (reference "D10") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/b3ba0930-2eea-4744-bddd-3e155eaaed29"
-      (reference "D?") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D11") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
     )
-    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/f2761729-a859-414e-8d2f-dbe039daf844"
-      (reference "D?") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
+    (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/da63cb36-8e80-4669-84f8-474e9a010aba"
+      (reference "D12") (unit 1) (value "B5819") (footprint "Diode_SMD:D_SOD-323")
     )
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/00d2c618-4292-4f2f-991b-ba7c659af83f"
       (reference "FB1") (unit 1) (value "1K@100MHz") (footprint "Inductor_SMD:L_1210_3225Metric")
@@ -2269,10 +2245,10 @@
       (reference "J1") (unit 1) (value "MOD_IN") (footprint "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal")
     )
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/17581c32-9b95-482f-87d2-da76f3f266e9"
-      (reference "J2") (unit 1) (value "Conn_01x10") (footprint "")
+      (reference "J2") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/f00f86e1-64b2-4b5c-9540-4a191d1ca307"
-      (reference "J3") (unit 1) (value "Conn_01x10") (footprint "")
+      (reference "J3") (unit 1) (value "Conn_01x10") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical")
     )
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/00d0b301-9956-41f9-866d-d3dce4362fbd"
       (reference "J4") (unit 1) (value "Conn_02x05_Odd_Even") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD")
@@ -2296,7 +2272,7 @@
       (reference "JP1") (unit 1) (value "DNP") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/2d41fa50-74af-41c1-be3c-448593856d9b"
-      (reference "K?") (unit 1) (value "DIP12-1C90-51L") (footprint "Relay_THT:Relay_StandexMeder_DIP_LowProfile")
+      (reference "K1") (unit 1) (value "DIP12-1C90-51L") (footprint "Relay_THT:Relay_StandexMeder_DIP_LowProfile")
     )
     (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/28d5b5f7-d263-4d08-9c42-a69005b48ed7"
       (reference "L1") (unit 1) (value "1u") (footprint "Inductor_SMD:L_1008_2520Metric")
@@ -2350,7 +2326,7 @@
       (reference "Q7") (unit 1) (value "BSS138") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/b941920e-9542-49e0-9c93-5834ae2bc2e1"
-      (reference "R1") (unit 1) (value "90") (footprint "")
+      (reference "R1") (unit 1) (value "90") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4f64b091-9371-40c1-8d40-38efea4e2487"
       (reference "R2") (unit 1) (value "10") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2362,7 +2338,7 @@
       (reference "R4") (unit 1) (value "1") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/8ba19111-d914-4b4d-97e8-09d9c2d9fbd6"
-      (reference "R5") (unit 1) (value "99") (footprint "")
+      (reference "R5") (unit 1) (value "99") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/d07f9958-214c-4099-809b-38c5eaf3328e"
       (reference "R6") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
@@ -2758,13 +2734,13 @@
       (reference "U4") (unit 1) (value "ADA4898-1YRDZ") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/d541640b-f9ea-42e8-a1b1-3c79526513f0"
-      (reference "U5") (unit 1) (value "LM358") (footprint "")
+      (reference "U5") (unit 1) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/304d7c75-d8a0-400f-93fd-760e4b1cee59"
-      (reference "U5") (unit 2) (value "LM358") (footprint "")
+      (reference "U5") (unit 2) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/0622879d-2c43-4b6f-a312-b2e8431fc32c"
-      (reference "U5") (unit 3) (value "LM358") (footprint "")
+      (reference "U5") (unit 3) (value "LM358") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4553d9ae-3656-48c1-ba42-349c8ea6d675"
       (reference "U6") (unit 1) (value "ADA4898-1YRDZ") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
