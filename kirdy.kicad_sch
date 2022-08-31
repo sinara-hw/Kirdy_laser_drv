@@ -922,11 +922,11 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 44ef3896-edfb-4a77-a773-5b75da6c8f8d)
     )
-    (pin "NTC-" passive (at 262.89 161.29 0)
+    (pin "NTC-" passive (at 262.89 158.75 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 0cbedbfa-13d5-4f49-b223-5533e7c6a9c1)
     )
-    (pin "NTC+" passive (at 262.89 158.75 0)
+    (pin "NTC+" passive (at 262.89 161.29 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 6a1acaaa-3f89-40bd-9670-1fd08ed9a1ac)
     )
@@ -2347,9 +2347,6 @@
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/4ab573b1-f926-4a0f-ae0d-03c49cfe7192"
       (reference "C192") (unit 1) (value "100n PPS") (footprint "Capacitor_SMD:C_1210_3225Metric")
     )
-    (path "/ce1698cd-b99b-406e-8c10-58c1e24b12e9/c37656b9-8d2a-4e05-9ed8-41d6b8e8eb7c"
-      (reference "C193") (unit 1) (value "10u PP") (footprint "Capacitor_SMD:C_1812_4532Metric")
-    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/e2529b99-2d1f-424b-948b-cb83b5441da0"
       (reference "D1") (unit 1) (value "AQ4020-01FTG-C") (footprint "Diode_SMD:D_SOD-323")
     )
@@ -2422,13 +2419,13 @@
     (path "/70187dee-b8b1-417f-999f-47b1dfda0f58/902c355a-3101-4ebc-b8c5-69c823fc226d"
       (reference "FB12") (unit 1) (value "1K@100MHz") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
-    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/b31815cc-6d80-43d7-aa80-8f2cba5ff682"
+    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/a49789e9-4636-4a87-a280-667f92f7f003"
       (reference "FL1") (unit 1) (value "5A") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/de47c171-9321-4080-bde6-9288449fa436"
       (reference "FL2") (unit 1) (value "2x1m") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
     )
-    (path "/70187dee-b8b1-417f-999f-47b1dfda0f58/a32d73d9-5c24-4b5d-b1fa-9779f9278ac4"
+    (path "/70187dee-b8b1-417f-999f-47b1dfda0f58/c6c85987-c9c7-4f91-af09-b3fe9f95cb50"
       (reference "FL3") (unit 1) (value "90R@100MHz") (footprint "Inductor_SMD:L_CommonModeChoke_Coilcraft_0603USB")
     )
     (path "/94d9e279-75cc-4fdb-898c-250e57bed524"
