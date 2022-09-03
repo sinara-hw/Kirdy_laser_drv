@@ -2836,6 +2836,18 @@
     (path "/f758bae5-bfa1-490e-865c-47f681933a1f"
       (reference "R106") (unit 1) (value "0") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
+    (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/36e6c539-c011-4ea2-a1a4-0d6d52dae29b"
+      (reference "R107") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/fc544381-7a24-471e-9fd5-2da1ed1666f2"
+      (reference "R108") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/b94bed24-c759-4e86-91b5-258d9f03b2e5"
+      (reference "R109") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/0dd24396-d186-4488-abd9-8b249dfb8a49/62a370ca-f40f-4e01-b6bd-0a2886eb6f14"
+      (reference "R110") (unit 1) (value "100") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
     (path "/7fc2620b-bac4-49c0-a276-7d2a46898037/6f857960-a9ff-452e-bba2-080502805e7a"
       (reference "SW1") (unit 1) (value "SW_DIP_x03") (footprint "Button_Switch_SMD:SW_DIP_SPSTx03_Slide_Omron_A6S-310x_W8.9mm_P2.54mm")
     )
