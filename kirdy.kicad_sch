@@ -2413,8 +2413,8 @@
     (path "/70187dee-b8b1-417f-999f-47b1dfda0f58/902c355a-3101-4ebc-b8c5-69c823fc226d"
       (reference "FB12") (unit 1) (value "1K@100MHz") (footprint "Inductor_SMD:L_1210_3225Metric")
     )
-    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/a49789e9-4636-4a87-a280-667f92f7f003"
-      (reference "FL1") (unit 1) (value "5A") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
+    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/1b20ee09-ff29-49bb-8b8d-e6cef60bdce9"
+      (reference "FL1") (unit 1) (value "2x1m") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
     )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/de47c171-9321-4080-bde6-9288449fa436"
       (reference "FL2") (unit 1) (value "2x1m") (footprint "Inductor_SMD:L_CommonModeChoke_Wuerth_WE-SL5")
