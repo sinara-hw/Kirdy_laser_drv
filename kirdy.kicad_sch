@@ -2917,9 +2917,6 @@
     (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/28134816-75e2-4d31-b647-7e6e30efddc9"
       (reference "U19") (unit 3) (value "RS8552") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
     )
-    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/a3a275e8-48fa-4a06-999e-5cb54b36b19f"
-      (reference "U20") (unit 1) (value "MAX1968xUI") (footprint "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm")
-    )
     (path "/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d/1329235a-a73b-4ccb-b2f7-be4b68b04f1f"
       (reference "U21") (unit 1) (value "ACPL-217-500E") (footprint "Package_DIP:SMDIP-4_W7.62mm")
     )
@@ -2940,6 +2937,9 @@
     )
     (path "/70187dee-b8b1-417f-999f-47b1dfda0f58/625b38ad-95f3-4340-843c-06983da198f4"
       (reference "U28") (unit 1) (value "USBLC6-4SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
+    )
+    (path "/bda728c0-b189-4e05-8d4f-58a38acf883b/d0d816a7-1711-4306-8a93-b4a820412c26"
+      (reference "U?") (unit 1) (value "MAX1968xUI") (footprint "Package_SO:HTSSOP-28-1EP_4.4x9.7mm_P0.65mm_EP2.85x5.4mm")
     )
     (path "/e9afb2cc-7f7f-4cb9-888a-0bfd71b1d070/5d09e516-5380-468c-bc06-247967e42a14"
       (reference "Y1") (unit 1) (value "8MHz") (footprint "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm")
