@@ -3471,7 +3471,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 334.01 120.65 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 3c3293bc-1ab6-40ca-9b38-b5f2ea156331)
     (property "Reference" "C171" (at 337.82 119.3799 0)
       (effects (font (size 1.27 1.27)) (justify left))

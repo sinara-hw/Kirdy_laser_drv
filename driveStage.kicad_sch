@@ -2710,7 +2710,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 299.72 110.49 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 098c7420-dde1-4bd7-b5f8-8f3ead5f87c4)
     (property "Reference" "R19" (at 295.91 111.76 0)
       (effects (font (size 1.27 1.27)))
@@ -3281,7 +3281,7 @@
   )
 
   (symbol (lib_id "Device:C") (at 299.72 101.6 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 3d699251-1e46-405e-9b3b-bf755a85877f)
     (property "Reference" "C174" (at 303.53 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
