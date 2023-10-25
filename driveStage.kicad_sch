@@ -3351,8 +3351,8 @@
     (property "MFR_PN_ALT" "" (at 367.03 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b1349a7f-125f-447d-9a5d-7024a0634ed7))
-    (pin "2" (uuid bdedf8bf-a469-4c89-ba69-c06bb4cf448e))
+    (pin "1" (uuid 568baef8-7978-49cb-9b88-7b34537f593c))
+    (pin "2" (uuid 8a0641a2-e27e-4bf9-940f-255168a095d3))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3521,8 +3521,8 @@
     (property "MFR_PN" "ECH-U1C104JX5" (at 367.03 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ea80b75-3f38-424a-87fe-8eac50b44b00))
-    (pin "2" (uuid 82c68437-9b35-4fd3-8f3c-c541415f1592))
+    (pin "1" (uuid ec96f1a6-b743-4b0b-b30c-234377a300b7))
+    (pin "2" (uuid f96acbc2-6ab8-4cca-be63-4649249ae6f6))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4145,10 +4145,10 @@
   (symbol (lib_id "Device:C") (at 317.5 107.95 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8cf73d73-cb7f-4e70-aab9-cc27bc5bab08)
-    (property "Reference" "C175" (at 317.5 102.0912 90)
+    (property "Reference" "C175" (at 317.5 100.33 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DNP" (at 317.5 104.6281 90)
+    (property "Value" "100p" (at 317.5 102.87 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 321.31 106.9848 0)
@@ -4326,7 +4326,7 @@
     (property "Reference" "R67" (at 308.61 110.49 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "DNP" (at 308.61 105.41 90)
+    (property "Value" "0R" (at 308.61 105.41 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 308.61 109.728 90)
