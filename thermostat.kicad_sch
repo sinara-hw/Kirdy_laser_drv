@@ -803,7 +803,7 @@
           (name "AIN8" (effects (font (size 1.27 1.27))))
           (number "29" (effects (font (size 1.27 1.27))))
         )
-        (pin passive line (at 40.64 -39.37 180) (length 5.08) hide
+        (pin no_connect line (at 40.64 -39.37 180) (length 5.08) hide
           (name "DNC" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
