@@ -2133,7 +2133,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 377b88d6-10b3-467a-bd5a-5d5ba4fc1acb)
   )
-  (hierarchical_label "TEC_SHDN" (shape output) (at 232.41 93.98 0) (fields_autoplaced)
+  (hierarchical_label "TEC_~{SHDN}" (shape output) (at 232.41 93.98 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 427e7778-3595-4d2b-9f25-205e7e886ef0)
   )

@@ -1196,7 +1196,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 62c6e923-540e-4fa2-9c92-65ff030efd0f)
     )
-    (pin "TEC_SHDN" output (at 218.44 186.69 0)
+    (pin "TEC_~{SHDN}" output (at 218.44 186.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 50faf5d5-c385-40f2-99c9-284cb02cb342)
     )
