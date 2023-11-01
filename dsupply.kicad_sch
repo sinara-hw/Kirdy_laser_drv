@@ -7,9 +7,9 @@
   (title_block
     (title "Kirdy")
     (date "2022-07-03")
-    (rev "r0.1")
+    (rev "r0.3")
     (company "M-Labs")
-    (comment 1 "Alex Wong Tat Hang")
+    (comment 1 "Linus Woo Chun Kit")
   )
 
   (lib_symbols
@@ -774,6 +774,9 @@
       )
       (property "Datasheet" "https://www.sdapo.net/product/product-12-386.html" (at -21.59 15.24 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "MFR_PN" "PM1202" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
       )
       (property "ki_keywords" "PoE" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -2193,7 +2196,7 @@
   (symbol (lib_id "Device:L") (at 189.23 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 014f65f1-f350-4537-b1f4-991a7ca5da22)
-    (property "Reference" "L6" (at 189.23 151.13 90)
+    (property "Reference" "L7" (at 189.23 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3u3" (at 189.23 153.67 90)
@@ -2213,7 +2216,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "L6") (unit 1)
+          (reference "L7") (unit 1)
         )
       )
     )
@@ -2222,7 +2225,7 @@
   (symbol (lib_id "Device:C") (at 276.86 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01eb3729-dca7-4112-b8a5-6a91e736d5d1)
-    (property "Reference" "C186" (at 280.67 168.9099 0)
+    (property "Reference" "C189" (at 280.67 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 280.67 171.4499 0)
@@ -2245,7 +2248,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C186") (unit 1)
+          (reference "C189") (unit 1)
         )
       )
     )
@@ -2254,7 +2257,7 @@
   (symbol (lib_id "Device:C") (at 378.46 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02736d4f-0f22-43ae-8820-7191c92ee631)
-    (property "Reference" "C184" (at 382.27 80.0099 0)
+    (property "Reference" "C198" (at 382.27 80.0099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 382.27 82.5499 0)
@@ -2277,7 +2280,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C184") (unit 1)
+          (reference "C198") (unit 1)
         )
       )
     )
@@ -2312,7 +2315,7 @@
   (symbol (lib_id "Device:R") (at 294.64 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09cb1a76-a02f-4bff-9b32-5dbc284bc832)
-    (property "Reference" "R18" (at 296.545 104.1399 0)
+    (property "Reference" "R93" (at 296.545 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k2" (at 296.545 106.6799 0)
@@ -2335,7 +2338,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R18") (unit 1)
+          (reference "R93") (unit 1)
         )
       )
     )
@@ -2344,7 +2347,7 @@
   (symbol (lib_id "Device:C") (at 170.18 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0a7f2405-6a14-4e46-8fed-68d1c6b72529)
-    (property "Reference" "C147" (at 173.99 173.9899 0)
+    (property "Reference" "C176" (at 173.99 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n6" (at 173.99 176.5299 0)
@@ -2367,7 +2370,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C147") (unit 1)
+          (reference "C176") (unit 1)
         )
       )
     )
@@ -2376,7 +2379,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 264.16 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 124d43ce-fe51-48fb-9620-1288f4638aa3)
-    (property "Reference" "C185" (at 267.97 168.0209 0)
+    (property "Reference" "C188" (at 267.97 168.0209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 267.97 170.5609 0)
@@ -2399,7 +2402,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C185") (unit 1)
+          (reference "C188") (unit 1)
         )
       )
     )
@@ -2408,7 +2411,7 @@
   (symbol (lib_id "Transistor_BJT:BC857") (at 324.485 92.71 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 13422803-16d6-4778-835d-b4e5b302aa29)
-    (property "Reference" "Q10" (at 329.565 91.4399 0)
+    (property "Reference" "Q9" (at 329.565 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC857" (at 329.565 93.9799 0)
@@ -2432,7 +2435,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "Q10") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -2441,7 +2444,7 @@
   (symbol (lib_id "Device:C") (at 240.03 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16d3002d-db54-496f-a677-132f8c63105a)
-    (property "Reference" "C156" (at 243.84 168.9099 0)
+    (property "Reference" "C185" (at 243.84 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 243.84 171.4499 0)
@@ -2464,7 +2467,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C156") (unit 1)
+          (reference "C185") (unit 1)
         )
       )
     )
@@ -2473,7 +2476,7 @@
   (symbol (lib_id "power:GND") (at 196.215 46.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20ad41bd-ed5a-4f01-a0e2-4ef09e4f8ab4)
-    (property "Reference" "#PWR0140" (at 196.215 53.34 0)
+    (property "Reference" "#PWR0153" (at 196.215 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.215 52.07 0)
@@ -2489,7 +2492,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0140") (unit 1)
+          (reference "#PWR0153") (unit 1)
         )
       )
     )
@@ -2498,7 +2501,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 341.63 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 253200ad-0467-46ec-a1c6-4cee25b55d4f)
-    (property "Reference" "C181" (at 345.44 79.1209 0)
+    (property "Reference" "C193" (at 345.44 79.1209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 345.44 81.6609 0)
@@ -2521,7 +2524,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C181") (unit 1)
+          (reference "C193") (unit 1)
         )
       )
     )
@@ -2530,7 +2533,7 @@
   (symbol (lib_id "power:GND") (at 274.32 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25ceed86-aea9-4ba2-8335-7537ed6ae274)
-    (property "Reference" "#PWR0137" (at 274.32 117.475 0)
+    (property "Reference" "#PWR0160" (at 274.32 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 274.32 116.205 0)
@@ -2546,7 +2549,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0137") (unit 1)
+          (reference "#PWR0160") (unit 1)
         )
       )
     )
@@ -2555,7 +2558,7 @@
   (symbol (lib_id "Device:R") (at 181.61 171.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e785126-3469-444b-b2ec-d5b3224e963c)
-    (property "Reference" "R64" (at 184.15 170.1799 0)
+    (property "Reference" "R82" (at 184.15 170.1799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "15k" (at 184.15 172.7199 0)
@@ -2567,7 +2570,7 @@
     (property "Datasheet" "~" (at 181.61 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "" (at 181.61 171.45 0)
+    (property "MFR_PN" "RT0603FRE0715KL" (at 181.61 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFR_PN_ALT" "" (at 181.61 171.45 0)
@@ -2578,7 +2581,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R64") (unit 1)
+          (reference "R82") (unit 1)
         )
       )
     )
@@ -2587,7 +2590,7 @@
   (symbol (lib_id "Device:C") (at 304.8 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2edb58c3-4331-4ca2-98ff-71a362cb196d)
-    (property "Reference" "C158" (at 308.61 160.0199 0)
+    (property "Reference" "C191" (at 308.61 160.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 308.61 162.5599 0)
@@ -2610,7 +2613,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C158") (unit 1)
+          (reference "C191") (unit 1)
         )
       )
     )
@@ -2619,7 +2622,7 @@
   (symbol (lib_id "Device:C") (at 351.79 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f419a71-7919-499a-8c1a-b76c364ac9c1)
-    (property "Reference" "C160" (at 355.6 160.0199 0)
+    (property "Reference" "C194" (at 355.6 160.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 355.6 162.5599 0)
@@ -2642,7 +2645,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C160") (unit 1)
+          (reference "C194") (unit 1)
         )
       )
     )
@@ -2651,7 +2654,7 @@
   (symbol (lib_id "power:+12V") (at 378.46 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3304f10e-fbda-44f2-b15f-9871a67ebab6)
-    (property "Reference" "#PWR0136" (at 378.46 80.01 0)
+    (property "Reference" "#PWR0166" (at 378.46 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 378.46 71.12 0)
@@ -2667,7 +2670,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0136") (unit 1)
+          (reference "#PWR0166") (unit 1)
         )
       )
     )
@@ -2676,7 +2679,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 304.8 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 335e3a2c-64f0-4ac1-90f7-235c85824761)
-    (property "Reference" "#FLG0111" (at 304.8 155.575 0)
+    (property "Reference" "#FLG027" (at 304.8 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 304.8 152.4 0)
@@ -2692,7 +2695,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG0111") (unit 1)
+          (reference "#FLG027") (unit 1)
         )
       )
     )
@@ -2701,7 +2704,7 @@
   (symbol (lib_id "power:GND") (at 241.935 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 337e3c65-9d2d-4a3f-8587-d6a5484a806e)
-    (property "Reference" "#PWR0135" (at 241.935 117.475 0)
+    (property "Reference" "#PWR0156" (at 241.935 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 241.935 116.205 0)
@@ -2717,7 +2720,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0135") (unit 1)
+          (reference "#PWR0156") (unit 1)
         )
       )
     )
@@ -2726,7 +2729,7 @@
   (symbol (lib_id "Device:L") (at 188.595 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 338be208-31c9-4680-94e7-b12f516d29dd)
-    (property "Reference" "L5" (at 188.595 69.85 90)
+    (property "Reference" "L6" (at 188.595 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "3u3" (at 188.595 72.39 90)
@@ -2746,7 +2749,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "L5") (unit 1)
+          (reference "L6") (unit 1)
         )
       )
     )
@@ -2755,7 +2758,7 @@
   (symbol (lib_id "Device:C") (at 87.63 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34a2b0ec-2e41-4f47-bc06-003f942a1c85)
-    (property "Reference" "C142" (at 91.44 158.7499 0)
+    (property "Reference" "C173" (at 91.44 158.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 91.44 161.2899 0)
@@ -2778,7 +2781,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C142") (unit 1)
+          (reference "C173") (unit 1)
         )
       )
     )
@@ -2787,7 +2790,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 144.78 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 35fab0b5-dcd2-41e5-8872-ea98af3f0444)
-    (property "Reference" "#FLG011" (at 144.78 88.265 0)
+    (property "Reference" "#FLG023" (at 144.78 88.265 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 144.78 91.44 0)
@@ -2803,7 +2806,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG011") (unit 1)
+          (reference "#FLG023") (unit 1)
         )
       )
     )
@@ -2812,7 +2815,7 @@
   (symbol (lib_id "Device:R") (at 123.19 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37d9eeac-a156-47f1-b38e-78a1daa914cd)
-    (property "Reference" "R60" (at 125.095 152.3999 0)
+    (property "Reference" "R79" (at 125.095 152.3999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82k" (at 125.095 154.9399 0)
@@ -2835,7 +2838,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R60") (unit 1)
+          (reference "R79") (unit 1)
         )
       )
     )
@@ -2844,7 +2847,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 251.46 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3aa2bd97-b302-4f56-8667-c13a86cb3bae)
-    (property "Reference" "C157" (at 255.27 168.0209 0)
+    (property "Reference" "C186" (at 255.27 168.0209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 255.27 170.5609 0)
@@ -2867,16 +2870,16 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C157") (unit 1)
+          (reference "C186") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "kirdy:PM1202") (at 155.575 83.82 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 3c4cf889-35db-49d1-8a33-e5314d37999b)
-    (property "Reference" "U24" (at 156.21 70.0872 0)
+    (property "Reference" "U22" (at 156.21 70.0872 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "PM1202" (at 156.21 72.6241 0)
@@ -2886,6 +2889,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.sdapo.net/product/product-12-386.html" (at 133.985 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "MFR_PN" "PM1202" (at 154.305 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9bfdd295-dff2-450b-9baa-2e2a482d53c3))
@@ -2901,7 +2907,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "U24") (unit 1)
+          (reference "U22") (unit 1)
         )
       )
     )
@@ -2910,7 +2916,7 @@
   (symbol (lib_id "Device:R") (at 307.975 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 405b1476-8007-4c46-95cf-29cda150e70e)
-    (property "Reference" "R111" (at 307.975 86.36 90)
+    (property "Reference" "R94" (at 307.975 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k3" (at 307.975 88.9 90)
@@ -2933,7 +2939,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R111") (unit 1)
+          (reference "R94") (unit 1)
         )
       )
     )
@@ -2942,7 +2948,7 @@
   (symbol (lib_id "Device:C") (at 172.72 153.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42f2369b-1ec9-4a37-a27a-7a50281dd281)
-    (property "Reference" "C149" (at 176.53 152.3999 0)
+    (property "Reference" "C177" (at 176.53 152.3999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 176.53 154.9399 0)
@@ -2965,7 +2971,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C149") (unit 1)
+          (reference "C177") (unit 1)
         )
       )
     )
@@ -2974,7 +2980,7 @@
   (symbol (lib_id "Device:R") (at 232.41 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes)
     (uuid 456c1595-c268-4eb6-8ab3-7e8c399c07fc)
-    (property "Reference" "R2" (at 236.22 46.99 0)
+    (property "Reference" "R?" (at 236.22 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "0" (at 236.22 49.53 0)
@@ -2986,10 +2992,10 @@
     (property "Datasheet" "~" (at 232.41 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "" (at 232.41 48.26 0)
+    (property "MFR_PN" "RMCF0603ZT0R00" (at 232.41 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "WR06X10R0FTL" (at 232.41 48.26 0)
+    (property "MFR_PN_ALT" "CR0603-J/-000ELF" (at 232.41 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c32e2e73-b8f0-486e-9516-82e4056b7d28))
@@ -2997,10 +3003,10 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R116") (unit 1)
+          (reference "R87") (unit 1)
         )
       )
     )
@@ -3009,7 +3015,7 @@
   (symbol (lib_id "Diode:SM6T15A") (at 218.44 38.1 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4836e04e-dac9-4ef0-ae81-28532ef0cf24)
-    (property "Reference" "D9" (at 215.265 36.8299 90)
+    (property "Reference" "D10" (at 215.265 36.8299 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SMBJ13A-13-F" (at 215.265 39.3699 90)
@@ -3032,7 +3038,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "D9") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -3041,7 +3047,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 355.6 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4916116c-3b16-4787-93ef-1485a80a85d4)
-    (property "Reference" "C182" (at 359.41 79.1209 0)
+    (property "Reference" "C195" (at 359.41 79.1209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 359.41 81.6609 0)
@@ -3064,7 +3070,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C182") (unit 1)
+          (reference "C195") (unit 1)
         )
       )
     )
@@ -3073,7 +3079,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 144.78 78.74 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4b1ce176-a6bf-4704-a567-9fb7df9d1600)
-    (property "Reference" "#FLG09" (at 144.78 80.645 0)
+    (property "Reference" "#FLG021" (at 144.78 80.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 144.78 83.82 0)
@@ -3089,7 +3095,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG09") (unit 1)
+          (reference "#FLG021") (unit 1)
         )
       )
     )
@@ -3098,7 +3104,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 144.78 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50f6cd44-d28c-475d-881a-ee9bd97b51ee)
-    (property "Reference" "#FLG010" (at 144.78 81.915 0)
+    (property "Reference" "#FLG022" (at 144.78 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 144.78 78.74 0)
@@ -3114,7 +3120,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG010") (unit 1)
+          (reference "#FLG022") (unit 1)
         )
       )
     )
@@ -3149,7 +3155,7 @@
   (symbol (lib_id "Device:C") (at 228.6 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 56ce6068-621e-435c-a4a1-bd790f5f5851)
-    (property "Reference" "C154" (at 232.41 168.9099 0)
+    (property "Reference" "C183" (at 232.41 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 232.41 171.4499 0)
@@ -3172,7 +3178,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C154") (unit 1)
+          (reference "C183") (unit 1)
         )
       )
     )
@@ -3181,7 +3187,7 @@
   (symbol (lib_id "Device:R") (at 203.2 161.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 57bfbf05-3897-4510-aa41-dffd5bbdb99e)
-    (property "Reference" "R65" (at 207.01 162.56 0)
+    (property "Reference" "R83" (at 207.01 162.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "52k3" (at 208.28 160.02 0)
@@ -3204,7 +3210,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R65") (unit 1)
+          (reference "R83") (unit 1)
         )
       )
     )
@@ -3213,7 +3219,7 @@
   (symbol (lib_id "Device:C") (at 191.77 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 58f906ba-36a6-4ef2-b025-e4b74df78c94)
-    (property "Reference" "C151" (at 195.58 173.9899 0)
+    (property "Reference" "C180" (at 195.58 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 195.58 176.5299 0)
@@ -3228,7 +3234,7 @@
     (property "MFR_PN" "" (at 191.77 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "CML0603C0G390JT50V" (at 191.77 175.26 0)
+    (property "MFR_PN_ALT" "" (at 191.77 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e8670652-6c36-4e16-8e32-b17c54037abd))
@@ -3236,7 +3242,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C151") (unit 1)
+          (reference "C180") (unit 1)
         )
       )
     )
@@ -3245,7 +3251,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 259.08 31.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 59609fb6-31c5-4314-b634-b8721804abea)
-    (property "Reference" "#FLG07" (at 259.08 29.845 0)
+    (property "Reference" "#FLG026" (at 259.08 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 259.08 26.67 0)
@@ -3261,7 +3267,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG07") (unit 1)
+          (reference "#FLG026") (unit 1)
         )
       )
     )
@@ -3270,7 +3276,7 @@
   (symbol (lib_id "Device:R") (at 214.63 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5d3a9b1e-7d77-4c13-8d59-9a729dd31061)
-    (property "Reference" "R68" (at 217.17 78.7399 0)
+    (property "Reference" "R85" (at 217.17 78.7399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k2" (at 217.17 81.2799 0)
@@ -3293,7 +3299,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R68") (unit 1)
+          (reference "R85") (unit 1)
         )
       )
     )
@@ -3302,7 +3308,7 @@
   (symbol (lib_id "power:GND") (at 73.66 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5f928439-d17e-40d7-b89c-de3395562dde)
-    (property "Reference" "#PWR0128" (at 73.66 176.53 0)
+    (property "Reference" "#PWR0151" (at 73.66 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 73.66 175.26 0)
@@ -3318,7 +3324,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0128") (unit 1)
+          (reference "#PWR0151") (unit 1)
         )
       )
     )
@@ -3327,7 +3333,7 @@
   (symbol (lib_id "Device:R") (at 255.27 92.71 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63bcca25-0136-4cad-87cc-0eb22b7b1ecc)
-    (property "Reference" "R71" (at 255.27 86.36 90)
+    (property "Reference" "R90" (at 255.27 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k3" (at 255.27 88.9 90)
@@ -3350,7 +3356,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R71") (unit 1)
+          (reference "R90") (unit 1)
         )
       )
     )
@@ -3359,7 +3365,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 179.07 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63ea1d29-3e38-4f62-bca8-4e3153f0749e)
-    (property "Reference" "C155" (at 182.245 79.1209 0)
+    (property "Reference" "C178" (at 182.245 79.1209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 182.245 81.6609 0)
@@ -3382,7 +3388,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C155") (unit 1)
+          (reference "C178") (unit 1)
         )
       )
     )
@@ -3391,7 +3397,7 @@
   (symbol (lib_id "Device:L") (at 257.81 157.48 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 655a7949-7d16-4745-bb45-374263b8a7ee)
-    (property "Reference" "L9" (at 257.81 151.13 90)
+    (property "Reference" "L8" (at 257.81 151.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 257.81 153.67 90)
@@ -3414,7 +3420,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "L9") (unit 1)
+          (reference "L8") (unit 1)
         )
       )
     )
@@ -3423,7 +3429,7 @@
   (symbol (lib_id "Device:R") (at 259.08 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6a17cbdb-383f-49e9-8c32-5581a26cacb9)
-    (property "Reference" "R2" (at 262.89 35.56 0)
+    (property "Reference" "R?" (at 262.89 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10" (at 262.89 38.1 0)
@@ -3435,7 +3441,7 @@
     (property "Datasheet" "~" (at 259.08 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "" (at 259.08 36.83 0)
+    (property "MFR_PN" "RT0603BRD0710RL" (at 259.08 36.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFR_PN_ALT" "WR06X10R0FTL" (at 259.08 36.83 0)
@@ -3446,10 +3452,10 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "R2") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R114") (unit 1)
+          (reference "R91") (unit 1)
         )
       )
     )
@@ -3458,7 +3464,7 @@
   (symbol (lib_id "Device:C") (at 289.56 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6de36db8-9af3-4519-8b99-82d9f255c8e1)
-    (property "Reference" "C187" (at 293.37 168.9099 0)
+    (property "Reference" "C190" (at 293.37 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 293.37 171.4499 0)
@@ -3481,7 +3487,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C187") (unit 1)
+          (reference "C190") (unit 1)
         )
       )
     )
@@ -3490,7 +3496,7 @@
   (symbol (lib_id "power:+5V") (at 246.38 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72ca3c84-7add-4714-ad61-cd5474c2fd95)
-    (property "Reference" "#PWR0133" (at 246.38 161.29 0)
+    (property "Reference" "#PWR0158" (at 246.38 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 246.38 152.4 0)
@@ -3506,7 +3512,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0133") (unit 1)
+          (reference "#PWR0158") (unit 1)
         )
       )
     )
@@ -3515,7 +3521,7 @@
   (symbol (lib_id "Device:R") (at 241.935 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 74fe9908-2e0e-4683-8f30-603c1fb1a6d2)
-    (property "Reference" "R70" (at 243.84 104.1399 0)
+    (property "Reference" "R88" (at 243.84 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k2" (at 243.84 106.6799 0)
@@ -3538,7 +3544,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R70") (unit 1)
+          (reference "R88") (unit 1)
         )
       )
     )
@@ -3547,7 +3553,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 73.66 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f7c98da-caad-486d-9043-04c7f405e139)
-    (property "Reference" "#FLG0112" (at 73.66 147.955 0)
+    (property "Reference" "#FLG019" (at 73.66 147.955 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 73.66 144.78 0)
@@ -3563,7 +3569,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG0112") (unit 1)
+          (reference "#FLG019") (unit 1)
         )
       )
     )
@@ -3572,7 +3578,7 @@
   (symbol (lib_id "Transistor_BJT:BC857") (at 297.18 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 80d9023d-029e-464f-8702-54a863460a64)
-    (property "Reference" "Q8" (at 291.465 91.4399 0)
+    (property "Reference" "Q7" (at 291.465 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC857" (at 291.465 93.9799 0)
@@ -3596,7 +3602,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "Q8") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -3605,7 +3611,7 @@
   (symbol (lib_id "power:GND") (at 327.025 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 861d5931-2ab8-435e-b39d-229cceaa2667)
-    (property "Reference" "#PWR064" (at 327.025 117.475 0)
+    (property "Reference" "#PWR0163" (at 327.025 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 327.025 116.205 0)
@@ -3621,7 +3627,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR0163") (unit 1)
         )
       )
     )
@@ -3630,7 +3636,7 @@
   (symbol (lib_id "Device:R") (at 203.2 175.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8f6803d0-6ad2-4986-b0bf-f2c60079d891)
-    (property "Reference" "R66" (at 205.105 173.9899 0)
+    (property "Reference" "R84" (at 205.105 173.9899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 205.105 176.5299 0)
@@ -3653,7 +3659,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R66") (unit 1)
+          (reference "R84") (unit 1)
         )
       )
     )
@@ -3662,7 +3668,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 198.12 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 902d31d7-b029-4df1-a871-c56fd3144051)
-    (property "Reference" "C145" (at 201.93 79.1209 0)
+    (property "Reference" "C181" (at 201.93 79.1209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 201.93 81.6609 0)
@@ -3685,7 +3691,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C145") (unit 1)
+          (reference "C181") (unit 1)
         )
       )
     )
@@ -3694,7 +3700,7 @@
   (symbol (lib_id "Device:C") (at 181.61 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a7a05e9-660a-49fb-a46d-3f303b23acd6)
-    (property "Reference" "C150" (at 185.42 177.7999 0)
+    (property "Reference" "C179" (at 185.42 177.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "22n" (at 185.42 180.3399 0)
@@ -3717,7 +3723,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C150") (unit 1)
+          (reference "C179") (unit 1)
         )
       )
     )
@@ -3726,7 +3732,7 @@
   (symbol (lib_id "Device:C") (at 254 41.91 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c41c299-7f65-4626-8dfe-d93d830a3de3)
-    (property "Reference" "C194" (at 254 37.465 90)
+    (property "Reference" "C187" (at 254 37.465 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 259.08 43.815 90)
@@ -3738,10 +3744,10 @@
     (property "Datasheet" "~" (at 254 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "" (at 254 41.91 0)
+    (property "MFR_PN" "CL10B104KB8NNWC" (at 254 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "0603B223J250CT" (at 254 41.91 0)
+    (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 254 41.91 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6f191ef2-157d-417b-b6b7-06b967002f0a))
@@ -3749,7 +3755,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C194") (unit 1)
+          (reference "C187") (unit 1)
         )
       )
     )
@@ -3758,7 +3764,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 367.03 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9db57ee4-9333-490c-9c34-82558e7705cd)
-    (property "Reference" "C183" (at 370.84 79.1209 0)
+    (property "Reference" "C197" (at 370.84 79.1209 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 370.84 81.6609 0)
@@ -3781,7 +3787,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C183") (unit 1)
+          (reference "C197") (unit 1)
         )
       )
     )
@@ -3790,7 +3796,7 @@
   (symbol (lib_id "Transistor_FET:FDS9435A") (at 246.38 34.29 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ec256c9-c94c-4346-8faf-764aa2c09e16)
-    (property "Reference" "Q12" (at 246.38 24.13 90)
+    (property "Reference" "Q4" (at 246.38 24.13 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AOSP21321" (at 246.38 26.67 90)
@@ -3819,7 +3825,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "Q12") (unit 1)
+          (reference "Q4") (unit 1)
         )
       )
     )
@@ -3828,7 +3834,7 @@
   (symbol (lib_id "power:GND") (at 179.07 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3815d57-f9af-4888-a0c3-76d92b69217b)
-    (property "Reference" "#PWR0166" (at 179.07 92.71 0)
+    (property "Reference" "#PWR0152" (at 179.07 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 179.07 90.8034 0)
@@ -3844,7 +3850,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0166") (unit 1)
+          (reference "#PWR0152") (unit 1)
         )
       )
     )
@@ -3853,7 +3859,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 144.78 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a87829b6-08b9-49d2-8a46-42f8508b8d33)
-    (property "Reference" "#FLG06" (at 144.78 74.295 0)
+    (property "Reference" "#FLG020" (at 144.78 74.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 144.78 71.12 0)
@@ -3869,7 +3875,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG06") (unit 1)
+          (reference "#FLG020") (unit 1)
         )
       )
     )
@@ -3903,7 +3909,7 @@
   (symbol (lib_id "Device:C") (at 110.49 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b09bce36-2aca-4d09-8839-45ea0afb2d4f)
-    (property "Reference" "C144" (at 114.3 158.7499 0)
+    (property "Reference" "C175" (at 114.3 158.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 114.3 161.2899 0)
@@ -3926,7 +3932,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C144") (unit 1)
+          (reference "C175") (unit 1)
         )
       )
     )
@@ -3935,7 +3941,7 @@
   (symbol (lib_id "power:GND") (at 214.63 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b1001977-1b73-491a-ad74-698641b58c37)
-    (property "Reference" "#PWR0132" (at 214.63 97.79 0)
+    (property "Reference" "#PWR0154" (at 214.63 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 214.63 95.885 0)
@@ -3951,7 +3957,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0132") (unit 1)
+          (reference "#PWR0154") (unit 1)
         )
       )
     )
@@ -3960,7 +3966,7 @@
   (symbol (lib_id "Device:L") (at 63.5 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b273075f-ac13-4612-9b1f-b1d6d73a898f)
-    (property "Reference" "L4" (at 63.5 143.51 90)
+    (property "Reference" "L5" (at 63.5 143.51 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 63.5 146.05 90)
@@ -3983,7 +3989,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "L4") (unit 1)
+          (reference "L5") (unit 1)
         )
       )
     )
@@ -3992,7 +3998,7 @@
   (symbol (lib_id "Device:R") (at 135.89 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b4a7edc1-60f4-4bbe-a230-517ac155df4f)
-    (property "Reference" "R63" (at 137.795 162.5599 0)
+    (property "Reference" "R81" (at 137.795 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82k" (at 137.795 165.0999 0)
@@ -4015,7 +4021,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R63") (unit 1)
+          (reference "R81") (unit 1)
         )
       )
     )
@@ -4076,7 +4082,7 @@
   (symbol (lib_id "power:GND") (at 294.64 111.125 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b956a357-88ce-4f96-a7cc-279d034a48e0)
-    (property "Reference" "#PWR035" (at 294.64 117.475 0)
+    (property "Reference" "#PWR0162" (at 294.64 117.475 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 294.64 116.205 0)
@@ -4092,7 +4098,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0162") (unit 1)
         )
       )
     )
@@ -4101,7 +4107,7 @@
   (symbol (lib_id "Device:C") (at 217.17 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9c250ac-41ee-42a0-a96d-675e3d51c3b5)
-    (property "Reference" "C153" (at 220.98 168.9099 0)
+    (property "Reference" "C182" (at 220.98 168.9099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 220.98 171.4499 0)
@@ -4124,7 +4130,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C153") (unit 1)
+          (reference "C182") (unit 1)
         )
       )
     )
@@ -4133,7 +4139,7 @@
   (symbol (lib_id "Transistor_BJT:BC857") (at 244.475 92.71 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bb7f29b2-904e-4d43-8e97-3770054737dd)
-    (property "Reference" "Q4" (at 238.76 91.4399 0)
+    (property "Reference" "Q3" (at 238.76 91.4399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC857" (at 238.76 93.9799 0)
@@ -4157,7 +4163,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "Q4") (unit 1)
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -4166,7 +4172,7 @@
   (symbol (lib_id "power:GND") (at 251.46 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4aaa7d0-cd8a-44a8-95b5-4bf383362f64)
-    (property "Reference" "#PWR0134" (at 251.46 189.23 0)
+    (property "Reference" "#PWR0159" (at 251.46 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 251.46 187.96 0)
@@ -4182,7 +4188,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0134") (unit 1)
+          (reference "#PWR0159") (unit 1)
         )
       )
     )
@@ -4191,7 +4197,7 @@
   (symbol (lib_id "Device:R") (at 214.63 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c4cd9e3d-4669-4772-9c1b-3908af867c28)
-    (property "Reference" "R69" (at 217.17 86.3599 0)
+    (property "Reference" "R86" (at 217.17 86.3599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 217.17 88.8999 0)
@@ -4214,7 +4220,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R69") (unit 1)
+          (reference "R86") (unit 1)
         )
       )
     )
@@ -4223,7 +4229,7 @@
   (symbol (lib_id "Device:R") (at 274.32 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca4caa76-77d0-4f6f-bf63-4e4310bd156b)
-    (property "Reference" "R72" (at 276.225 104.1399 0)
+    (property "Reference" "R92" (at 276.225 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82k" (at 276.225 106.6799 0)
@@ -4246,7 +4252,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R72") (unit 1)
+          (reference "R92") (unit 1)
         )
       )
     )
@@ -4255,7 +4261,7 @@
   (symbol (lib_id "Device:C") (at 317.5 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cb0b0ea9-4307-4578-bd79-9b3f10da920c)
-    (property "Reference" "C159" (at 321.31 160.0199 0)
+    (property "Reference" "C192" (at 321.31 160.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 321.31 162.5599 0)
@@ -4278,7 +4284,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C159") (unit 1)
+          (reference "C192") (unit 1)
         )
       )
     )
@@ -4287,7 +4293,7 @@
   (symbol (lib_id "power:GND") (at 246.38 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d2726dde-b749-4e52-8d69-d14ee1281b51)
-    (property "Reference" "#PWR0170" (at 246.38 58.42 0)
+    (property "Reference" "#PWR0157" (at 246.38 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 246.38 56.515 0)
@@ -4303,7 +4309,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0170") (unit 1)
+          (reference "#PWR0157") (unit 1)
         )
       )
     )
@@ -4312,7 +4318,7 @@
   (symbol (lib_id "Device:C") (at 232.41 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8c10c6a-b5c1-4341-9f59-1077904b62cb)
-    (property "Reference" "C193" (at 236.22 35.56 0)
+    (property "Reference" "C184" (at 236.22 35.56 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u" (at 236.22 38.1 0)
@@ -4335,7 +4341,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C193") (unit 1)
+          (reference "C184") (unit 1)
         )
       )
     )
@@ -4344,7 +4350,7 @@
   (symbol (lib_id "Device:R") (at 123.19 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d98fc839-af98-4540-81ce-f9679d8407ea)
-    (property "Reference" "R61" (at 125.095 162.5599 0)
+    (property "Reference" "R80" (at 125.095 162.5599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "33k2" (at 125.095 165.0999 0)
@@ -4367,7 +4373,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R61") (unit 1)
+          (reference "R80") (unit 1)
         )
       )
     )
@@ -4376,7 +4382,7 @@
   (symbol (lib_id "power:GND") (at 336.55 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dc4918ae-93d0-461c-bd50-4edf462ecb85)
-    (property "Reference" "#PWR0138" (at 336.55 171.45 0)
+    (property "Reference" "#PWR0164" (at 336.55 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 336.55 170.18 0)
@@ -4392,7 +4398,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0138") (unit 1)
+          (reference "#PWR0164") (unit 1)
         )
       )
     )
@@ -4401,7 +4407,7 @@
   (symbol (lib_id "Device:C") (at 364.49 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dec6a4eb-31f6-4050-a5a5-a2de7c66dd7e)
-    (property "Reference" "C161" (at 368.3 160.0199 0)
+    (property "Reference" "C196" (at 368.3 160.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 368.3 162.5599 0)
@@ -4424,7 +4430,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C161") (unit 1)
+          (reference "C196") (unit 1)
         )
       )
     )
@@ -4433,7 +4439,7 @@
   (symbol (lib_id "Device:R") (at 246.38 48.26 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e0e18a32-8ca4-452d-9724-e7c85e5f9552)
-    (property "Reference" "R28" (at 250.19 46.99 0)
+    (property "Reference" "R?" (at 250.19 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "150k" (at 250.19 49.53 0)
@@ -4456,10 +4462,10 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/ce1698cd-b99b-406e-8c10-58c1e24b12e9"
-          (reference "R28") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R115") (unit 1)
+          (reference "R89") (unit 1)
         )
       )
     )
@@ -4468,7 +4474,7 @@
   (symbol (lib_id "Connector:Barrel_Jack") (at 186.69 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e23c826d-fdd5-4b4a-a6f0-9f2c20d57686)
-    (property "Reference" "J5" (at 179.705 33.0199 0)
+    (property "Reference" "J8" (at 179.705 33.0199 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Barrel_Jack" (at 179.705 35.5599 0)
@@ -4488,7 +4494,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -4497,7 +4503,7 @@
   (symbol (lib_id "power:+12V") (at 53.34 149.86 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4cbaede-cfaf-4f18-a5a7-7fe747c3703e)
-    (property "Reference" "#PWR0125" (at 57.15 149.86 0)
+    (property "Reference" "#PWR0150" (at 57.15 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 49.53 149.8599 90)
@@ -4513,7 +4519,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0125") (unit 1)
+          (reference "#PWR0150") (unit 1)
         )
       )
     )
@@ -4522,7 +4528,7 @@
   (symbol (lib_id "Regulator_Linear:AMS1117-3.3") (at 336.55 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4d372c2-22af-4b26-9823-1a8b6c346fc8)
-    (property "Reference" "U25" (at 336.55 149.86 0)
+    (property "Reference" "U24" (at 336.55 149.86 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMS1117-3.3" (at 336.55 152.4 0)
@@ -4543,7 +4549,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "U25") (unit 1)
+          (reference "U24") (unit 1)
         )
       )
     )
@@ -4623,7 +4629,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 218.44 31.75 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e54efa6a-3e72-4b17-92cd-4a25d1346dfb)
-    (property "Reference" "#FLG01" (at 218.44 29.845 0)
+    (property "Reference" "#FLG024" (at 218.44 29.845 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 218.44 26.67 0)
@@ -4639,7 +4645,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG024") (unit 1)
         )
       )
     )
@@ -4680,7 +4686,7 @@
   (symbol (lib_id "Device:R") (at 327.025 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e732d7b7-a81a-4601-8290-21aba4ed4996)
-    (property "Reference" "R112" (at 328.93 104.1399 0)
+    (property "Reference" "R95" (at 328.93 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "82k" (at 328.93 106.6799 0)
@@ -4703,7 +4709,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "R112") (unit 1)
+          (reference "R95") (unit 1)
         )
       )
     )
@@ -4712,7 +4718,7 @@
   (symbol (lib_id "Device:C") (at 99.06 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e96c41d9-e827-4d92-bfef-f5d5e216c039)
-    (property "Reference" "C143" (at 102.87 158.7499 0)
+    (property "Reference" "C174" (at 102.87 158.7499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u" (at 102.87 161.2899 0)
@@ -4735,7 +4741,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C143") (unit 1)
+          (reference "C174") (unit 1)
         )
       )
     )
@@ -4744,7 +4750,7 @@
   (symbol (lib_id "Transistor_FET:FDS9435A") (at 314.96 78.74 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea04a3ef-41b7-42e3-aa01-3083e2e1c0ee)
-    (property "Reference" "Q9" (at 314.96 68.58 90)
+    (property "Reference" "Q8" (at 314.96 68.58 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AOSP21321" (at 314.96 71.12 90)
@@ -4773,7 +4779,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "Q9") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -4782,7 +4788,7 @@
   (symbol (lib_id "power:GND") (at 232.41 52.07 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ea332050-7478-4309-b2da-475f1776d7c0)
-    (property "Reference" "#PWR024" (at 232.41 58.42 0)
+    (property "Reference" "#PWR0155" (at 232.41 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 232.41 56.515 0)
@@ -4798,7 +4804,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0155") (unit 1)
         )
       )
     )
@@ -4807,7 +4813,7 @@
   (symbol (lib_id "power:+3V3") (at 364.49 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f050d5b2-b546-4294-a184-a8719e99dfe3)
-    (property "Reference" "#PWR0139" (at 364.49 161.29 0)
+    (property "Reference" "#PWR0165" (at 364.49 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 364.49 152.4 0)
@@ -4823,7 +4829,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0139") (unit 1)
+          (reference "#PWR0165") (unit 1)
         )
       )
     )
@@ -4832,7 +4838,7 @@
   (symbol (lib_id "kirdy:TPS54620") (at 157.48 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0adf31d-598f-4c7a-aa5b-27d5acf2b36b)
-    (property "Reference" "U22" (at 157.48 142.24 0)
+    (property "Reference" "U23" (at 157.48 142.24 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "TPS54620" (at 157.48 144.78 0)
@@ -4865,7 +4871,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "U22") (unit 1)
+          (reference "U23") (unit 1)
         )
       )
     )
@@ -4874,7 +4880,7 @@
   (symbol (lib_id "Device:C_Polarized") (at 73.66 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f14324ca-e9cf-414a-9751-8ab15685753e)
-    (property "Reference" "C141" (at 77.47 157.8609 0)
+    (property "Reference" "C172" (at 77.47 157.8609 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "220u" (at 77.47 160.4009 0)
@@ -4897,7 +4903,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "C141") (unit 1)
+          (reference "C172") (unit 1)
         )
       )
     )
@@ -4906,7 +4912,7 @@
   (symbol (lib_id "Device:L") (at 334.01 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f3f57d1e-f1f9-48d4-8ade-a4daf1f43bd8)
-    (property "Reference" "L8" (at 334.01 69.85 90)
+    (property "Reference" "L9" (at 334.01 69.85 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1u" (at 334.01 72.39 90)
@@ -4929,7 +4935,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "L8") (unit 1)
+          (reference "L9") (unit 1)
         )
       )
     )
@@ -4938,7 +4944,7 @@
   (symbol (lib_id "power:GND") (at 289.56 182.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4369fa2-af0e-438c-a76f-822b8b2e5a75)
-    (property "Reference" "#PWR0168" (at 289.56 189.23 0)
+    (property "Reference" "#PWR0161" (at 289.56 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 289.56 187.96 0)
@@ -4954,7 +4960,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#PWR0168") (unit 1)
+          (reference "#PWR0161") (unit 1)
         )
       )
     )
@@ -4963,7 +4969,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 240.03 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fec4afb3-f2e9-46cd-a1eb-33f96521238a)
-    (property "Reference" "#FLG0110" (at 240.03 155.575 0)
+    (property "Reference" "#FLG025" (at 240.03 155.575 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 240.03 152.4 0)
@@ -4979,7 +4985,7 @@
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/b6f53a06-e1b9-4c20-8fc0-ae2d1ce0191d"
-          (reference "#FLG0110") (unit 1)
+          (reference "#FLG025") (unit 1)
         )
       )
     )
