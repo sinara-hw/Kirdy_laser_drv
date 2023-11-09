@@ -1785,7 +1785,7 @@
   (junction (at 307.34 207.645) (diameter 0) (color 0 0 0 0)
     (uuid 593d49b7-c3f4-4602-a734-d4d85ff147ad)
   )
-  (junction (at 224.79 115.57) (diameter 0) (color 0 0 0 0)
+  (junction (at 221.615 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 5a455553-33d6-41a4-9d5c-5fc0d0702eda)
   )
   (junction (at 334.01 215.9) (diameter 0) (color 0 0 0 0)
@@ -1796,6 +1796,9 @@
   )
   (junction (at 324.485 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 5ed5c625-6d6b-4de0-8ffe-03c1fb3babf5)
+  )
+  (junction (at 77.47 105.41) (diameter 0) (color 0 0 0 0)
+    (uuid 6532173d-e695-4241-a2ad-5f51fd1578f0)
   )
   (junction (at 288.29 115.57) (diameter 0) (color 0 0 0 0)
     (uuid 6636d132-02da-4a26-b86f-9a88c6c4ee0f)
@@ -1818,11 +1821,11 @@
   (junction (at 157.48 62.23) (diameter 0) (color 0 0 0 0)
     (uuid 7e5dec4e-bb20-4164-9142-bff3872d4317)
   )
+  (junction (at 96.52 105.41) (diameter 0) (color 0 0 0 0)
+    (uuid 820a323e-a0ca-4ebe-b807-bc43ad14e8f9)
+  )
   (junction (at 162.56 113.03) (diameter 0) (color 0 0 0 0)
     (uuid 83d97b64-1830-45cf-a05f-ab33c2a56916)
-  )
-  (junction (at 76.2 105.41) (diameter 0) (color 0 0 0 0)
-    (uuid 862dc9dd-6eb0-42a3-99b2-e4020b0c9251)
   )
   (junction (at 279.4 135.89) (diameter 0) (color 0 0 0 0)
     (uuid 895e88d5-c469-42cb-8622-e821e1412e60)
@@ -1848,10 +1851,7 @@
   (junction (at 291.465 207.645) (diameter 0) (color 0 0 0 0)
     (uuid 9db10ee2-a58e-4d6d-b3cf-f1f981a583ad)
   )
-  (junction (at 93.98 105.41) (diameter 0) (color 0 0 0 0)
-    (uuid a6938923-040c-4fba-a7e3-a4079807cb45)
-  )
-  (junction (at 39.37 113.03) (diameter 0) (color 0 0 0 0)
+  (junction (at 35.56 113.03) (diameter 0) (color 0 0 0 0)
     (uuid a965d3e0-be6e-4225-8fb1-9cf6d763b17c)
   )
   (junction (at 278.13 207.645) (diameter 0) (color 0 0 0 0)
@@ -1905,7 +1905,7 @@
   (junction (at 240.665 210.185) (diameter 0) (color 0 0 0 0)
     (uuid e8bbfb9c-e815-4cc8-a77b-5e1f047f58f1)
   )
-  (junction (at 39.37 105.41) (diameter 0) (color 0 0 0 0)
+  (junction (at 35.56 105.41) (diameter 0) (color 0 0 0 0)
     (uuid efde81f5-271c-4647-94bc-6b7d8816fddc)
   )
   (junction (at 323.85 72.39) (diameter 0) (color 0 0 0 0)
@@ -1940,7 +1940,7 @@
     (stroke (width 0) (type default))
     (uuid 06a953c8-cd2e-4ede-bae0-a02a2643d1c6)
   )
-  (wire (pts (xy 217.17 115.57) (xy 224.79 115.57))
+  (wire (pts (xy 217.17 115.57) (xy 221.615 115.57))
     (stroke (width 0) (type default))
     (uuid 08db0bd3-ff3b-4ce2-a23f-b1155563f0d4)
   )
@@ -2126,10 +2126,6 @@
     (stroke (width 0) (type default))
     (uuid 44ba67b8-67b3-497a-899c-07c350408274)
   )
-  (wire (pts (xy 76.2 105.41) (xy 93.98 105.41))
-    (stroke (width 0) (type default))
-    (uuid 4507bbc6-245e-4438-9973-c458d2d660a1)
-  )
   (wire (pts (xy 104.14 115.57) (xy 109.22 115.57))
     (stroke (width 0) (type default))
     (uuid 45af7b0b-5d96-402c-90c1-b0d8c89e7a6b)
@@ -2158,7 +2154,7 @@
     (stroke (width 0) (type default))
     (uuid 493868c0-a598-49a1-b390-62003b8ae24b)
   )
-  (wire (pts (xy 224.79 115.57) (xy 240.03 115.57))
+  (wire (pts (xy 221.615 115.57) (xy 240.03 115.57))
     (stroke (width 0) (type default))
     (uuid 493bde55-d0af-49fc-b667-68a43c9fb42d)
   )
@@ -2384,10 +2380,6 @@
     (uuid 812dc3ff-ca73-44a3-a53e-d53d318ae56b)
   )
 
-  (wire (pts (xy 72.39 105.41) (xy 76.2 105.41))
-    (stroke (width 0) (type default))
-    (uuid 8290a759-38cf-4d14-8465-7ebe61a112fd)
-  )
   (wire (pts (xy 143.51 31.496) (xy 153.162 31.496))
     (stroke (width 0) (type default))
     (uuid 84e05d7a-08d3-4f8f-b93c-ee289cf735b8)
@@ -2415,10 +2407,6 @@
   (wire (pts (xy 209.55 119.38) (xy 203.2 119.38))
     (stroke (width 0) (type default))
     (uuid 8a63f707-8931-4ab6-8cb2-1f7dee5032b4)
-  )
-  (wire (pts (xy 93.98 105.41) (xy 109.22 105.41))
-    (stroke (width 0) (type default))
-    (uuid 8b903fc9-107a-45d2-95fa-7aeb08495851)
   )
   (wire (pts (xy 124.46 36.576) (xy 124.46 50.8))
     (stroke (width 0) (type default))
@@ -2464,11 +2452,11 @@
     (stroke (width 0) (type default))
     (uuid 94fdfcd2-eb72-44d0-b1c6-ade2ac398dc9)
   )
-  (wire (pts (xy 39.37 105.41) (xy 50.8 105.41))
+  (wire (pts (xy 35.56 105.41) (xy 50.8 105.41))
     (stroke (width 0) (type default))
     (uuid 95a8afca-c6cc-4da2-a965-7558e13c6579)
   )
-  (wire (pts (xy 39.37 113.03) (xy 50.8 113.03))
+  (wire (pts (xy 35.56 113.03) (xy 50.8 113.03))
     (stroke (width 0) (type default))
     (uuid 986fab9d-356e-4a9e-906d-51760e337d06)
   )
@@ -2631,7 +2619,7 @@
     (stroke (width 0) (type default))
     (uuid c38a2f19-ca10-4f70-8994-49730b505161)
   )
-  (wire (pts (xy 224.79 125.73) (xy 224.79 128.27))
+  (wire (pts (xy 221.615 125.73) (xy 221.615 128.27))
     (stroke (width 0) (type default))
     (uuid c4de15bd-446c-4320-8ba3-22db889b3ecd)
   )
@@ -2647,7 +2635,7 @@
     (stroke (width 0) (type default))
     (uuid cb452e07-8ab8-4640-8020-0187f8ac1beb)
   )
-  (wire (pts (xy 224.79 118.11) (xy 224.79 115.57))
+  (wire (pts (xy 221.615 118.11) (xy 221.615 115.57))
     (stroke (width 0) (type default))
     (uuid ccc607fd-b197-4120-a84f-eb80273747b2)
   )
@@ -2674,6 +2662,10 @@
   (wire (pts (xy 279.4 134.62) (xy 279.4 135.89))
     (stroke (width 0) (type default))
     (uuid d4a26c43-864d-4662-ab81-f67ff0b5de01)
+  )
+  (wire (pts (xy 77.47 105.41) (xy 96.52 105.41))
+    (stroke (width 0) (type default))
+    (uuid d5361dc4-9502-4572-b771-e043e4923ba2)
   )
   (wire (pts (xy 344.17 34.29) (xy 344.17 39.37))
     (stroke (width 0) (type default))
@@ -2767,7 +2759,7 @@
     (stroke (width 0) (type default))
     (uuid ec00fa4c-3d5b-4d4e-8a62-d38a7c2d1b19)
   )
-  (wire (pts (xy 224.79 128.27) (xy 240.03 128.27))
+  (wire (pts (xy 221.615 128.27) (xy 240.03 128.27))
     (stroke (width 0) (type default))
     (uuid ecd05f06-eb2b-4626-9b55-edbf9897ca43)
   )
@@ -2799,6 +2791,10 @@
     (stroke (width 0) (type default))
     (uuid f480a325-644a-45ef-a1b5-4e1532609241)
   )
+  (wire (pts (xy 72.39 105.41) (xy 77.47 105.41))
+    (stroke (width 0) (type default))
+    (uuid f642dcb6-6216-48d0-9a55-451579fe29cb)
+  )
   (wire (pts (xy 344.17 124.46) (xy 356.87 124.46))
     (stroke (width 0) (type default))
     (uuid f74dae98-f161-4572-a80e-1b8577f5fa65)
@@ -2828,6 +2824,10 @@
     (uuid f9ef160d-78a2-4add-8703-d5428c8ace42)
   )
 
+  (wire (pts (xy 96.52 105.41) (xy 109.22 105.41))
+    (stroke (width 0) (type default))
+    (uuid fcadf571-c59f-4e90-9f95-f906595236c3)
+  )
   (wire (pts (xy 237.49 99.695) (xy 237.49 97.155))
     (stroke (width 0) (type default))
     (uuid fe093cb5-7aea-4499-b8c9-ab4e464d55d0)
@@ -2956,7 +2956,7 @@
     (property "Datasheet" "~" (at 349.25 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 06c6bf58-9c11-4a46-b12c-1c02e94d43a8))
+    (pin "1" (uuid 93cd3710-04a6-49ec-84c4-aa2c82371837))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -2987,8 +2987,8 @@
     (property "MFR_PN_ALT" "" (at 299.72 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d32164bf-cfd1-4d48-a3e4-af16fea0bbf1))
-    (pin "2" (uuid ce192b7b-eac2-4bb9-93c2-67874f59dd16))
+    (pin "1" (uuid 08667777-044b-4ad2-b01c-e372579bee58))
+    (pin "2" (uuid fd5ab843-57d8-4e49-8838-21cef34b939a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3016,10 +3016,10 @@
     (property "MFR_PN" "Y169010R0000T9L" (at 360.68 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7b43331f-2d40-4859-85ed-a646194c8bac))
-    (pin "2" (uuid 1d5f92f4-8750-4fcc-8f62-1bd20ed99818))
-    (pin "3" (uuid 4938f59e-6105-4f04-ab77-ef4050529c63))
-    (pin "4" (uuid fc964ff0-ede5-4a96-88b1-36b0d15f31ba))
+    (pin "1" (uuid 224fbbbc-fd07-4332-b113-b4a905286435))
+    (pin "2" (uuid 1828ae01-97aa-4c83-adc2-a6ca73815b10))
+    (pin "3" (uuid 2cf6edfb-1fe7-403d-877d-5a8eed91c0f1))
+    (pin "4" (uuid 0a06148e-3efc-4456-b6da-c7e3a2ccad6a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3050,8 +3050,8 @@
     (property "MFR_PN_ALT" "" (at 284.48 207.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7c36c6a-7711-401c-8b96-43ee00518354))
-    (pin "2" (uuid cd6e8c59-ec00-43a2-a710-c0302bdcaf4b))
+    (pin "1" (uuid f213cbc1-4444-4b07-bd4d-317fcb235d73))
+    (pin "2" (uuid 8cde6393-7c51-48e1-8fff-631814afa58c))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3079,8 +3079,8 @@
     (property "MFR_PN" "GCM1885C1H202GA16D" (at 264.16 200.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d46550a-2533-4678-9ff4-0d6fc5cc69f8))
-    (pin "2" (uuid d37151e6-6c9b-4b58-8176-861197d88e0c))
+    (pin "1" (uuid ba52d543-40d4-4a2b-bf92-cd7760632f6e))
+    (pin "2" (uuid 7f6d3300-4b55-4238-807f-ba91e05e573e))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3111,8 +3111,8 @@
     (property "MFR_PN_ALT" "ERJ-3EKF2001V" (at 323.85 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ddfb97d-91eb-4d85-ba58-1152b29b6b66))
-    (pin "2" (uuid 1e8bcd63-c47f-439a-ab2e-3d9eec0e4360))
+    (pin "1" (uuid c93752a2-093b-494b-af21-aaac80ac02bc))
+    (pin "2" (uuid 8487b511-c2aa-41b6-bbe3-beaacce6ead3))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3125,7 +3125,7 @@
   (symbol (lib_id "power:GND") (at 336.55 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 204db654-9b02-418c-8542-8b9e51afa9b4)
-    (property "Reference" "#PWR046" (at 336.55 86.36 0)
+    (property "Reference" "#PWR047" (at 336.55 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 336.55 85.09 0)
@@ -3137,11 +3137,11 @@
     (property "Datasheet" "" (at 336.55 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94bbe997-da17-4486-becf-a8e1ff564c8b))
+    (pin "1" (uuid 49664d76-623f-4766-a09c-8e7e2aa08d2b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -3150,7 +3150,7 @@
   (symbol (lib_id "power:-6V") (at 212.09 45.72 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 21d3d524-6a55-40ae-90ba-87c02fe8324a)
-    (property "Reference" "#PWR034" (at 214.63 45.72 0)
+    (property "Reference" "#PWR035" (at 214.63 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 215.9 45.7199 90)
@@ -3162,11 +3162,11 @@
     (property "Datasheet" "" (at 212.09 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 324ae72e-22ad-4058-a425-21c347de4583))
+    (pin "1" (uuid fc7a067d-3711-4faa-ac79-afd85a322901))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3178,7 +3178,7 @@
     (property "Reference" "C5" (at 162.56 92.71 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "2u PET" (at 162.56 95.25 90)
+    (property "Value" "2u2 PMLCAP" (at 162.56 95.25 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 166.37 99.3648 0)
@@ -3190,8 +3190,8 @@
     (property "MFR_PN" "35MU225MC14532" (at 162.56 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 45a2ae4b-bb50-40cf-9d2c-571811c97ce7))
-    (pin "2" (uuid 90cf4d31-c8ce-4b21-a544-2e6d704954c2))
+    (pin "1" (uuid d21015e3-2170-4c9b-9909-e75a6306962f))
+    (pin "2" (uuid 8038846c-5f65-4635-a8d1-461ddc10f0f0))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3204,7 +3204,7 @@
   (symbol (lib_id "power:+15V") (at 265.43 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22dd391c-8e48-413f-8e44-9f72eefb4601)
-    (property "Reference" "#PWR039" (at 265.43 130.81 0)
+    (property "Reference" "#PWR040" (at 265.43 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 265.43 123.19 0)
@@ -3216,11 +3216,11 @@
     (property "Datasheet" "" (at 265.43 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7748853e-3668-4689-924f-34af0fe7f0f0))
+    (pin "1" (uuid 8fbfe854-9603-427a-801d-67b84aff9201))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -3247,8 +3247,8 @@
     (property "MFR_PN_ALT" "CR0603-J/-000ELF" (at 331.47 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0453bdb5-d7b3-422c-9ff9-e25dc7210b37))
-    (pin "2" (uuid 84c71926-0760-4e35-8ec0-6eac8c33f77b))
+    (pin "1" (uuid 1d9303b7-031b-4069-99cd-a3ad284f50df))
+    (pin "2" (uuid 0749900d-9e57-406f-8bbc-609da409ce10))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3261,7 +3261,7 @@
   (symbol (lib_id "power:-6V") (at 205.74 147.32 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 295840a3-8767-4b15-a2e3-e456051e8004)
-    (property "Reference" "#PWR031" (at 208.28 147.32 0)
+    (property "Reference" "#PWR032" (at 208.28 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 209.55 147.3199 90)
@@ -3273,11 +3273,11 @@
     (property "Datasheet" "" (at 205.74 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 118fead9-d4df-4bd2-9719-3bd99372790f))
+    (pin "1" (uuid f7c5bd72-965f-400e-acdf-fee06b00e04f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -3301,8 +3301,8 @@
     (property "MFR_PN" "B5819WS-TP" (at 230.505 206.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d877bc31-dbf3-4c84-8623-01cdb3142fe6))
-    (pin "2" (uuid 709beea4-690d-4987-a643-d053bbf0144c))
+    (pin "1" (uuid 6e5b32cb-0fa0-4f99-8ee1-0de3a7410a87))
+    (pin "2" (uuid c1cd0083-b7d3-4501-83ce-9e3960fdb4af))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3315,7 +3315,7 @@
   (symbol (lib_id "power:GND") (at 194.31 201.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2a254fe8-98c7-48f4-8005-38171123b148)
-    (property "Reference" "#PWR025" (at 194.31 208.28 0)
+    (property "Reference" "#PWR026" (at 194.31 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 207.01 0)
@@ -3327,11 +3327,11 @@
     (property "Datasheet" "" (at 194.31 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e3004298-76e4-442c-a2e0-8449ddd08cb3))
+    (pin "1" (uuid f2dd9f3d-a4bf-4b3c-90e8-399878613a44))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3358,8 +3358,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 208.28 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 464a66b0-d68a-4d37-83f3-c6de385506da))
-    (pin "2" (uuid 19ff9b88-c96b-4151-89fe-481da0559e1e))
+    (pin "1" (uuid de4e853a-8069-4872-a7ce-40ce55afbbfd))
+    (pin "2" (uuid 7aa1e1c0-f1ff-479e-8b34-91f62bd359a7))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3387,8 +3387,8 @@
     (property "MFR_PN" "PDY10R000F" (at 349.885 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2b6d348a-aeaf-4470-84a5-67ae3c9c3af1))
-    (pin "2" (uuid abb9788a-8bde-490a-9351-ce81d18140ef))
+    (pin "1" (uuid 21121b2d-5ddd-4391-bd34-c257a4f8afff))
+    (pin "2" (uuid 9259dd51-2e46-47f2-8131-e0d852783f73))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3416,12 +3416,12 @@
     (property "MFR_PN" "DIP12-1C90-51L" (at 341.63 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c21d6c6b-7743-4205-b8db-84811fea13eb))
-    (pin "14" (uuid a7281c44-20d4-49a1-a80f-7c604d2bd07c))
-    (pin "2" (uuid 1fd50938-0de5-4df0-907e-4cc2674881df))
-    (pin "6" (uuid 46ac2101-2735-4136-8d1b-3a4613d99c1e))
-    (pin "7" (uuid 02ecb946-5441-42d3-95d2-c1457e342b8c))
-    (pin "8" (uuid 624390db-04f3-48ee-9db1-c51413467154))
+    (pin "1" (uuid 1ac5315a-992a-41bb-9a60-3c35c3f4524c))
+    (pin "14" (uuid 3af2377c-0965-433d-ae88-d9ba564c7bd5))
+    (pin "2" (uuid 40839c0e-57fa-43c1-91fd-8a2430c38bf9))
+    (pin "6" (uuid 92e3a335-2eef-435a-a8f1-06bd505652e9))
+    (pin "7" (uuid 4d1316e7-a153-4af8-a5d2-f171753cd8c5))
+    (pin "8" (uuid abf14662-6dd4-42a2-8959-49850050b1c3))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3449,8 +3449,8 @@
     (property "MFR_PN" "0603N102G250CT" (at 278.13 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41ee2597-1ec4-4b03-8ea5-2daabca0349d))
-    (pin "2" (uuid 698c54a1-ba36-4695-aba2-9245a0e3adac))
+    (pin "1" (uuid bd842bad-0447-4b07-a6f0-4d7078e44c85))
+    (pin "2" (uuid 51d8b01d-3262-42b7-a061-301dda73d5b6))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3460,22 +3460,22 @@
     )
   )
 
-  (symbol (lib_id "power:+5VA") (at 39.37 105.41 0) (unit 1)
+  (symbol (lib_id "power:+5VA") (at 35.56 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 370ce14f-e3ce-49ec-86ed-1d55ded31028)
-    (property "Reference" "#PWR07" (at 39.37 109.22 0)
+    (property "Reference" "#PWR07" (at 35.56 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+5VA" (at 39.37 100.33 0)
+    (property "Value" "+5VA" (at 35.56 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 105.41 0)
+    (property "Footprint" "" (at 35.56 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 105.41 0)
+    (property "Datasheet" "" (at 35.56 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c811a697-5b77-4f75-bb7a-d6ef8db62c41))
+    (pin "1" (uuid 027212fd-8ff1-46a3-914c-5a2b8ad2115a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3488,10 +3488,10 @@
   (symbol (lib_id "Device:C") (at 279.4 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 39400eb9-6410-4341-8c26-1e54fd41195f)
-    (property "Reference" "C23" (at 283.21 139.6999 0)
+    (property "Reference" "C23" (at 283.21 139.7 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 283.21 142.2399 0)
+    (property "Value" "10u 25V" (at 283.21 142.24 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 280.3652 144.78 0)
@@ -3500,14 +3500,14 @@
     (property "Datasheet" "~" (at 279.4 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "CL21B106KOQNNNG" (at 279.4 140.97 0)
+    (property "MFR_PN" "GRM21BZ71E106KE15K" (at 279.4 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "CL21B106KOQNNNE" (at 279.4 140.97 0)
+    (property "MFR_PN_ALT" "GRM21BZ71E106KE15L" (at 279.4 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 18adff04-94b0-4bd8-af71-57d990b4a1c0))
-    (pin "2" (uuid 0c3e0d8b-769b-442d-aba9-6f26e446a19e))
+    (pin "1" (uuid a61aed40-149a-4209-9312-ae01b9a3e492))
+    (pin "2" (uuid 3fab670b-9827-413a-b15f-bf07cf119b01))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3517,26 +3517,26 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 76.2 101.6 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 77.47 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3a9b3bec-ffe0-47c1-b9ff-bb9db7bc2b51)
-    (property "Reference" "C2" (at 80.01 100.3299 0)
+    (property "Reference" "C2" (at 81.28 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u PP" (at 80.01 102.8699 0)
+    (property "Value" "10u PMLCAP" (at 81.28 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 77.1652 105.41 0)
+    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 78.4352 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 76.2 101.6 0)
+    (property "Datasheet" "~" (at 77.47 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "16MU106MC44532" (at 76.2 101.6 0)
+    (property "MFR_PN" "16MU106MC44532" (at 77.47 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f27a92fc-73c7-4e89-a736-8011efdc85e1))
-    (pin "2" (uuid e152ccc0-ce6b-451e-9137-6629c27d3f99))
+    (pin "1" (uuid 49eced58-91d1-45d2-99fe-708f7df798ee))
+    (pin "2" (uuid 919f67f8-b750-43cf-8a57-adf39af67023))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3561,7 +3561,7 @@
     (property "Datasheet" "~" (at 319.405 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3d794056-f15d-4451-8abb-55db211920f3))
+    (pin "1" (uuid ea6b770e-9012-4611-9558-d21a488f03c8))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3592,8 +3592,8 @@
     (property "MFR_PN_ALT" "" (at 299.72 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 03a8e4d4-e1e1-4658-9d51-ffc97778631f))
-    (pin "2" (uuid 803398ce-1230-4c69-a0d3-d23a2f88b1ba))
+    (pin "1" (uuid f1568a4b-6d24-4003-b298-af468a65263a))
+    (pin "2" (uuid 3fe805d7-c92a-42e1-bb77-44a6ea57abbb))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3624,8 +3624,8 @@
     (property "MFR_PN_ALT" "RMCF0603FT100R" (at 313.69 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid c984ac31-bdd4-434f-b3ba-b8d4c8cf157b))
-    (pin "2" (uuid 9d16986d-25c7-436e-b7f5-01f2024f149d))
+    (pin "1" (uuid 0260e1b7-8b55-4807-a954-1ca15c7ab69c))
+    (pin "2" (uuid c9ca13e7-6492-47dc-8bc5-7430f823cd15))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3656,8 +3656,8 @@
     (property "MFR_PN_ALT" "WR06X10R0FTL" (at 375.92 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2fb50267-32fd-43a7-8674-47e7879d9d8a))
-    (pin "2" (uuid ab8bb05f-05eb-44a5-8e2e-f4ec8e2a62b7))
+    (pin "1" (uuid a7f8c44e-2278-40c2-98ce-c853c8c8132a))
+    (pin "2" (uuid df246884-1495-452b-a70c-2075f8f60412))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3682,7 +3682,7 @@
     (property "Datasheet" "" (at 121.92 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0bc95595-2100-4c58-bc57-86a628623398))
+    (pin "1" (uuid eb834de1-968e-4ab9-aa33-6c85b1e16361))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3710,13 +3710,13 @@
     (property "MFR_PN" "ADA4898-1YRDZ" (at 273.05 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid c7b8da6e-e3e8-4b4d-bbfb-25b2cc75d8fc))
-    (pin "3" (uuid 9b6599b2-0a27-4a70-8452-ac49d9ed0ae3))
-    (pin "4" (uuid 12758aa9-f184-4092-8be1-ea19694baecc))
-    (pin "6" (uuid ce1526a4-35a7-4392-bb31-0120e491f0bc))
-    (pin "7" (uuid eb2a0ea0-1b8a-42c8-a2dc-19d296b3bed3))
-    (pin "8" (uuid 5450a477-d624-4bc4-8d5b-822bcb05b72d))
-    (pin "9" (uuid 31c704fb-a0c7-487d-94a7-972789c961c7))
+    (pin "2" (uuid 43bd949d-ab85-4b87-80c9-60a70009ef46))
+    (pin "3" (uuid af82ca20-957f-44bd-9f3f-688680686599))
+    (pin "4" (uuid 3b882cc5-6a09-4785-b76e-500d5790d2b0))
+    (pin "6" (uuid 373a8e10-3d5b-4d3a-b34a-e2a769b8a820))
+    (pin "7" (uuid 85ec0ac9-adaa-449f-bc49-26f577142801))
+    (pin "8" (uuid 599c54d9-9ecc-45dd-b8f9-81ba3ca3cdef))
+    (pin "9" (uuid 3bcd58ed-e3c6-440e-9f2a-f41a8bbb6f76))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3747,8 +3747,8 @@
     (property "MFR_PN_ALT" "CL10B103KB8NNNC" (at 288.29 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid caeb0eb4-0618-4ca4-9ddf-b2d490409161))
-    (pin "2" (uuid 282cc86f-022b-4bb1-a877-6e5d820e9fb8))
+    (pin "1" (uuid 36468941-5fd0-403d-999f-9d0b1f6ee887))
+    (pin "2" (uuid 322ed904-4286-431c-97bc-7c7890f5a252))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3761,7 +3761,7 @@
   (symbol (lib_id "power:GND") (at 278.13 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47db671d-4d98-4c68-bce6-d34c04d3c836)
-    (property "Reference" "#PWR045" (at 278.13 231.14 0)
+    (property "Reference" "#PWR046" (at 278.13 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 228.6 0)
@@ -3773,11 +3773,11 @@
     (property "Datasheet" "" (at 278.13 224.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5106b9ed-7b92-404c-9d69-2e52884b094b))
+    (pin "1" (uuid 79307950-8b2b-46ef-86f9-13ab40c9d9c0))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -3801,8 +3801,8 @@
     (property "MFR_PN" "ECH-U1C104JX5" (at 375.92 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fa9cc472-74cf-48a2-a880-97c2d93fb098))
-    (pin "2" (uuid 89acb525-82e0-46c1-a54d-55f8066ffd2a))
+    (pin "1" (uuid 8f3af2be-6f3a-4b7b-b3b5-0bbf587098b8))
+    (pin "2" (uuid 77c86d3f-5ebb-4762-abe7-37be68ba7ab7))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3830,8 +3830,8 @@
     (property "MFR_PN" "RN73R1JTTD1000B25" (at 246.38 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1b716827-93cb-4a08-bd43-c3ee15bceefe))
-    (pin "2" (uuid 6f632f37-fc7f-410b-8644-54510eba2d3a))
+    (pin "1" (uuid 129658cc-3481-4ed2-93be-91139cb24b16))
+    (pin "2" (uuid c3b12f87-0ad3-4b13-a501-285b7ef241c9))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3856,7 +3856,7 @@
     (property "Datasheet" "" (at 129.54 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 10c9aba2-544c-485d-8c56-8a00ef9d3fa9))
+    (pin "1" (uuid 8aa39127-f2c5-419e-9b1a-e8e6cc3cd905))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3887,8 +3887,8 @@
     (property "MFR_PN_ALT" "" (at 111.76 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 40768019-dc56-4eb1-92ad-df3c46d51cee))
-    (pin "2" (uuid 3df8d720-6218-4d86-86d9-a19a9cc4f06f))
+    (pin "1" (uuid 317c12cf-0843-4738-be61-4fe5a44cbf45))
+    (pin "2" (uuid 6de7b738-16d1-48ba-9182-3f36d7976427))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3901,7 +3901,7 @@
   (symbol (lib_id "power:GND") (at 149.098 44.196 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 534b98d6-fc70-4ad2-879e-376a6f128b47)
-    (property "Reference" "#PWR018" (at 149.098 50.546 0)
+    (property "Reference" "#PWR017" (at 149.098 50.546 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.098 48.006 0)
@@ -3913,32 +3913,32 @@
     (property "Datasheet" "" (at 149.098 44.196 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdb3b6bd-9ded-4cc7-bf36-89677d191ed4))
+    (pin "1" (uuid 3756f123-e0cc-4d40-ae67-ee8b508b5897))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 39.37 113.03 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 35.56 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 54637155-c23e-48d1-90ad-3874cf2f43fb)
-    (property "Reference" "#PWR08" (at 39.37 119.38 0)
+    (property "Reference" "#PWR08" (at 35.56 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 39.37 118.11 0)
+    (property "Value" "GND" (at 35.56 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 39.37 113.03 0)
+    (property "Footprint" "" (at 35.56 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 39.37 113.03 0)
+    (property "Datasheet" "" (at 35.56 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ec958c8b-bb14-4b95-897c-3552cc515396))
+    (pin "1" (uuid ce3e3c40-c45e-42e9-b8e1-ab5146740fa2))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3948,22 +3948,22 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 76.2 97.79 180) (unit 1)
+  (symbol (lib_id "power:GND") (at 77.47 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5ab319c3-ba67-44bd-ae5d-777167b0e610)
-    (property "Reference" "#PWR09" (at 76.2 91.44 0)
+    (property "Reference" "#PWR09" (at 77.47 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 76.2 92.71 0)
+    (property "Value" "GND" (at 77.47 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 76.2 97.79 0)
+    (property "Footprint" "" (at 77.47 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 76.2 97.79 0)
+    (property "Datasheet" "" (at 77.47 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51ddd059-4f8e-4900-ac41-bbb5913b4868))
+    (pin "1" (uuid 6f5f093c-3e88-477b-a169-99f67cad4808))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -3976,7 +3976,7 @@
   (symbol (lib_id "power:-6V") (at 210.185 221.615 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d914f1e-28bb-46a0-beac-e1ea7bbcd915)
-    (property "Reference" "#PWR033" (at 210.185 224.155 0)
+    (property "Reference" "#PWR034" (at 210.185 224.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 210.185 225.425 0)
@@ -3988,11 +3988,11 @@
     (property "Datasheet" "" (at 210.185 221.615 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fdc754df-4622-4e55-aa76-2cf811c88a2d))
+    (pin "1" (uuid 327ff8ff-458d-4f6e-8280-a1f23f7240e8))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR034") (unit 1)
         )
       )
     )
@@ -4001,7 +4001,7 @@
   (symbol (lib_id "Device:R") (at 149.098 40.386 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 61e8adfb-8e55-4274-b5c2-2af668ae8210)
-    (property "Reference" "R8" (at 152.273 39.116 0)
+    (property "Reference" "R7" (at 152.273 39.116 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "49.9" (at 152.908 41.656 0)
@@ -4019,37 +4019,37 @@
     (property "MFR_PN_ALT" "" (at 149.098 40.386 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ea5090b1-9bd7-45ea-ac43-2da6c9fffcbb))
-    (pin "2" (uuid 324977e9-7b1e-47b7-8d52-4a137fda56e5))
+    (pin "1" (uuid ab883801-dbf0-41e1-b9e2-5647218ae04c))
+    (pin "2" (uuid c3811b2d-092f-4ef7-ac7b-1d1a9e3d3f5a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "R8") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Device:C") (at 224.79 121.92 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 221.615 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66382308-460e-4fa4-bce5-9264c912f085)
-    (property "Reference" "C14" (at 228.6 120.6499 0)
+    (property "Reference" "C14" (at 225.425 120.65 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u PP" (at 228.6 123.1899 0)
+    (property "Value" "10u PMLCAP" (at 225.425 123.19 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 225.7552 125.73 0)
+    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 222.5802 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 224.79 121.92 0)
+    (property "Datasheet" "~" (at 221.615 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "16MU106MC44532" (at 224.79 121.92 0)
+    (property "MFR_PN" "16MU106MC44532" (at 221.615 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59346561-5d12-4f0c-8b4f-ec005acdde3e))
-    (pin "2" (uuid d32646cc-cb31-45a5-ae46-b3ebac973305))
+    (pin "1" (uuid ee5ac92e-ecd0-4361-98e3-e42fade2a0da))
+    (pin "2" (uuid 2346cd40-b919-4a66-94d3-aa2d3d48ba7b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4080,8 +4080,8 @@
     (property "MFR_PN_ALT" "WR06X10R0FTL" (at 262.89 219.075 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid dd03d82e-74aa-4bbb-a096-100d4c79ee8d))
-    (pin "2" (uuid bdf1973a-e768-42ed-9968-023cbd58f7c8))
+    (pin "1" (uuid f1460157-5e40-4e80-b9c6-67bf44623b6e))
+    (pin "2" (uuid ee4025ef-d5f3-4a47-9a22-710107ca890f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4109,13 +4109,13 @@
     (property "MFR_PN" "ADA4898-1YRDZ" (at 193.04 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 65b89b09-d366-4051-b769-d228d0df0cc0))
-    (pin "3" (uuid c3ab674d-3317-452d-b35c-3b940ea4f71d))
-    (pin "4" (uuid e046cff6-f931-4c22-8608-5824b01bb68a))
-    (pin "6" (uuid 4d256e07-5236-4202-895a-dc1b835cc542))
-    (pin "7" (uuid 23846a63-c6d3-4ae3-8b9f-a38c7ceacb06))
-    (pin "8" (uuid 77d9c174-3041-4300-a273-e7fbf5b5fdc7))
-    (pin "9" (uuid 7e0033bd-2193-4e08-800a-18caa0b14fe7))
+    (pin "2" (uuid 5391beea-ddb9-4c29-9297-cc164a934658))
+    (pin "3" (uuid 0ed6dfa4-0bb0-4b87-857d-495ebfd3c1d0))
+    (pin "4" (uuid 3565e4bd-700c-405b-afa0-cc6e45dd485f))
+    (pin "6" (uuid 84ecc885-ae85-403a-9388-9d303ed3b14f))
+    (pin "7" (uuid 7dcac3e2-8542-43ee-b807-90239ad25408))
+    (pin "8" (uuid ed7f5a2b-4542-48df-be4a-f06ccfa22c87))
+    (pin "9" (uuid f75fcac5-2d48-4ed3-8c3a-828931ff356b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4143,8 +4143,8 @@
     (property "MFR_PN" "885012006041" (at 317.5 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 92323339-7076-4115-a4eb-79753ff2743b))
-    (pin "2" (uuid 72906ac1-7510-4f48-81d4-9e9f79598c68))
+    (pin "1" (uuid 78832351-c500-4505-970d-89a6ea382a81))
+    (pin "2" (uuid 285ee7c4-c73a-44f9-8a19-5ef728da0c74))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4157,7 +4157,7 @@
   (symbol (lib_id "power:GND") (at 265.43 135.89 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 799206b5-376e-4365-9dbe-4ba1050c7f50)
-    (property "Reference" "#PWR040" (at 259.08 135.89 0)
+    (property "Reference" "#PWR041" (at 259.08 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 135.8899 90)
@@ -4169,11 +4169,11 @@
     (property "Datasheet" "" (at 265.43 135.89 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 285fd026-4e9c-4dd7-a478-7db3b95c5b4d))
+    (pin "1" (uuid a83e6f64-0956-41d7-92aa-1f8e8836a9da))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR041") (unit 1)
         )
       )
     )
@@ -4182,7 +4182,7 @@
   (symbol (lib_id "power:GND") (at 194.31 219.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 79bcbc69-335b-4da4-a8e6-34edac5f08fd)
-    (property "Reference" "#PWR026" (at 194.31 226.06 0)
+    (property "Reference" "#PWR027" (at 194.31 226.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 194.31 224.79 0)
@@ -4194,11 +4194,11 @@
     (property "Datasheet" "" (at 194.31 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3a39cabc-6b7e-4e52-86b2-ded43aba3f44))
+    (pin "1" (uuid 922a8f83-35a1-4e58-a302-28bec85824a5))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -4225,8 +4225,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 265.43 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5f42d400-2302-4383-8d90-301b720168b4))
-    (pin "2" (uuid b538606e-07ea-45ec-b1cf-d0285671ff49))
+    (pin "1" (uuid bd4d3fcd-d655-44ca-a2a8-4a2f4cf9eefc))
+    (pin "2" (uuid 99f6d4b4-8f78-4536-9295-a8e4f2993a53))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4239,7 +4239,7 @@
   (symbol (lib_id "power:+9VA") (at 210.185 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7e288aa7-f8e9-4656-b36a-9b4fad60fcef)
-    (property "Reference" "#PWR032" (at 210.185 201.295 0)
+    (property "Reference" "#PWR033" (at 210.185 201.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 210.185 194.31 0)
@@ -4251,11 +4251,11 @@
     (property "Datasheet" "" (at 210.185 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d51d9603-f568-4b2d-aacb-cceb8c379187))
+    (pin "1" (uuid b9b1b9b5-0f64-4c13-b047-60610ec05eb4))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -4264,7 +4264,7 @@
   (symbol (lib_id "power:GND") (at 162.56 127 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7f2ae8de-9741-4de8-8b3e-0cbf1d496d0b)
-    (property "Reference" "#PWR017" (at 162.56 133.35 0)
+    (property "Reference" "#PWR019" (at 162.56 133.35 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 132.08 0)
@@ -4276,11 +4276,11 @@
     (property "Datasheet" "" (at 162.56 127 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f9c1d61f-9a75-411f-8991-062a8e386afa))
+    (pin "1" (uuid b2826029-6399-4f10-a753-bb2244771ba0))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -4307,8 +4307,8 @@
     (property "MFR_PN_ALT" "WR06X1001FTL" (at 317.5 224.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 51555bc1-23d0-4be3-8f4b-1ca60c9b0a1a))
-    (pin "2" (uuid b82c3639-ee6e-4bf9-977c-1b144b3809a2))
+    (pin "1" (uuid e6899378-0120-4756-838a-ebe3b62a85cf))
+    (pin "2" (uuid d983584c-255a-4304-8878-5618b24eb1d3))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4321,7 +4321,7 @@
   (symbol (lib_id "Device:R") (at 153.67 113.03 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 84d1caf1-6f0d-4adb-bda1-ca435ebeff03)
-    (property "Reference" "R7" (at 153.67 106.68 90)
+    (property "Reference" "R8" (at 153.67 106.68 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k" (at 153.67 109.22 90)
@@ -4339,12 +4339,12 @@
     (property "MFR_PN_ALT" "ERJ-3EKF2001V" (at 153.67 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ed95038c-fff3-4f3e-b55c-7aa041a1afbb))
-    (pin "2" (uuid ea12b549-702a-497f-a8f2-12201014e071))
+    (pin "1" (uuid acc06bef-833e-4507-993f-bff26dedde0a))
+    (pin "2" (uuid c83158aa-be40-4070-9c80-3b2ed18eb09c))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -4371,8 +4371,8 @@
     (property "MFR_PN_ALT" "C0603C162J5GAC7867" (at 209.55 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b994e1ae-46e6-49f0-92fa-282556123fe1))
-    (pin "2" (uuid 25331b67-64b7-43c5-b981-bb97e253c042))
+    (pin "1" (uuid 0d909855-2eb2-4f22-9717-ec9b926aa492))
+    (pin "2" (uuid ce045ddc-d981-490a-92d5-7187776d45bd))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4403,8 +4403,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 201.93 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6413ff09-5dd9-4546-a5e1-0c8b32908d51))
-    (pin "2" (uuid c0b3270e-b56d-4fa0-ad59-10290d488aec))
+    (pin "1" (uuid 230c2cdb-edfe-4579-9f01-92ae5df1befd))
+    (pin "2" (uuid 587b8a37-fbfe-4b16-91fc-4123b0677883))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4417,7 +4417,7 @@
   (symbol (lib_id "power:+9VA") (at 198.12 80.01 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 89be3b87-0315-4e54-b96d-03ea2414961f)
-    (property "Reference" "#PWR029" (at 194.945 80.01 0)
+    (property "Reference" "#PWR030" (at 194.945 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 201.93 80.0099 90)
@@ -4429,11 +4429,11 @@
     (property "Datasheet" "" (at 198.12 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 611e40ea-4739-4838-969d-33e3b8178c31))
+    (pin "1" (uuid 7fa8cfe0-a232-485b-bb10-4bb3eb59ef95))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -4457,8 +4457,8 @@
     (property "MFR_PN" "ERA-3AEB823V" (at 124.46 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 43308340-e38b-4bd0-b7fc-f85d8456bc9c))
-    (pin "2" (uuid 755e6d43-1a4a-4b35-9e5f-aa45bb0e07c2))
+    (pin "1" (uuid a58abec5-8c97-4685-941c-fa74d1f7de51))
+    (pin "2" (uuid fbf35306-0f19-43b8-85b5-205bd6113a23))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4489,8 +4489,8 @@
     (property "MFR_PN_ALT" "" (at 317.5 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 41579295-0850-4fa6-80bf-4c4ca1b74bcd))
-    (pin "2" (uuid a7e52d8e-5023-4fac-80d1-fac0c59d0ba3))
+    (pin "1" (uuid 4cd85bc3-5427-4392-86d3-205ebec20e99))
+    (pin "2" (uuid 053a94b4-c7b6-4b54-b0c5-a1e4e97f36f9))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4503,7 +4503,7 @@
   (symbol (lib_id "power:-6V") (at 190.5 128.27 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9119661d-44f6-446a-9801-ce7bdada5f6c)
-    (property "Reference" "#PWR023" (at 190.5 130.81 0)
+    (property "Reference" "#PWR024" (at 190.5 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 190.5 132.08 0)
@@ -4515,11 +4515,11 @@
     (property "Datasheet" "" (at 190.5 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1266db7a-3a33-452c-83ba-41b0729eb0f2))
+    (pin "1" (uuid bf74dc3c-7e05-4a2e-821b-fe0c5747f02b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -4546,8 +4546,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 202.565 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7c797965-734f-4362-bb09-bd5b8c54c532))
-    (pin "2" (uuid 9b00b959-a41c-40c3-b929-55ae7fb658c0))
+    (pin "1" (uuid f5c8df1f-0baf-4ea5-a619-bff90fa54720))
+    (pin "2" (uuid 3970a999-db25-47be-ac26-08df3660dbfc))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4560,7 +4560,7 @@
   (symbol (lib_id "power:+15V") (at 278.13 105.41 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 94d8c0ef-788e-401d-b84d-b1e1c20b5ad0)
-    (property "Reference" "#PWR044" (at 274.32 105.41 0)
+    (property "Reference" "#PWR045" (at 274.32 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 276.86 107.95 90)
@@ -4572,11 +4572,11 @@
     (property "Datasheet" "" (at 278.13 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2865199e-69e4-4fc4-8a96-eecff9b02bba))
+    (pin "1" (uuid 275c5cdc-442e-4fdf-9a68-a2cb75967f5a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -4585,10 +4585,10 @@
   (symbol (lib_id "Device:C") (at 279.4 130.81 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e5b3b75-838d-49ca-9d77-cb76ab7d1e4e)
-    (property "Reference" "C22" (at 283.21 129.5399 0)
+    (property "Reference" "C22" (at 283.21 129.54 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u" (at 283.21 132.0799 0)
+    (property "Value" "10u 25V" (at 283.21 132.08 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 280.3652 134.62 0)
@@ -4597,14 +4597,14 @@
     (property "Datasheet" "~" (at 279.4 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "CL21B106KOQNNNG" (at 279.4 130.81 0)
+    (property "MFR_PN" "GRM21BZ71E106KE15K" (at 279.4 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "CL21B106KOQNNNE" (at 279.4 130.81 0)
+    (property "MFR_PN_ALT" "GRM21BZ71E106KE15L" (at 279.4 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 943f7ea5-b4ed-42ca-a50f-69626d58de1d))
-    (pin "2" (uuid d18918b8-db3e-4189-b9b5-13edd55d71ae))
+    (pin "1" (uuid 9724ea0e-f989-4bc2-b6af-bda732e92b24))
+    (pin "2" (uuid 0798a0bf-d51e-4e43-b166-72c43f7a3578))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4617,7 +4617,7 @@
   (symbol (lib_id "power:GND") (at 153.162 31.496 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ef2d1b9-aef8-413d-be66-43afd55beeae)
-    (property "Reference" "#PWR0185" (at 153.162 37.846 0)
+    (property "Reference" "#PWR018" (at 153.162 37.846 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 153.162 35.941 0)
@@ -4629,11 +4629,11 @@
     (property "Datasheet" "" (at 153.162 31.496 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7e8559af-a940-421a-a133-dd65efc7551b))
+    (pin "1" (uuid 303f5813-b581-4c3e-8530-abe73466127e))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR0185") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -4657,14 +4657,14 @@
     (property "MFR_PN" "TL082HIDR" (at 318.77 207.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 26937939-86f7-4646-8967-80e55e0bf1da))
-    (pin "2" (uuid d379879f-24eb-4f5e-b94e-6c580d2d1b75))
-    (pin "3" (uuid c2f1509f-eeeb-468b-92de-94c0b95afa05))
-    (pin "5" (uuid c5fdef99-127b-4fab-bd85-ff4045ea8ddf))
-    (pin "6" (uuid 4337d3cf-545f-44c4-8b3d-dd91ebe6bf32))
-    (pin "7" (uuid 9ee5834d-b5b9-4d16-a44e-2afe4b4a2418))
-    (pin "4" (uuid 8ee7b69a-f423-401a-926e-e318af9f8bb1))
-    (pin "8" (uuid 7f4ded46-2b6e-4e28-9be6-6a34996dc4d4))
+    (pin "1" (uuid d6abe0e1-eb55-4f13-8223-b921ec5f2aca))
+    (pin "2" (uuid 4d18bf4c-1c3e-43cb-93a6-f7ba83511c47))
+    (pin "3" (uuid d5903932-04d0-4ad7-8176-64ad5ee88111))
+    (pin "5" (uuid 9a28686d-eb88-4e40-8c41-1d6aba9d7809))
+    (pin "6" (uuid 06abd2e2-401e-4376-8409-b6c097c909ae))
+    (pin "7" (uuid 9a983de4-849c-479b-9345-a32dad17ee95))
+    (pin "4" (uuid ddd6b9c5-f002-429b-be7f-2a0313c69272))
+    (pin "8" (uuid 45d0fe5e-4dc2-47e9-ac49-2ac5464c4643))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4695,8 +4695,8 @@
     (property "MFR_PN_ALT" "CR0603-J/-000ELF" (at 308.61 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bb4f62c8-5643-47db-852d-b03b18f0b8aa))
-    (pin "2" (uuid 60a61250-42a3-4ffd-83fa-7bad255a20ea))
+    (pin "1" (uuid f5abef40-a01f-4b65-a2db-aa1be3a69bca))
+    (pin "2" (uuid 39bad70d-90fb-40d9-8f7a-cba850c3752a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4709,7 +4709,7 @@
   (symbol (lib_id "power:+9VA") (at 191.77 45.72 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a229b09f-f7ad-4664-88ef-c256a89acbd9)
-    (property "Reference" "#PWR024" (at 194.945 45.72 0)
+    (property "Reference" "#PWR025" (at 194.945 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 187.96 45.7199 90)
@@ -4721,11 +4721,11 @@
     (property "Datasheet" "" (at 191.77 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61520e29-b0a5-4f19-8159-9e8401706701))
+    (pin "1" (uuid 4fdf3c80-6747-4e72-8703-6c1cd0cbbb7e))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -4752,8 +4752,8 @@
     (property "MFR_PN_ALT" "RMCF0603FT100R" (at 313.69 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 44e87d55-5568-4af2-bf83-e2dbfbea83be))
-    (pin "2" (uuid d8aff6b1-20c6-4ecf-aa87-6646b900b47c))
+    (pin "1" (uuid e75867e6-689c-489e-abe0-2125d328685e))
+    (pin "2" (uuid 04dc445a-4464-404f-977d-9edc8a868f38))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4766,7 +4766,7 @@
   (symbol (lib_id "power:+3.3VA") (at 230.505 202.565 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5a865f7-def8-4456-a2e7-62d544f87252)
-    (property "Reference" "#PWR035" (at 230.505 206.375 0)
+    (property "Reference" "#PWR036" (at 230.505 206.375 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3.3VA" (at 230.505 197.485 0)
@@ -4778,11 +4778,11 @@
     (property "Datasheet" "" (at 230.505 202.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 348b492b-66e3-4899-8ebd-72a5920409f4))
+    (pin "1" (uuid 18523d63-d300-418a-aeab-36052a330e81))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -4791,7 +4791,7 @@
   (symbol (lib_id "power:GND") (at 240.665 229.235 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a5d6e037-6874-4302-96dd-bd9a3e103891)
-    (property "Reference" "#PWR038" (at 240.665 235.585 0)
+    (property "Reference" "#PWR039" (at 240.665 235.585 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.665 233.045 0)
@@ -4803,11 +4803,11 @@
     (property "Datasheet" "" (at 240.665 229.235 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4544a07f-def2-41f5-af58-194e91c7697a))
+    (pin "1" (uuid 3ecc44c2-3add-40d8-af91-16adf6486b70))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -4828,7 +4828,7 @@
     (property "Datasheet" "" (at 124.46 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0669011d-bab7-4236-8ce1-368dbe162bb0))
+    (pin "1" (uuid 5cbf0ac6-7414-44f8-a6df-da9ac5152332))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4856,8 +4856,8 @@
     (property "MFR_PN" "ERA-3AEB301V" (at 231.14 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9ecadb16-d8e7-44da-8ecb-9cdf322ace41))
-    (pin "2" (uuid 463a0415-6bfd-4a19-8f6a-1e57f9da80ae))
+    (pin "1" (uuid d6fe925e-2511-4953-8c09-516708c87265))
+    (pin "2" (uuid 0908daca-b0c5-471b-8b38-65a19ac9f645))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4888,8 +4888,8 @@
     (property "MFR_PN_ALT" "WR06X10R0FTL" (at 246.38 210.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 16fc0fa7-b680-42a9-9b3e-cdb97753ca1c))
-    (pin "2" (uuid b9585116-bf1f-497e-94ed-2b250b9d4e17))
+    (pin "1" (uuid e4d3d01f-f872-4548-ac33-4a79f349d9e4))
+    (pin "2" (uuid 8b0d36e5-2d50-4b19-941e-c8edd66fbb05))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4920,8 +4920,8 @@
     (property "MFR_PN_ALT" "CR0603-J/-000ELF" (at 331.47 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 24c2ef35-c32c-4b64-a2b7-d8eccd248039))
-    (pin "2" (uuid 7bad1bb4-4d2c-40ee-83a6-c8c0e2cf1b23))
+    (pin "1" (uuid 7880edfd-f4d8-4b4c-bcaa-a120c73dcd1f))
+    (pin "2" (uuid 87cf8523-104d-4c7b-b331-03e47cceff80))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -4934,7 +4934,7 @@
   (symbol (lib_id "power:+9VA") (at 185.42 147.32 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3092184-ff76-4808-b67c-7ea7aadc5954)
-    (property "Reference" "#PWR019" (at 188.595 147.32 0)
+    (property "Reference" "#PWR020" (at 188.595 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 181.61 147.3199 90)
@@ -4946,11 +4946,11 @@
     (property "Datasheet" "" (at 185.42 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 548b9398-ee14-4c17-9dfd-6ccdeb00c3c3))
+    (pin "1" (uuid f0ef5059-5e99-4e6d-ab40-782e74f2851f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -4971,7 +4971,7 @@
     (property "Datasheet" "" (at 88.9 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1eb893cb-966f-4e67-841f-b4dc25cdfe39))
+    (pin "1" (uuid e0195aaa-5273-4f29-a243-d716cb67c654))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5002,8 +5002,8 @@
     (property "MFR_PN_ALT" "CL10C181JB81PND" (at 237.49 103.505 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 76a975e4-8371-4a32-88a7-688a20b1e716))
-    (pin "2" (uuid 40f8dcf1-73e8-4104-a3f9-2ce5e3456a84))
+    (pin "1" (uuid a9b2192f-0992-4723-8152-99e2f248a327))
+    (pin "2" (uuid 6b425124-1557-4685-b353-a453ccb86496))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5031,8 +5031,8 @@
     (property "MFR_PN" "ERA-3AEB823V" (at 111.76 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1f11a2ed-fb6e-49d7-8f92-6132c2fd5d81))
-    (pin "2" (uuid c60a9d15-7277-4423-ad43-6ea4b07c3115))
+    (pin "1" (uuid d9306d14-cea0-44d6-bef9-f166759f248d))
+    (pin "2" (uuid b3f582fb-bd5e-4fb3-aaaf-35dfeb1c6ab6))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5045,7 +5045,7 @@
   (symbol (lib_id "power:+9VA") (at 196.85 125.73 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b9da8ef3-8685-462f-8a3e-c3779610dd6e)
-    (property "Reference" "#PWR028" (at 193.675 125.73 0)
+    (property "Reference" "#PWR029" (at 193.675 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 200.66 125.7299 90)
@@ -5057,11 +5057,11 @@
     (property "Datasheet" "" (at 196.85 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b65bec9e-fce3-4ed5-8c10-26d71b2fe5bb))
+    (pin "1" (uuid f0897335-da8c-492b-921d-f8da9349e4fc))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -5070,7 +5070,7 @@
   (symbol (lib_id "power:GND") (at 349.885 127.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bcbda3c7-7e9b-441d-b86c-cb49c070efc8)
-    (property "Reference" "#PWR048" (at 349.885 133.985 0)
+    (property "Reference" "#PWR049" (at 349.885 133.985 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 349.885 131.445 0)
@@ -5082,11 +5082,11 @@
     (property "Datasheet" "" (at 349.885 127.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 94f13c03-f470-4338-abd8-420686310d77))
+    (pin "1" (uuid 032fe496-0032-4897-8ba5-7f1ad88dc92d))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -5095,11 +5095,11 @@
   (symbol (lib_id "kirdy:SPDT_204-121ST") (at 133.35 31.496 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c04d5138-275d-44bb-bcdd-bb414edb7069)
-    (property "Reference" "SW2" (at 138.43 28.956 0)
+    (property "Reference" "SW1" (at 138.43 28.956 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "~" (at 133.35 36.576 0)
-      (effects (font (size 1.27 1.27)))
+    (property "Value" "204-121ST" (at 133.35 36.576 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (property "Footprint" "kirdy:204-121ST" (at 133.35 36.576 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5110,14 +5110,14 @@
     (property "MFR_PN" "204-121ST" (at 133.35 31.496 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b114c340-15e1-456e-8f9f-658d5a8363f9))
-    (pin "2" (uuid d17b6e1e-7876-4b84-b402-27af9a09240e))
-    (pin "3" (uuid 760808d0-318f-46a4-87de-a5117c7c4127))
-    (pin "4" (uuid d91b60ca-4d92-48c5-94bc-fe0ab369c850))
+    (pin "1" (uuid 6060096c-e428-4583-a977-edf0e9a2b728))
+    (pin "2" (uuid 21743938-3425-4ac0-ad2c-8ca85fa36c3c))
+    (pin "3" (uuid 1387f78d-9a6d-45b7-a156-4f98eee37c2f))
+    (pin "4" (uuid fbb9a5a4-4b03-4ef9-8899-1464227c714a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "SW2") (unit 1)
+          (reference "SW1") (unit 1)
         )
       )
     )
@@ -5144,8 +5144,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 201.295 201.295 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b68bc42c-0439-4409-b2cc-1728530cbc5b))
-    (pin "2" (uuid 9928d4b4-3bda-4ed5-96df-f6dfecf9f278))
+    (pin "1" (uuid 2b22fba1-dfce-4ea5-857a-80ab0c6754ce))
+    (pin "2" (uuid eb37d2ee-a21b-4061-9523-2f679b4d0f6b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5173,8 +5173,8 @@
     (property "MFR_PN" "ERA-3AEB911V" (at 124.46 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid eb3c6ecc-b169-4e24-8825-8185a244a67c))
-    (pin "2" (uuid 9c9536fa-2070-43df-8456-92afaf599625))
+    (pin "1" (uuid a712a7b6-ca73-4aaf-99cc-867d36d4bb1f))
+    (pin "2" (uuid b3d675f6-d977-447e-8022-928f315e7d1a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5184,26 +5184,26 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 39.37 109.22 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 35.56 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6075b38-12c8-4ff5-9ba1-c690b686db71)
-    (property "Reference" "C1" (at 43.18 107.9499 0)
+    (property "Reference" "C1" (at 39.37 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2u PET" (at 43.18 110.4899 0)
+    (property "Value" "2u2 PMLCAP" (at 39.37 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 40.3352 113.03 0)
+    (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 36.5252 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 39.37 109.22 0)
+    (property "Datasheet" "~" (at 35.56 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "35MU225MC14532" (at 39.37 109.22 0)
+    (property "MFR_PN" "35MU225MC14532" (at 35.56 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0080ea4b-4b27-4e09-b8fd-489795381bce))
-    (pin "2" (uuid bb48e011-4ec8-4e2b-811f-87901b7fead3))
+    (pin "1" (uuid 444612f2-a100-41dc-890f-7eca058ee5c2))
+    (pin "2" (uuid e1123d21-a75a-410a-8f9d-f7aeeeaee0fe))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5216,7 +5216,7 @@
   (symbol (lib_id "power:+8V") (at 344.17 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c66bdd89-bde9-4c51-94d1-a5152521e393)
-    (property "Reference" "#PWR047" (at 344.17 38.1 0)
+    (property "Reference" "#PWR048" (at 344.17 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+8V" (at 344.17 29.21 0)
@@ -5228,11 +5228,11 @@
     (property "Datasheet" "" (at 344.17 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 399b99e8-d881-41e2-b0a0-315a13ecb7a9))
+    (pin "1" (uuid bb843585-66e3-4189-8a56-14455018aab5))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -5241,7 +5241,7 @@
   (symbol (lib_id "power:GND") (at 240.03 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c6a2f32b-6702-4677-ab90-864affeeb1d2)
-    (property "Reference" "#PWR037" (at 240.03 134.62 0)
+    (property "Reference" "#PWR038" (at 240.03 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 132.7134 0)
@@ -5253,11 +5253,11 @@
     (property "Datasheet" "" (at 240.03 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 188c510b-40f8-41b3-ae38-5a39e8502a6b))
+    (pin "1" (uuid 9c406cf3-015e-4779-9f20-19994baba3d1))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -5284,8 +5284,8 @@
     (property "MFR_PN_ALT" "CL10B103KB8NNNC" (at 240.665 218.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 81e21b4d-2c98-4eb8-90a1-10e4958b951d))
-    (pin "2" (uuid 8d534fa8-1c90-4641-9099-21dc89f6a2d5))
+    (pin "1" (uuid 5e31774e-d301-40e2-bec7-eb2478aa4199))
+    (pin "2" (uuid 8b7353ec-0e3a-4d69-834a-b1e65089d4f5))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5298,7 +5298,7 @@
   (symbol (lib_id "power:GND") (at 195.58 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c76d145b-1476-4a5f-94e1-774949b9b838)
-    (property "Reference" "#PWR027" (at 195.58 156.21 0)
+    (property "Reference" "#PWR028" (at 195.58 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 195.58 154.94 0)
@@ -5310,11 +5310,11 @@
     (property "Datasheet" "" (at 195.58 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8574a38f-563d-4c18-b7f0-4da0a23de107))
+    (pin "1" (uuid 606fafb8-382a-4206-9466-9efa9c3d571e))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -5323,7 +5323,7 @@
   (symbol (lib_id "power:GND") (at 230.505 217.805 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c8e2836f-4cd0-45bc-ab2d-c0174b0c8e3e)
-    (property "Reference" "#PWR036" (at 230.505 224.155 0)
+    (property "Reference" "#PWR037" (at 230.505 224.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 230.505 222.885 0)
@@ -5335,11 +5335,11 @@
     (property "Datasheet" "" (at 230.505 217.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 525179fd-39f0-4911-a82f-c23e0638dba9))
+    (pin "1" (uuid 98dab082-ef90-48cf-833a-b27201d2219b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR037") (unit 1)
         )
       )
     )
@@ -5363,13 +5363,13 @@
     (property "MFR_PN" "ADA4898-1YRDZ" (at 193.04 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid b52435c0-3d70-4753-af6f-fde88c9958c8))
-    (pin "3" (uuid e19149cc-eba5-4ae3-a099-1b7fc5fe0081))
-    (pin "4" (uuid 59cbe498-aa34-4fd7-8556-d0e30ff71615))
-    (pin "6" (uuid 4c4dde63-3149-4c6f-a0f0-2aa7cc88ed1d))
-    (pin "7" (uuid 1fbfe8ce-e27f-47f3-ae76-6faf2caf0078))
-    (pin "8" (uuid 16590835-e4dc-44b8-b839-a39b5459e046))
-    (pin "9" (uuid 650c8639-3e68-4a3c-a2c5-41a66827a026))
+    (pin "2" (uuid e66a4a68-7bab-4f84-ae19-e62f4f308f4e))
+    (pin "3" (uuid 131ad2e4-7869-4185-930b-3e24da685cce))
+    (pin "4" (uuid 3cc14fde-a092-4142-b799-c84ace92e347))
+    (pin "6" (uuid d6af84bd-7964-44f4-9dd5-e6f56e910770))
+    (pin "7" (uuid 17ee0072-5d2a-42f2-b509-717a017861d8))
+    (pin "8" (uuid b8f13e5f-a33d-4ea6-9f71-16faff5217a2))
+    (pin "9" (uuid 749fff9f-7de4-46aa-9e10-e9f645950426))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5382,7 +5382,7 @@
   (symbol (lib_id "power:-6V") (at 190.5 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid cc384f65-7f0d-4678-98b8-ac73a44b359a)
-    (property "Reference" "#PWR021" (at 190.5 85.09 0)
+    (property "Reference" "#PWR022" (at 190.5 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 190.5 86.36 0)
@@ -5394,11 +5394,11 @@
     (property "Datasheet" "" (at 190.5 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 46458fc1-9b16-4403-9283-b68c67bcf776))
+    (pin "1" (uuid acacc023-f4b9-45ee-adab-dceb9414de12))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -5407,7 +5407,7 @@
   (symbol (lib_id "power:GND") (at 201.93 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cea22646-4153-462f-8f23-1adee3daf07b)
-    (property "Reference" "#PWR030" (at 201.93 54.61 0)
+    (property "Reference" "#PWR031" (at 201.93 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 53.34 0)
@@ -5419,32 +5419,32 @@
     (property "Datasheet" "" (at 201.93 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d2b95536-bc57-4c7c-8f40-7c3585bd3b61))
+    (pin "1" (uuid 080edc0f-d969-4420-bcdb-71624d1dfddd))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 93.98 97.79 180) (unit 1)
+  (symbol (lib_id "power:GND") (at 96.52 97.79 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cea80a2b-f073-4c51-9602-dfdf093ee090)
-    (property "Reference" "#PWR012" (at 93.98 91.44 0)
+    (property "Reference" "#PWR012" (at 96.52 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 93.98 92.71 0)
+    (property "Value" "GND" (at 96.52 92.71 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 93.98 97.79 0)
+    (property "Footprint" "" (at 96.52 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 93.98 97.79 0)
+    (property "Datasheet" "" (at 96.52 97.79 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a528e665-6caf-4d2f-8d48-d3f8fd5ba3c4))
+    (pin "1" (uuid 681e1e2e-ebfc-4530-a80b-a65dc1e52b29))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5469,7 +5469,7 @@
     (property "Datasheet" "" (at 80.645 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1be37838-8bdd-40c8-8387-95d1ef85b892))
+    (pin "1" (uuid 4492c0eb-2b58-4672-acc1-0b2089e40353))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5500,8 +5500,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 265.43 130.81 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 61272889-2489-49ac-854a-e849fd212ad0))
-    (pin "2" (uuid bca70041-9059-42fa-bbd5-a3a439eae714))
+    (pin "1" (uuid 057a3f7b-b9ac-494b-b4c1-75e5d92c2246))
+    (pin "2" (uuid 1b051f8a-5642-471f-9665-679b274edaee))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5514,7 +5514,7 @@
   (symbol (lib_id "Switch:SW_DIP_x03") (at 149.86 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d0562bc2-e525-438b-aa70-bcc95a4749e3)
-    (property "Reference" "SW1" (at 149.86 52.705 0)
+    (property "Reference" "SW2" (at 149.86 52.705 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SW_DIP_x03" (at 149.86 66.675 0)
@@ -5529,16 +5529,16 @@
     (property "MFR_PN" "A6SN-3104" (at 149.86 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 841d955c-6c16-4e4b-b823-092968caef9f))
-    (pin "2" (uuid 555b2e59-6558-42b6-a124-551632cb2ba7))
-    (pin "3" (uuid 881b0c90-9990-4f6a-b03c-0db63c88b110))
-    (pin "4" (uuid faa39752-abe3-4c9a-a6f3-568938876e45))
-    (pin "5" (uuid cdb1aee7-08b6-4d52-b23c-b4e31c4685d8))
-    (pin "6" (uuid b97a6bd7-4aad-4cb1-aab6-1dbf826061c3))
+    (pin "1" (uuid 5bf1512d-b2d2-4ba7-9fc2-3422592c7e2f))
+    (pin "2" (uuid 9b18437c-76b6-4bc5-94ed-72c8ec5194e9))
+    (pin "3" (uuid e69082ef-ab43-40b5-b4b2-4173adbc9e22))
+    (pin "4" (uuid 936cd77c-3521-4695-9ff2-d898dd24cffb))
+    (pin "5" (uuid 1ad55ca7-ebf5-4184-a31b-08b9c81bd6e5))
+    (pin "6" (uuid a608da19-4089-471a-a269-5a6216dc3cda))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "SW1") (unit 1)
+          (reference "SW2") (unit 1)
         )
       )
     )
@@ -5559,14 +5559,14 @@
     (property "Datasheet" "~" (at 210.82 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "RT0603FRE07300RL" (at 210.82 115.57 0)
+    (property "MFR_PN" "WR06X1000FTL" (at 210.82 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "RC0603FR-10300RL" (at 210.82 115.57 0)
+    (property "MFR_PN_ALT" "RMCF0603FT100R" (at 210.82 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ac9cc2c-d5f8-4757-a1fd-5a75618342a7))
-    (pin "2" (uuid 3efe923b-06ba-404b-916b-d252b0405d59))
+    (pin "1" (uuid 275ca32f-14d9-4e8c-a513-1c4806f555e7))
+    (pin "2" (uuid 816cab21-86c4-4a39-949a-614623dba12d))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5591,7 +5591,7 @@
     (property "Datasheet" "~" (at 349.25 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 154ff1c0-5e45-4acc-bf0a-41147811eb43))
+    (pin "1" (uuid 49f1f7a7-6f5e-485b-b721-fd00ea85d368))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5604,7 +5604,7 @@
   (symbol (lib_id "power:GND") (at 355.6 205.105 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d259e391-7457-4660-9749-f07412b92c0e)
-    (property "Reference" "#PWR049" (at 355.6 211.455 0)
+    (property "Reference" "#PWR050" (at 355.6 211.455 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 355.6 208.915 0)
@@ -5616,11 +5616,11 @@
     (property "Datasheet" "" (at 355.6 205.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee647d0c-114d-43c1-a251-0ddaa1cbf2e9))
+    (pin "1" (uuid b4f3d1e9-4a90-4b47-ac22-6e9e491ad9f6))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -5647,8 +5647,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 195.58 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fd6af8b5-319d-41df-bcd2-308576ea11e0))
-    (pin "2" (uuid 33952a94-4bfa-47ad-87d1-cb0bc6a77b5a))
+    (pin "1" (uuid 3aa60438-676e-40e4-bb9b-953f89409505))
+    (pin "2" (uuid 8e1827ea-7548-4051-ae06-afdd461fae15))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5676,11 +5676,11 @@
     (property "MFR_PN" "SQJA70EP-T1_GE3" (at 347.345 95.25 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8a0952b7-2780-48d2-a0de-07446cf6e394))
-    (pin "2" (uuid 41b2d5a6-5d22-49ac-b69f-93a3f8d5d52f))
-    (pin "3" (uuid f9d1ab28-4f02-47b9-822d-4f4f683d0891))
-    (pin "4" (uuid 88ca6c75-6d1b-4296-9f51-8424e7d3c599))
-    (pin "5" (uuid 9cbbce0d-7a86-4cea-9f1c-f10ad78d2e29))
+    (pin "1" (uuid b20c041c-bd5b-416b-9e10-5ab63acd7639))
+    (pin "2" (uuid 863526f8-8c39-4d32-8065-50fe5d3ff1a2))
+    (pin "3" (uuid 119daba9-fc0c-4047-b92d-9adfbe09f6f3))
+    (pin "4" (uuid 0a67d2fd-0edb-483b-96cf-402e7a0d1e86))
+    (pin "5" (uuid 528dbcd9-9fb8-4a0b-b7d1-d02c015ed932))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5693,7 +5693,7 @@
   (symbol (lib_id "power:-6V") (at 270.51 107.95 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d79107b5-7dc2-415e-945e-ed09fd9cfe77)
-    (property "Reference" "#PWR043" (at 270.51 110.49 0)
+    (property "Reference" "#PWR044" (at 270.51 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 270.51 111.76 0)
@@ -5705,11 +5705,11 @@
     (property "Datasheet" "" (at 270.51 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 83d98755-3a95-4879-a726-00269fc13210))
+    (pin "1" (uuid 7a638ac4-5221-4460-b88e-f9cb1fcd216d))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -5736,8 +5736,8 @@
     (property "MFR_PN_ALT" "" (at 299.085 207.645 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 1d0047a6-1571-4111-9774-09094e248c4e))
-    (pin "2" (uuid adafcdff-16b9-40e9-9d4a-1a0191fd9917))
+    (pin "1" (uuid 137ec5f0-9d30-4806-bb41-d4de0af2ad41))
+    (pin "2" (uuid d21e4888-2e23-43cb-a02e-794b4131a43b))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5765,8 +5765,8 @@
     (property "MFR_PN" "B5819WS-TP" (at 318.77 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid abdc6bd0-5480-4e26-b98a-d2ea6c3bea02))
-    (pin "2" (uuid 2938740d-3cd8-4270-bedc-8ddf1a423fba))
+    (pin "1" (uuid c994d2e4-ae10-4d85-b822-8df8304bdd85))
+    (pin "2" (uuid b68eb0d7-235b-4d96-99f2-278c5264b700))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5797,8 +5797,8 @@
     (property "MFR_PN_ALT" "CL10B104KB8NNNL" (at 189.23 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid fb8e0b10-2675-4d84-abb9-dad3e224cbf5))
-    (pin "2" (uuid a1bafb1e-8873-4415-9190-f6359feb82e2))
+    (pin "1" (uuid f2868d2f-404f-49f7-beb5-bdc948b8cdd1))
+    (pin "2" (uuid 5006d1ab-ad41-492a-a0e2-a5178354aa9a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5811,7 +5811,7 @@
   (symbol (lib_id "power:-6V") (at 265.43 144.78 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e03d4cfa-81b2-4add-b063-90058145447f)
-    (property "Reference" "#PWR041" (at 265.43 147.32 0)
+    (property "Reference" "#PWR042" (at 265.43 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "-6V" (at 265.43 149.86 0)
@@ -5823,11 +5823,11 @@
     (property "Datasheet" "" (at 265.43 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b723f569-11fd-4fde-b725-69ef251e8919))
+    (pin "1" (uuid 8f17aee8-4c15-473e-879a-2b86ec6f6ff4))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR042") (unit 1)
         )
       )
     )
@@ -5851,8 +5851,8 @@
     (property "MFR_PN" "AQ4020-01FTG-C" (at 88.9 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 886f7089-04eb-4d28-be54-005f3d72049a))
-    (pin "2" (uuid 5cdd9007-c613-452d-b455-6b9acb223b57))
+    (pin "1" (uuid 8240d265-0e86-459a-8b20-383d36300f10))
+    (pin "2" (uuid db94a0ac-4185-491d-81f5-854cfe097b9d))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5880,8 +5880,8 @@
     (property "MFR_PN" "B5819WS-TP" (at 230.505 213.995 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 38ad67bf-b897-4e5c-9556-f3abd2bc3eee))
-    (pin "2" (uuid 28f87f1e-da79-4858-be1b-e9f73ad3fa79))
+    (pin "1" (uuid ec0d41af-4997-4d29-b76c-4b11604e6344))
+    (pin "2" (uuid cd931678-b276-4bf1-8c14-3afac5c726db))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5894,7 +5894,7 @@
   (symbol (lib_id "power:+9VA") (at 190.5 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e25c6fe0-b2f1-40d9-ac68-8d2d96853d01)
-    (property "Reference" "#PWR022" (at 190.5 111.125 0)
+    (property "Reference" "#PWR023" (at 190.5 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 190.5 104.14 0)
@@ -5906,11 +5906,11 @@
     (property "Datasheet" "" (at 190.5 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ce45dbdf-aeac-48dd-b2ba-aa6bff7d4a5f))
+    (pin "1" (uuid 6ca92e88-588c-45e6-9ea9-3f0020a28094))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -5934,8 +5934,8 @@
     (property "MFR_PN" "ECH-U1C104JX5" (at 125.73 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9cdca92a-f740-45ca-94bc-67bc00f0ccbe))
-    (pin "2" (uuid 4f050b2a-32fa-4aa9-a499-7930b8e22143))
+    (pin "1" (uuid 538d6f86-b7f6-43cf-9574-efe079e57bcd))
+    (pin "2" (uuid 5c764bd1-f9a3-4d03-a75b-19d6db8c3ad5))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -5948,7 +5948,7 @@
   (symbol (lib_id "power:+9VA") (at 190.5 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e42d3e8b-b42d-4358-a3c4-e0df9650fb31)
-    (property "Reference" "#PWR020" (at 190.5 65.405 0)
+    (property "Reference" "#PWR021" (at 190.5 65.405 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+9VA" (at 190.5 58.42 0)
@@ -5960,11 +5960,11 @@
     (property "Datasheet" "" (at 190.5 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b7d956a3-6288-4ea2-8314-25dc42e5dfab))
+    (pin "1" (uuid cf980a78-19f2-4b77-9508-56a3dccc7d7a))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -5973,10 +5973,10 @@
   (symbol (lib_id "Device:C") (at 162.56 120.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e8a7395c-b328-4a48-81a4-7da6a4753156)
-    (property "Reference" "C6" (at 166.37 119.3799 0)
+    (property "Reference" "C6" (at 166.37 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2u PET" (at 166.37 121.9199 0)
+    (property "Value" "2u2 PMLCAP" (at 166.37 121.92 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_1812_4532Metric" (at 163.5252 124.46 0)
@@ -5988,8 +5988,8 @@
     (property "MFR_PN" "35MU225MC14532" (at 162.56 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5ef673dd-e0fa-4814-8e35-39d4305f77cb))
-    (pin "2" (uuid f173af88-df13-41e3-844d-0c1624670364))
+    (pin "1" (uuid 9ca31591-9e5c-4d3b-8adf-0a28fbb3ac73))
+    (pin "2" (uuid be2770fa-1fa0-4162-ad21-7e3e2d593faa))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6005,7 +6005,7 @@
     (property "Reference" "U1" (at 61.595 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "LTC6655BHLS8-4.096" (at 61.595 100.33 0)
+    (property "Value" "LTC6655BHLS8-4.096#PBF" (at 61.595 100.33 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "kirdy:LCC127P500X500X155-8N" (at 60.96 116.84 0)
@@ -6014,17 +6014,17 @@
     (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ltc6655-6655ln.pdf" (at 59.69 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "LTC6655BHLS8-4.096" (at 60.96 110.49 0)
+    (property "MFR_PN" "LTC6655BHLS8-4.096#PBF" (at 60.96 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 7eaf17fa-8e62-4ac3-8755-9e9480ab7380))
-    (pin "2" (uuid 819b11dc-e894-4614-943a-f42db794639b))
-    (pin "3" (uuid 2b2e4ab3-8fb3-4470-9adb-8298f5e33ff1))
-    (pin "4" (uuid 7b7da65b-6a7a-4de9-884e-095e30ca515c))
-    (pin "5" (uuid c8426275-c1e2-4fea-b66f-6a366bb69be0))
-    (pin "6" (uuid 775befa2-76f1-4842-8257-9ff48c008e0a))
-    (pin "7" (uuid d3df5124-77e3-4e76-8f72-d9be6e2db303))
-    (pin "8" (uuid db837392-2afe-438b-a9bc-2620f28e3610))
+    (pin "1" (uuid ac53e0d5-14de-4375-8d8b-4a94b13235fa))
+    (pin "2" (uuid 2420aba4-0ea9-4b2e-b647-4bc52ced60d0))
+    (pin "3" (uuid 29775d38-fee8-4608-b3ae-4b0b94ba3bbb))
+    (pin "4" (uuid 3af7693d-98a9-410d-a6d0-9f473f013148))
+    (pin "5" (uuid 008c5e04-4033-43a7-a3e8-1a3616812255))
+    (pin "6" (uuid bf34d6f7-ee1d-4adf-b3bf-ab706341a48e))
+    (pin "7" (uuid ab50d596-760f-4a9e-9ed6-001f741b9e9c))
+    (pin "8" (uuid 66553605-6187-4169-b1d4-3314321b7c92))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6055,20 +6055,20 @@
     (property "MFR_PN_ALT" "MAX5719GSD+" (at 121.92 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3701428b-a97e-4497-8f0d-6b899338958d))
-    (pin "10" (uuid 13c263ea-a953-4e9a-ad66-392d4e2a5406))
-    (pin "11" (uuid 155ce53a-78a0-4d7f-a776-26d65614a69e))
-    (pin "12" (uuid 20793654-ce16-484a-bd3e-0c7b0b602f1b))
-    (pin "13" (uuid 05f15303-5942-4ee2-bffd-d561cdc9a7d7))
-    (pin "14" (uuid e551a82d-630d-4221-94de-d5003b4b2b18))
-    (pin "2" (uuid 258919cf-f949-4802-9788-ae64003e16fe))
-    (pin "3" (uuid 085f14f1-2a49-47a3-a51a-30b44b0014de))
-    (pin "4" (uuid 698d5006-bb9b-40df-a43e-8fa1cac8152a))
-    (pin "5" (uuid 8b80dd7b-9eab-41c7-bb64-b481fae70b95))
-    (pin "6" (uuid 26adf907-6d11-423c-8683-afe5410fedee))
-    (pin "7" (uuid f3aa7392-c424-4c16-86ed-5fbae6be68a4))
-    (pin "8" (uuid 756f09be-8571-45e5-bd04-798efc94d74a))
-    (pin "9" (uuid eb8f125a-298d-41ca-92d1-3493e1fbb62a))
+    (pin "1" (uuid c13aff2b-f207-4d83-9ecd-b4dfd21cb753))
+    (pin "10" (uuid c301a1fa-0915-468a-96d3-db1d6f0a3250))
+    (pin "11" (uuid a1149d0f-1c04-45c5-a89e-b9b4d1c7d094))
+    (pin "12" (uuid 7de7efa3-a832-4ecb-8f13-89c34d6d979c))
+    (pin "13" (uuid 6c85a219-b6c4-44f9-b189-609c20d74f38))
+    (pin "14" (uuid 946e4c17-0c8e-4613-bb02-fc0f93c6a879))
+    (pin "2" (uuid d9406806-e7ef-4fc1-b277-02c3dc1edcea))
+    (pin "3" (uuid 0f3a146f-78e1-4bd9-92f2-dc11a88f3dc3))
+    (pin "4" (uuid b633c1c7-d9fb-4c14-aa3c-8998c183ae34))
+    (pin "5" (uuid db3d0997-a20b-42d5-86cb-5cc14e7c9942))
+    (pin "6" (uuid 13a16e7b-e020-4fae-9961-11f0431b13ec))
+    (pin "7" (uuid 9efa95bb-be4b-4216-861a-da1820ecd6fb))
+    (pin "8" (uuid 410b5857-4c33-47fe-b131-1296446aa252))
+    (pin "9" (uuid bf156827-dff5-44f9-9de6-7e3847243553))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6099,8 +6099,8 @@
     (property "MFR_PN_ALT" "" (at 393.065 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 497c96eb-f2ff-478c-bcce-e375614aa3e7))
-    (pin "2" (uuid 5b3d1352-f625-44ef-bf30-75ed72f5497e))
+    (pin "1" (uuid 0dd0b831-be51-47ce-aa80-741df6f422a9))
+    (pin "2" (uuid 378a7d20-d260-43ac-93b0-1879b7847a1f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6128,8 +6128,8 @@
     (property "MFR_PN" "ECH-U1C104JX5" (at 240.03 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 058f9dde-2773-49e2-882b-7e08fc86b7ba))
-    (pin "2" (uuid e1ce584e-452b-4687-8e04-c207569bc82a))
+    (pin "1" (uuid b74d333d-14b3-4d6b-8382-c2bc49cbbcc7))
+    (pin "2" (uuid dca6239f-5e53-4971-b908-9bea85d149c6))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6142,7 +6142,7 @@
   (symbol (lib_id "power:+15V") (at 270.51 87.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4f71da4-602f-4bb4-aa0d-484f08abc473)
-    (property "Reference" "#PWR042" (at 270.51 91.44 0)
+    (property "Reference" "#PWR043" (at 270.51 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+15V" (at 270.51 83.82 0)
@@ -6154,11 +6154,11 @@
     (property "Datasheet" "" (at 270.51 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 577a0090-d131-4ede-8d6e-8891012fcb1a))
+    (pin "1" (uuid 6dc258d8-7398-46ff-829d-be8fa8ee00a2))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR043") (unit 1)
         )
       )
     )
@@ -6185,9 +6185,9 @@
     (property "MFR_PN_ALT" "BSS138W-7-F" (at 334.01 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 08a12cd4-9038-4c04-b760-3807334f7c52))
-    (pin "2" (uuid 7f2eb455-d07e-49d8-af6e-b2f9c559cfe1))
-    (pin "3" (uuid 4e2edd5b-7dbb-4169-b9f8-ca9b25c82fab))
+    (pin "1" (uuid 13b66f1b-43d6-4613-8ad5-88af6df42482))
+    (pin "2" (uuid 709f71b4-3885-49b3-a5d3-64f000fbca63))
+    (pin "3" (uuid e4959e8b-bfb1-42fc-aa8c-7c59f49658c5))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6197,26 +6197,26 @@
     )
   )
 
-  (symbol (lib_id "Device:C") (at 93.98 101.6 0) (unit 1)
+  (symbol (lib_id "Device:C") (at 96.52 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f78053c2-bf22-40f8-bc62-7c0d23a1ab11)
-    (property "Reference" "C3" (at 97.79 100.3299 0)
+    (property "Reference" "C3" (at 100.33 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n PPS" (at 97.79 102.8699 0)
+    (property "Value" "100n PPS" (at 100.33 102.8699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 94.9452 105.41 0)
+    (property "Footprint" "Capacitor_SMD:C_1210_3225Metric" (at 97.4852 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 93.98 101.6 0)
+    (property "Datasheet" "~" (at 96.52 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "ECH-U1C104JX5" (at 93.98 101.6 0)
+    (property "MFR_PN" "ECH-U1C104JX5" (at 96.52 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4c22a895-e826-45d0-b670-5e965da42608))
-    (pin "2" (uuid 95719794-6740-470b-ba16-9f1a73ffb891))
+    (pin "1" (uuid e0330d28-2232-4d32-91e5-0748c8712c15))
+    (pin "2" (uuid cec5b599-2b22-41a5-9cf6-91c2d79b309f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6244,14 +6244,14 @@
     (property "MFR_PN" "TL082HIDR" (at 264.16 210.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ee014c83-23c5-4475-8419-0df5f348e726))
-    (pin "2" (uuid 979dd26d-febd-4923-a8d1-978bd9bf0f44))
-    (pin "3" (uuid 183f9d8a-8d32-4ec5-969b-5d519135dab4))
-    (pin "5" (uuid 7993a0f1-c42c-4356-b902-25d78d6568de))
-    (pin "6" (uuid 6313da15-6240-4dc0-8720-7abc4fd064cd))
-    (pin "7" (uuid 194708de-f5a3-4f98-a8ef-c4037ef232a9))
-    (pin "4" (uuid 857bc297-6ce7-449e-b332-ce4ac7002228))
-    (pin "8" (uuid c6142cee-3e62-4532-ae03-7ee0da3a5f96))
+    (pin "1" (uuid cf831432-028b-407d-94f3-dca2d919fe2a))
+    (pin "2" (uuid 12193324-659b-4002-b9e5-464aec7e59fa))
+    (pin "3" (uuid cffb1c5b-ed1f-4721-b9d6-6a5726ead7d1))
+    (pin "5" (uuid cb000865-9f1e-42f6-b1f4-5c144ed83c53))
+    (pin "6" (uuid 95643826-c86d-4abd-8681-5dbf9b3f7e2d))
+    (pin "7" (uuid 34a5b1ad-f37b-4011-8cb1-a83078e5089a))
+    (pin "4" (uuid 36720d82-c810-476e-b64c-3d45fbb279b9))
+    (pin "8" (uuid bc4666a8-8d7e-48a3-bd4d-3103d3fdf623))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6279,14 +6279,14 @@
     (property "MFR_PN" "TL082HIDR" (at 207.645 210.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e407f35c-060d-479e-b93f-20989d93f776))
-    (pin "2" (uuid 75c7371e-f596-445c-a2ed-fc13969dab42))
-    (pin "3" (uuid 13ae56ed-8ee7-4922-89db-fbbaf86e7b2d))
-    (pin "5" (uuid 2454b33f-bdd0-4945-9864-70e09089e06d))
-    (pin "6" (uuid c48a59e0-6e38-4f13-833a-c5e9781ab880))
-    (pin "7" (uuid c3dd50cc-0b1d-4f34-8bf0-1b4779228b5b))
-    (pin "4" (uuid a84e66e6-19be-4918-a318-8a1aad69fa3f))
-    (pin "8" (uuid a7a29f15-f0fc-4470-b2d5-3499abe1d6a0))
+    (pin "1" (uuid 072a86cf-d93b-456f-9790-c1824efa1e92))
+    (pin "2" (uuid 40cff180-c04f-437e-bf9e-37c0682df9ec))
+    (pin "3" (uuid 05a9bc1d-edf1-470a-99dc-85820f80fa5d))
+    (pin "5" (uuid bacaf60b-b1e6-47b4-90ee-82f200e9f1cd))
+    (pin "6" (uuid b2aec27d-29e8-46c4-9d55-9626b3cadfd2))
+    (pin "7" (uuid 9e507780-d4a7-406c-acbb-4bdc2f39081c))
+    (pin "4" (uuid 7d86a444-14e0-4850-91b7-f3f614fa686a))
+    (pin "8" (uuid d7ad148f-c8f9-4958-b9c1-fca6af64b2a5))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6311,7 +6311,7 @@
     (property "Datasheet" "" (at 121.92 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 0895cc7a-685d-4e31-b683-1dec049784bc))
+    (pin "1" (uuid 1e0fed3c-2922-4e71-96af-f219209ea714))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"
@@ -6339,8 +6339,8 @@
     (property "MFR_PN" "132203-12" (at 80.645 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ae8df670-9fd9-49c6-a2c9-9d0fb1480767))
-    (pin "2" (uuid d687a957-1a0d-4301-a680-a8a2b946ddae))
+    (pin "1" (uuid f6b25da3-e16f-40dc-8234-54a4cdf51f1e))
+    (pin "2" (uuid 64c9c9cf-d8ec-4770-b590-421506c3ab39))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f/7fc2620b-bac4-49c0-a276-7d2a46898037"

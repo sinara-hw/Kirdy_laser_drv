@@ -545,16 +545,16 @@
     (property "MFR_PN_ALT" "SBH11-NBPC-D05-SM-BK" (at 287.02 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid becf6329-04b3-4e9e-8ab0-bbb56c909276))
-    (pin "10" (uuid a4a865ce-0ebd-440e-bfe3-27b9f371fdd6))
-    (pin "2" (uuid 08f3a965-f7cc-460d-b106-f98dd43bcb2b))
-    (pin "3" (uuid eca631a0-85f1-4d48-8952-4df3bd602208))
-    (pin "4" (uuid da4a5bf7-5467-4a31-9376-a5bbf3c26db5))
-    (pin "5" (uuid 1352ccdb-a311-4ecf-b61f-892130894e91))
-    (pin "6" (uuid bbe4acfd-5dc3-4c6a-b48e-a9df018f4ec4))
-    (pin "7" (uuid c665b38d-d024-47be-b981-32c976fc7aa1))
-    (pin "8" (uuid ffb2fb1d-6d1c-44c1-acee-38c6ddd926f5))
-    (pin "9" (uuid a9dd7450-17b8-4d1f-8e7b-0fa22a9b92c6))
+    (pin "1" (uuid d5e58d74-065d-40dc-b876-202891e9a13e))
+    (pin "10" (uuid 1778f675-6ecd-413d-9214-087200f2c498))
+    (pin "2" (uuid 07e9a01e-604b-478b-86dd-37fa8be1d70d))
+    (pin "3" (uuid 51a43c31-713c-4a59-9362-84fa18ac2267))
+    (pin "4" (uuid 77cde6b2-2dcc-470a-bcb2-6e2481c9b4c2))
+    (pin "5" (uuid e5a8ef83-5a12-493b-99b7-fcb1b0b723b7))
+    (pin "6" (uuid a5b2c744-5f95-4aff-bd0f-c979134599cc))
+    (pin "7" (uuid abf4e0b0-063e-4be9-8281-47e73fd33276))
+    (pin "8" (uuid 8a8d6f01-7181-48d4-a6c6-2657fcc668e1))
+    (pin "9" (uuid 34408f8e-7107-4bd9-9de6-091b95475b96))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -579,7 +579,7 @@
     (property "Datasheet" "" (at 309.88 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8c7e01a3-d4d2-497d-b520-38305344ea73))
+    (pin "1" (uuid f79c8db3-ca85-4c8c-ab34-f5b66098d330))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -610,8 +610,8 @@
     (property "MFR_PN_ALT" "CR0603-J/-000ELF" (at 293.37 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f83951d2-de44-4402-9de9-b394b0a46a8d))
-    (pin "2" (uuid 983368f8-a05a-4822-baa3-27e31cac113e))
+    (pin "1" (uuid a8f70cc5-6646-419f-bef2-9180adca562e))
+    (pin "2" (uuid 60fa02a4-c84e-40dd-9337-bf82aba13b1f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -636,7 +636,7 @@
     (property "Datasheet" "" (at 294.64 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid bbe47cbd-8071-4503-aca0-7c904394f81c))
+    (pin "1" (uuid 32d5009e-7bd3-477a-b707-73710a17f2de))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -661,7 +661,7 @@
     (property "Datasheet" "" (at 281.94 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 3ee3afcb-db03-4dab-8eac-06ec979d711e))
+    (pin "1" (uuid 198265a8-1a66-4a12-b02c-94cddf92f475))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -686,7 +686,7 @@
     (property "Datasheet" "" (at 294.64 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 35a28627-5b58-4a33-87ea-73cd7ac391b2))
+    (pin "1" (uuid c37c6b04-8d5d-4477-9bda-f57e553c621e))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -711,7 +711,7 @@
     (property "Datasheet" "~" (at 293.37 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f180e6d9-baba-4221-ace7-2b6ae5e3491f))
+    (pin "1" (uuid 585e29c3-0356-4bf0-bf7f-7b2cfde2ba2f))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -736,7 +736,7 @@
     (property "Datasheet" "~" (at 309.88 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 9db38285-014f-4a00-9911-7603995f491f))
+    (pin "1" (uuid ecdaa703-b77c-4de1-82ac-aca4b0bc3599))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -767,16 +767,16 @@
     (property "MFR_PN_ALT" "SBH11-NBPC-D05-SM-BK" (at 287.02 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 173b2132-bfb2-4197-ba8c-80848e4fe222))
-    (pin "10" (uuid e2cd8732-913f-41cc-864b-7ff23b79bf3f))
-    (pin "2" (uuid b53158bd-23b1-4f7e-b802-3d9bc94d714a))
-    (pin "3" (uuid a0c69f65-3762-4791-a0e4-c6a531f6c49c))
-    (pin "4" (uuid 1fd0a401-46c0-4941-a16d-d94058a496d6))
-    (pin "5" (uuid cfd80e15-ee9d-43a8-a824-651682f1252d))
-    (pin "6" (uuid 2e55190b-a42d-4d20-89a7-d2ebafc00098))
-    (pin "7" (uuid cc149bb2-8bbd-47d6-864e-e481c2d6e46a))
-    (pin "8" (uuid 0451a084-13fb-49f5-8e91-95ee5b92660f))
-    (pin "9" (uuid 799a0883-88fc-42a8-afa0-0fa37be97f5f))
+    (pin "1" (uuid 38e58af9-ef1b-42b9-8e08-d5caac5c2ce1))
+    (pin "10" (uuid aa854444-c188-47f4-ab97-f57eae7ed487))
+    (pin "2" (uuid c6127305-fadc-4cb2-83f7-932fe7d7ef61))
+    (pin "3" (uuid 9fc51d2f-fca3-4763-8751-48ad039a849d))
+    (pin "4" (uuid 6f3f607f-8116-4700-9055-2550ba6e85ad))
+    (pin "5" (uuid a6978114-a9a4-4af1-8028-4adc11e41ab5))
+    (pin "6" (uuid 448eb3e8-a55a-455c-8488-20b5d52ed2d8))
+    (pin "7" (uuid cba18d1b-5e53-4607-8b1f-ebb116ef137c))
+    (pin "8" (uuid d9eaf55e-b8e3-42d4-bece-6d261e2b22d5))
+    (pin "9" (uuid 7343d1b5-293f-430b-8b1d-6e964277a0c7))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -801,7 +801,7 @@
     (property "Datasheet" "" (at 293.37 219.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 75bfb6fa-1299-4794-b69c-95473d2708ed))
+    (pin "1" (uuid 22dde2c6-e618-4896-896a-63dd84ee0630))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -826,7 +826,7 @@
     (property "Datasheet" "" (at 281.94 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9b8731d-fbb9-4adf-9d17-707844a83f6b))
+    (pin "1" (uuid fbb6dad0-9117-4ea2-9ea1-e86691dc4b22))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
@@ -857,8 +857,8 @@
     (property "MFR_PN_ALT" "CR0603-J/-000ELF" (at 309.88 215.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5d50c64b-1ce3-4108-b1ba-139174898434))
-    (pin "2" (uuid fcceedf2-2235-40bb-b4da-cefce158a151))
+    (pin "1" (uuid c09f05d6-1315-4bb2-a2ba-78451fc25484))
+    (pin "2" (uuid 8c76750c-29c0-41e3-b16e-deadb6d8dfa4))
     (instances
       (project "kirdy"
         (path "/88da1dd8-9274-4b55-84fb-90006c9b6e8f"
