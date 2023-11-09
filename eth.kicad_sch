@@ -5,10 +5,10 @@
   (paper "A3")
 
   (title_block
-    (title "Kirdy")
-    (date "2022-07-03")
-    (rev "r0.3")
-    (company "M-Labs")
+    (title "Ethernet")
+    (date "2023-11-09")
+    (rev "r0_3")
+    (company "M-Labs Limited")
     (comment 1 "Linus Woo Chun Kit")
   )
 
@@ -3826,8 +3826,8 @@
     (pin "5" (uuid c956117e-6e27-468b-9603-dd709d1562c0))
     (pin "6" (uuid f550b2af-52b6-4a57-8e0d-3a9b1337d581))
     (pin "7" (uuid 5eb8935b-4073-4f17-b9b1-60790254f809))
-    (pin "8" (uuid 617227de-9084-40e4-b313-3abf47dcb1d7))
-    (pin "8" (uuid 617227de-9084-40e4-b313-3abf47dcb1d7))
+    (pin "8" (uuid 617227de-9084-40e4-b313-3abf47dcb1da))
+    (pin "8" (uuid 617227de-9084-40e4-b313-3abf47dcb1da))
     (pin "9" (uuid 80dd44b1-efa6-4c03-ad0c-3d0a40bba425))
     (instances
       (project "kirdy"

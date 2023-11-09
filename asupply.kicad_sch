@@ -5,10 +5,10 @@
   (paper "A3")
 
   (title_block
-    (title "Kirdy")
-    (date "2022-07-03")
-    (rev "r0.3")
-    (company "M-Labs")
+    (title "analog supply")
+    (date "2023-11-09")
+    (rev "r0_3")
+    (company "M-Labs Limited")
     (comment 1 "Linus Woo Chun Kit")
   )
 
