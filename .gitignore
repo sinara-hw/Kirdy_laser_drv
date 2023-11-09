@@ -17,6 +17,8 @@ _autosave-*
 *-save.kicad_pcb
 fp-info-cache
 *auto_saved_files*
+~*
+__pycache__
 
 # Netlist files (exported from Eeschema)
 *.net
@@ -24,3 +26,6 @@ fp-info-cache
 # Autorouter files (exported from Pcbnew)
 *.dsn
 *.ses
+
+# Generated Production Files
+production
