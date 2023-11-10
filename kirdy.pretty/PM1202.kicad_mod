@@ -51,4 +51,9 @@
   (pad "8" thru_hole roundrect (at 54.742 0) (size 1.8 3) (drill 1.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp f1ee8936-b66c-499a-bb0c-011645be4b90))
   (pad "9" thru_hole roundrect (at 57.282 0) (size 1.8 3) (drill 1.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 21bc1437-5943-4214-b89d-8d1f5af94ac7))
   (pad "10" thru_hole roundrect (at 59.822 0) (size 1.8 3) (drill 1.1) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 153d6c8f-d83a-4010-9433-ae1675f36797))
+  (model "${KIPRJMOD}/kirdy.pretty/PM1202.step"
+    (offset (xyz 29.9 -2 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
 )
