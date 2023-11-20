@@ -2164,6 +2164,11 @@
     (uuid b9016901-3dc8-46a6-bfc5-d7a28dd97dba)
   )
 
+  (label "+12V_Barrel_Jack" (at 199.136 31.75 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid a514e706-0748-4059-8680-babd922e05e7)
+  )
+
   (global_label "12Vin" (shape passive) (at 290.83 66.04 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid ddeb5a88-7444-4199-858d-84b69dbaabae)
