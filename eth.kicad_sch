@@ -3826,8 +3826,8 @@
     (pin "5" (uuid aeb2759d-1fd8-43ce-8951-9d9386ce271c))
     (pin "6" (uuid 836a350b-8422-422a-88d3-a0cd8eddee47))
     (pin "7" (uuid 931473ba-af41-4e36-b6c9-9a3fb1032bbd))
-    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a13))
-    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a13))
+    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a15))
+    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a15))
     (pin "9" (uuid 8bc5a6f7-ced1-468f-aa5d-6d53092fa02a))
     (instances
       (project "kirdy"
