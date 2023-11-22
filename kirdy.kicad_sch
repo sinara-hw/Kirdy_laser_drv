@@ -747,6 +747,10 @@
     (uuid fec1ee40-c40d-4a20-9b53-d46f96778a88)
   )
 
+  (text "ToDo:\nCheck all C0G New Tantalum footprints" (at 216.535 53.975 0)
+    (effects (font (size 2.54 2.54)) (justify left bottom))
+    (uuid 89cd2d40-9e8a-4d59-95ca-0351f96b75a2)
+  )
   (text "Possible Options:\nMating Height = 3.5mm(Header) + 5mm(Socket) = 8.5mm\n\nMale:  BG050-10A-0-0450-0737-0350-L-D <- need to use a custom footprint with positioning holes\nFemale: BG120-10-A-0-N-D <- need to use a custom footprint with positioning holes"
     (at 277.495 105.41 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
