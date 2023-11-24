@@ -180,7 +180,7 @@
   (fp_circle (center 25 -17.5) (end 27.7 -17.5)
     (stroke (width 0.1) (type default)) (fill none) (layer "F.Fab") (tstamp ea87ea4b-864a-4672-821f-6c168d6357a9))
   (model "${KIPRJMOD}/kirdy.pretty/Kirdy_LD_Adapter.step"
-    (offset (xyz 0 0 8.5))
+    (offset (xyz 0 0 11.54))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 180))
   )
