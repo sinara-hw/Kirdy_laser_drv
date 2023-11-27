@@ -6,7 +6,7 @@
 
   (title_block
     (title "digital supply")
-    (date "2023-11-09")
+    (date "2023-11-27")
     (rev "r0_3")
     (company "M-Labs Limited")
     (comment 1 "Linus Woo Chun Kit")
@@ -2275,11 +2275,6 @@
     (uuid fbeb4819-30cb-4740-a2f7-554fe2febc08)
   )
 
-  (rectangle (start 172.085 61.595) (end 207.645 97.79)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 8b82cc29-15c4-43f0-a8f3-b214cd79a223)
-  )
   (rectangle (start 223.52 14.605) (end 270.51 61.595)
     (stroke (width 0) (type default))
     (fill (type none))

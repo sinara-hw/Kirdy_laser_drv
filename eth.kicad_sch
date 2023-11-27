@@ -6,7 +6,7 @@
 
   (title_block
     (title "Ethernet")
-    (date "2023-11-09")
+    (date "2023-11-27")
     (rev "r0_3")
     (company "M-Labs Limited")
     (comment 1 "Linus Woo Chun Kit")
@@ -2546,12 +2546,6 @@
     (uuid fefec0d6-95ba-481b-80c8-eaa0a10a3fb2)
   )
 
-  (rectangle (start 313.69 175.26) (end 332.105 209.55)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 4f9cff26-fa3a-4641-b2f7-f0251c980604)
-  )
-
   (label "PHY_TD_P" (at 199.39 158.75 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 03a3d6e1-7c12-4b81-953f-1e820d00e489)
@@ -3832,8 +3826,8 @@
     (pin "5" (uuid aeb2759d-1fd8-43ce-8951-9d9386ce271c))
     (pin "6" (uuid 836a350b-8422-422a-88d3-a0cd8eddee47))
     (pin "7" (uuid 931473ba-af41-4e36-b6c9-9a3fb1032bbd))
-    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a1b))
-    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a1b))
+    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a1c))
+    (pin "8" (uuid 5214f442-9c8d-426e-a560-c92096489a1c))
     (pin "9" (uuid 8bc5a6f7-ced1-468f-aa5d-6d53092fa02a))
     (instances
       (project "kirdy"

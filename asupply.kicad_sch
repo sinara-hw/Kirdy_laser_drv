@@ -6,7 +6,7 @@
 
   (title_block
     (title "analog supply")
-    (date "2023-11-09")
+    (date "2023-11-27")
     (rev "r0_3")
     (company "M-Labs Limited")
     (comment 1 "Linus Woo Chun Kit")
@@ -3450,34 +3450,16 @@
     (fill (type none))
     (uuid 187368e0-5056-4de6-a757-447ca13d8dd2)
   )
-  (rectangle (start 275.59 32.385) (end 314.96 67.31)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 5b7dce8c-dbe6-4638-857b-331b0764f7b6)
-  )
 
   (text "Pi LC LPF Specs:\nC: 10.1uF\nL: 22uH\nCutOff Frequency: ~21.3kHz"
     (at 113.03 250.825 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 13065b5a-ea01-42be-a989-4914802820b1)
   )
-  (text "To do replace them with non X7R Rating" (at 15.24 156.845 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 21f4a928-b134-4fd5-9421-0c43a6dcc01d)
-  )
-  (text "Replaced Tan 220uF with ceramic" (at 278.13 36.195 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 3d47de47-69d5-460f-a3a7-1bd5a7024b26)
-  )
   (text "Use Tantalums and C0G Caps\nto reduce microphonics for \ndrive stage"
     (at 161.925 73.025 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 6c691895-51d3-42ab-9d80-74113338d3be)
-  )
-  (text "https://e2e.ti.com/blogs_/archives/b/precisionhub/posts/stress-induced-outbursts-microphonics-in-ceramic-capacitors-part-2"
-    (at 15.24 159.385 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 96de85b6-8a88-4e18-8370-2003f3165f33)
   )
 
   (hierarchical_label "LD_EN" (shape input) (at 230.505 107.95 180) (fields_autoplaced)

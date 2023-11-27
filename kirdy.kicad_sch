@@ -6,7 +6,7 @@
 
   (title_block
     (title "Kirdy")
-    (date "2023-11-09")
+    (date "2023-11-27")
     (rev "r0_3")
     (company "M-Labs Limited")
     (comment 1 "Linus Woo Chun Kit")
@@ -759,12 +759,8 @@
     (uuid fec1ee40-c40d-4a20-9b53-d46f96778a88)
   )
 
-  (text "ToDo:\nCheck all C0G New Tantalum footprints" (at 216.535 53.975 0)
-    (effects (font (size 2.54 2.54)) (justify left bottom))
-    (uuid 89cd2d40-9e8a-4d59-95ca-0351f96b75a2)
-  )
-  (text "Connectors Mating Combination:\n\nTotal Mating Height = 11mm\n\nMale: BG050-10A-0-0650-0737-0350-L-D (3.5mm profile) \nFemale: M20-7870542 (7.5 profile) \nM3 Solder Standoff: 78614110360 (11mm height)\nNote: There is no M2.5 Solder Standoff with 11mm height from Würth elektronik"
-    (at 307.34 121.92 0)
+  (text "Connectors Mating Combination:\n\nTotal Mating Height = 11mm\n\nMale: BG050-10A-0-0650-0737-0350-L-D (3.5mm profile) \nFemale: M20-7870542 (7.5mm profile) \nM3 Solder Standoff: 78614110360 (11mm height)"
+    (at 307.34 123.825 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid a68a802d-4d03-49bc-aae9-65bdef5db6f6)
   )
