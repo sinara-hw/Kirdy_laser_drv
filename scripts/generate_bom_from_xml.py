@@ -6,7 +6,7 @@
     The BOM does not include components with DNP or excluded from BOM field(s) checked. 
     Grouped By: Value, Footprint, MFR_PN, MFR_ALT
     Sorted By: Ref
-    Fields: Ref, Value, MFR_PN, MFR_PN_ALT, Qnty, LibPart, Footprint
+    Fields: Ref, Value, MFR_PN, MFR_PN_ALT, Qnty, LibPart, Footprint, Comment
 
     Command line:
     python "pathToFile/generate_bom_from_xml.py" "%I" "%O.csv"
@@ -41,7 +41,7 @@ out = csv.writer(f, lineterminator='\n', delimiter=',', quotechar='\"', quoting=
 out.writerow(['Source:', net.getSource()])
 out.writerow(['Date:', net.getDate()])
 out.writerow(['Tool:', net.getTool()])
-out.writerow(['Ref', 'Value', 'MFR_PN', 'MFR_PN_ALT', 'Qnty', 'LibPart', 'Footprint'])
+out.writerow(['Ref', 'Value', 'MFR_PN', 'MFR_PN_ALT', 'Qnty', 'LibPart', 'Footprint', 'Comment'])
 
 grouped = net.groupComponents(components=net.getInterestingComponents(excludeBOM=True, DNP=True))
 
@@ -59,4 +59,5 @@ for group in grouped:
         c.getField("MFR_PN_ALT"),
         len(group),
         c.getLibName() + ":" + c.getPartName(),
-        c.getFootprint()])
+        c.getFootprint(),
+        c.getField("Comment")])
