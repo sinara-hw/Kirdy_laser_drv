@@ -21,9 +21,12 @@ def setup_env(prefix, sch, out_dir, dir_kicad_plugins, dir_3d_models):
 
     # NIXOS installs KiCAD Built-in 3D models in a separated folder
     if dir_3d_models is None:
-        model_3d_path = os.path.join("/nix/store", os.popen("ls /nix/store | grep kicad-packages3d | head -1").read().replace("\n", ""), "share/kicad/3dmodels")
-    # Setup the KICAD7_3DMODEL_DIR for step file to be generated with kicad-cli"
-    os.environ['KICAD7_3DMODEL_DIR'] = model_3d_path
+        temp = os.popen("ls /nix/store | grep kicad-packages3d").read().split()
+        for model_3d_path in temp:
+            if model_3d_path.find(".drv") == -1:
+                # Setup the KICAD7_3DMODEL_DIR for step file to be generated with kicad-cli"
+                os.environ['KICAD7_3DMODEL_DIR'] = os.path.join("/nix/store", model_3d_path, "share/kicad/3dmodels")
+                break
 
     # Generate the prefix from the title and revision fields in title block of the schematics top
     if prefix is None:
