@@ -3035,7 +3035,7 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tlv9001.pdf" (at 166.37 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MRF_PN" "TLV9001QDBVRQ1" (at 166.37 149.86 0)
+    (property "MFR_PN" "TLV9001QDBVRQ1" (at 166.37 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9661012d-b331-4c22-900d-c8fa3459e198))

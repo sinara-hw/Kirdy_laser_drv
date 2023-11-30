@@ -2929,6 +2929,11 @@
     (fill (type none))
     (uuid 19cd1df3-bb3f-4cf5-af24-f0ff3cc3362b)
   )
+  (rectangle (start 20.955 135.255) (end 71.12 141.605)
+    (stroke (width 0) (type default))
+    (fill (type none))
+    (uuid 5bdcce55-154a-4cbd-8a65-1b44bef0f836)
+  )
 
   (text "All capacitors PPS film type\nto prevent microphonics "
     (at 74.295 133.985 0)
@@ -2938,6 +2943,11 @@
   (text "For control loop\nresponse tuning" (at 323.85 111.76 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 8980a070-b15c-4528-a025-bb001b9176d9)
+  )
+  (text "Install either of the LTC6655 Voltage Reference\nin differnt packages"
+    (at 22.225 140.335 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c24ead2c-1119-4c35-9a18-f8a11e52e9d5)
   )
   (text "Install either of the Power Reistor & \n  fit 0R Resistor accordingly\n\nThru-Hole Precision Power Resistor\n2 Terminal: PDY10R000F PD Series by Alpha Elec (VPG)\n4 Terminal: Y169010R0000T9L by VPG"
     (at 347.98 146.685 0)
@@ -3018,7 +3028,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 344.17 115.57 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 059d8a31-5ade-47dd-8b99-a17b5ee8a337)
     (property "Reference" "TP1" (at 342.265 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -3321,6 +3331,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFR_PN" "LTC6655BHMS8-4.096#PBF" (at 52.705 126.365 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Comment" " See schematics for Instruction if part is not available" (at 52.705 126.365 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c775bedd-7747-4bdd-9e77-5729cad57831))
@@ -3714,7 +3727,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 324.485 127.635 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 3b3235f5-5265-4888-abd2-191de158fe92)
     (property "Reference" "TP3" (at 327.025 133.985 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5744,7 +5757,7 @@
   )
 
   (symbol (lib_id "Connector:TestPoint") (at 344.17 124.46 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid d14be330-55b4-4943-b6f7-7872a86564ba)
     (property "Reference" "TP2" (at 342.265 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -6182,6 +6195,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFR_PN" "LTC6655BHLS8-4.096#PBF" (at 52.705 110.49 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Comment" " See schematics for Instruction if part is not available" (at 52.705 110.49 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ac53e0d5-14de-4375-8d8b-4a94b13235fa))
