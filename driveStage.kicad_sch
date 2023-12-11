@@ -3085,7 +3085,7 @@
   )
 
   (symbol (lib_id "kirdy:R_Y169010R0000T9L") (at 360.68 120.015 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 0eab9295-041d-4ed4-b10a-3c7684b6770c)
     (property "Reference" "R24" (at 362.585 118.745 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -3379,7 +3379,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 331.47 115.57 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 276ec956-181f-40ad-b3fb-6d83e4859fd0)
     (property "Reference" "R22" (at 331.47 118.11 90)
       (effects (font (size 1.27 1.27)))
@@ -3547,7 +3547,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 349.885 119.38 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp yes)
     (uuid 2b425dde-7746-41bc-be37-43235bf0e487)
     (property "Reference" "R23" (at 351.79 118.745 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5080,7 +5080,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 331.47 124.46 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid b2a44ba2-3ac1-4c9c-9c1d-4cfb7af052aa)
     (property "Reference" "R25" (at 331.47 127 90)
       (effects (font (size 1.27 1.27)))
