@@ -3139,7 +3139,7 @@
     (property "MFR_PN" "PM1202" (at 154.305 90.805 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Comment" "Manufacturer: SDAPO" (at 155.575 83.82 0)
+    (property "Comment" "https://m.tb.cn/h.5mqugBw?tk=N0blWf9e2cn" (at 155.575 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 14be5c36-316f-4e69-84bd-226d8db63330))
