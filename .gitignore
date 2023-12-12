@@ -3,6 +3,9 @@
 
 # Temporary files
 *.000
+*.cache
+*.config
+*.local
 *.bak
 *.bck
 *.kicad_pcb-bak
@@ -28,4 +31,4 @@ __pycache__
 *.ses
 
 # Generated Production Files
-production
+result

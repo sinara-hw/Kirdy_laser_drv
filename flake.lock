@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "kicad_bom_generator": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1702353729,
+        "narHash": "sha256-NIM/GLC71VdGdMletBBv9lSPuHpgD9zzeGiVQLEAULA=",
+        "ref": "refs/heads/main",
+        "rev": "72686f5556785c9aa13678dc42757dddfb7d7c23",
+        "revCount": 2,
+        "type": "git",
+        "url": "https://git.m-labs.hk/linuswck/KiCAD_BOM_Generator.git"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.m-labs.hk/linuswck/KiCAD_BOM_Generator.git"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1701952659,
+        "narHash": "sha256-TJv2srXt6fYPUjxgLAL0cy4nuf1OZD4KuA1TrCiQqg0=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "b4372c4924d9182034066c823df76d6eaf1f4ec4",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixos-23.11",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "kicad_bom_generator": "kicad_bom_generator",
+        "nixpkgs": "nixpkgs"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
