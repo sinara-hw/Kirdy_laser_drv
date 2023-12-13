@@ -3093,7 +3093,7 @@
     (property "Value" "10" (at 362.585 120.65 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Package_TO_SOT_THT:TO-220F-4_Horizontal_TabDown" (at 360.68 120.015 0)
+    (property "Footprint" "kirdy:VPR221_Horizontal" (at 360.68 120.015 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.hk/datasheet/2/428/vpr22021-3247675.pdf" (at 360.68 120.015 0)
