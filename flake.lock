@@ -9,11 +9,11 @@
         "rev": "72686f5556785c9aa13678dc42757dddfb7d7c23",
         "revCount": 2,
         "type": "git",
-        "url": "https://git.m-labs.hk/linuswck/KiCAD_BOM_Generator.git"
+        "url": "https://git.m-labs.hk/M-Labs/KiCAD_BOM_Generator.git"
       },
       "original": {
         "type": "git",
-        "url": "https://git.m-labs.hk/linuswck/KiCAD_BOM_Generator.git"
+        "url": "https://git.m-labs.hk/M-Labs/KiCAD_BOM_Generator.git"
       }
     },
     "nixpkgs": {

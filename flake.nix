@@ -1,7 +1,7 @@
 {
   inputs.nixpkgs.url = "github:NixOS/nixpkgs/nixos-23.11";
   inputs.kicad_bom_generator = {
-    url = "git+https://git.m-labs.hk/linuswck/KiCAD_BOM_Generator.git";
+    url = "git+https://git.m-labs.hk/M-Labs/KiCAD_BOM_Generator.git";
     flake = false;
   };
 
