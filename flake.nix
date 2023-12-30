@@ -25,7 +25,7 @@
 
         buildPhase = ''
           # kicad-cli requires the use of $HOME
-          TMP_DIR="$(pwd)/$(mktemp -d tmp.XXXX)"
+          TMP_DIR="$(mktemp --tmpdir -d kicad-kirdy.XXXXXXX)"
           export HOME=$TMP_DIR
 
           SCH=kirdy.kicad_sch
@@ -52,8 +52,6 @@
           kicad-cli pcb export drill $PCB -u mm --generate-map --map-format gerberx2 -o ./$PREFIX"_gerber_drill"/
 
           zip -r -j $PREFIX"_gerber_drill" $PREFIX"_gerber_drill"
-
-          rm -r $TMP_DIR
         '';
 
         installPhase = ''
