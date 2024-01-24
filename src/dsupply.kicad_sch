@@ -5455,7 +5455,7 @@
     (property "Datasheet" "" (at 149.86 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "TPS54620RHLR" (at 157.48 160.02 0)
+    (property "MFR_PN" "TPS54620RGYR" (at 157.48 160.02 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 61f726d1-be41-4744-a866-bec0e8aae48b))
