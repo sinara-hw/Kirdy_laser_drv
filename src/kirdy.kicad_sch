@@ -887,7 +887,8 @@
     (uuid fec1ee40-c40d-4a20-9b53-d46f96778a88)
   )
 
-  (text "Mount to Front Panel \nConnect to LD Adapter" (at 322.58 219.71 0)
+  (text "SMA_Jack_to_Plug_Cable Specifications:\nCable Length: 10cm\n- Measured between two ends of cable excluding the metal SMA Connectors\nThread Length: 15mm\n\nTo be mounted to Front Panel \nConnect to LD Adapter"
+    (at 322.58 229.87 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 7270043d-c6e2-4ebc-af24-ed843b6b8e48)
   )
@@ -1646,13 +1647,13 @@
     (property "Datasheet" "" (at 322.58 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN" "095-902-477-006" (at 322.58 209.55 0)
+    (property "MFR_PN" "https://m.tb.cn/h.5HEJkaC?tk=6UH5WQTrLMA" (at 322.58 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFR_PN_ALT" "095-902-481-006" (at 322.58 209.55 0)
+    (property "MFR_PN_ALT" "" (at 322.58 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Comment" "Minimum Length of Cable: 120mm" (at 322.58 209.55 0)
+    (property "Comment" "Order from Taobao | Cable Length: 10cm | Thread Length: 15mm | F-Type" (at 322.58 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
