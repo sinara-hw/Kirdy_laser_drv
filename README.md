@@ -29,7 +29,7 @@ Note: TEC Output Current should be limited to ±2A when it is being powered via 
 | --- | --- | --- | --- | --- | ---|
 | Photocurrent Range | 0 | | 3.0 | mA | |
 | Photocurrent Resolution | | 0.8 | | uA | |
-| Bandwidth | | 500 | | Hz | |
+| Bandwidth (-3 dB) | | 500 | | Hz | |
 
 Note1: Circuit may be damaged if photodiode input current exceeds 3.0 mA. User can modify the circuit and reprogram the photodiode current monitor range via the given driver.
 
@@ -40,7 +40,9 @@ Note2: Photodiode operates in photovoaic mode.
 | --- | --- | --- | --- | --- | ---|
 | Input Voltage | -1.0 | | 1.0 | V | |
 | Input Impedance | | 50 or 43.4k | | ohm | Depends on Termination Switch Position |
-| Bandwidth(-3 dB) | | 18 | | MHz | @Modulation Depth: 25 mA/V, Input : 1 Vp-p, DC Bias: 150 mA |
+| Bandwidth (-3 dB) | | 18 | | MHz | @Modulation Depth: 25 mA/V, Input : 1 Vp-p, DC Bias: 150 mA |
+
+Note: Low Frequency Modulation Input can accept DC input to impose a DC offset to the output current.
 
 ## TEC Temperature Controller
 ### TEC Current Output
