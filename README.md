@@ -18,7 +18,7 @@ Note: TEC Output Current should be limited to ±2A when it is being powered via 
 | Resolution | | 0.292 | | uA |
 | Control Range| | | 307.2 | mA | |
 | Current Limit | | 319. | | mA| |
-| Compliance voltage | | > 5 | | V | |   
+| Compliance voltage | | > 4.928 | | V | |   
 | Current Noise (@ 1 kHz) | | < 300 || pA / rt(Hz) | @ DC Bias: 300 mA, Load: 10 Ω Load|
 | RMS Noise(10 Hz - 1 MHz) || < 300 | | nA | @ DC Bias: 300 mA, Load: 10 Ω Load| 
 | Temperature Coefficient | | ±1 | | ppm/°C | @ DC Bias: 50 mA. Tested Temperature Range: 43-56 °C |
@@ -50,7 +50,7 @@ Note: Low Frequency Modulation Input can accept DC input to impose a DC offset t
 | --- | --- | --- | --- | --- | ---|
 | Resolution | | 22.9 | | uA | |
 | Control Range (Powered via 12 V Barrel Jack) | -3.0 | | 3.0 | A | With Active Cooling |
-| Control Range (Powered via PoE) | -2.0 | | 2.0 | A | |
+| Control Range (Powered via PoE(802.11af)) | -2.0 | | 2.0 | A | |
 | Compliance Voltage | | 4.3 |  | V | |
 | Voltage Reading Resolution | | 3.22 | | mV | |
 | Current Reading Resolution | |  2.0 | | mA | |
