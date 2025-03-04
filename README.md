@@ -7,9 +7,9 @@ Low Noise Precision Laser Diode Driver with Built-in TEC Temperature Controller
 | --- | --- | --- | --- | --- | ---|
 | Input Voltage | | 12 | | V | |
 | Input Current | | | 2 | A|
-| PoE Standard | |  PoE+ (802.11at) | | |
+| PoE Standard | |  PoE+ (802.3at) | | |
 
-Note: TEC Output Current should be limited to ±2A when it is being powered via PoE(802.11af). Otherwise, Kirdy may malfunction.
+Note: TEC Output Current should be limited to ±2A when it is being powered via PoE(802.3af). Otherwise, Kirdy may malfunction.
 
 ## Laser Diode Driver
 ### Current Source Controller  
@@ -50,7 +50,7 @@ Note: Low Frequency Modulation Input can accept DC input to impose a DC offset t
 | --- | --- | --- | --- | --- | ---|
 | Resolution | | 22.9 | | uA | |
 | Control Range (Powered via 12 V Barrel Jack) | -3.0 | | 3.0 | A | With Active Cooling |
-| Control Range (Powered via PoE(802.11af)) | -2.0 | | 2.0 | A | |
+| Control Range (Powered via PoE(802.3af)) | -2.0 | | 2.0 | A | |
 | Compliance Voltage | | 4.3 |  | V | |
 | Voltage Reading Resolution | | 3.22 | | mV | |
 | Current Reading Resolution | |  2.0 | | mA | |
