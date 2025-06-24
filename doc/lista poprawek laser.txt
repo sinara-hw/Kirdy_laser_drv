@@ -1,0 +1,91 @@
+1)add license 0 cerna OHL
+2)Add a MOLEX Minifit connector to the board #57
+3)Connect 8V LD PWR EN Signal to LD Drive Stage Opamp PD_n
+- To all U1, U2, U5 opamp ADA4894-1YRDZ 
+4)[Test] Input Power Requirement
+- brak reakcji
+5) Kirdy HC (High Current) version #54
+- brak reakcji 
+6) thermoformed plastic laser adapter + fiber holder
+- brak reakcji
+7)Add Heat Sink to MAX1968 and its Inductors
+- 
+8) [Test] Evaluation for Maximum Thermostat TEC Output Power
+9) generate panel outputs from flake
+10) merge flake files
+11) 3V3A is unstable if PD Mon Output Stage Voltage is larger than 3.3V
+12) move/add protection relay to laser adapter
+13) Photodiode Monitor Current Range should be Selectable
+14) [TEST] Laser Diode Current Output Temperature Coefficient
+15) MAX1968 SHDN Pin is on 5V Voltage Level but it is controlled with 3V3 Voltage Level
+16) Mezzanine for second temperature control channel
+- nie rozumiem o co im chodzi w tym issiu
+17) route relay pins to expansion or laser connector
+18) Add a Factory Reset Button for Erasing the settings Stored in Flash
++ rozwiazanie poprzez DFU
+19) Add a Switch to the Front Panel for User to Select Whether Kirdy By default Power On Laser Diode and TEC
+- nie wiem czy to ma sens
+20) Add a 3 Pin Header for Configuring the Photodiode to Operate in Photovoltaic or Photoconductive mode
+
+21) Confusing LD-, LD+, PD- and PD+ Net Name and Markings
+- poprawione
+22) Lacking EEPROM Preprogrammed with Unique Mac Address
+- dodałem pamieci 24AA02E48T-I/OT do STM32 
+23) LD overcurrent with all modulation switches are OFF
+- nie wiem co z tym zrobic, albo dodac kolejny dzielnik albo moze potencjometr cyfrowy, ale popsuje to szumy
+24) Ethernet link drops temporarily when +8V comes on
+- faktycznie problem moze istniec, ale autor issiu nie podał powodu i sposobu naprawy
+25) PoE unstable power-up
+- tu problem jest po stornie switch z POE nie płytki
+26) MCU's Firmware Starts before Analog Power Rails are "Power Good"
+- dodałem rezystory 10k i linie PG podłaczyłem w wszystkich LDO
+
+wejscie POE/JACK +12V
+zaislane z +12V -> 5V
+zasilane z +12V -> +3.3V
+
+zasilanie z +12V
++9V 1.5A
++9VA 200mA
++8V
++5VA
+zasilane z +5VA  ->   +3.3VA
+
+zasilanie +9V CP
+zasilane z -9V   ->   -6V 
++15V
+
+
+
+
+27) Fiber optic adapter mounted on front panel may block the access of alternate programming pin header
++ 28) components bump into card guides
+- poprawione, zostały dodane marginesy po 2.5mm z kazdej strony
+29) [TEST] LD Driver Current Noise
+
+
+moje zmiany 
+zmiana szerokosci sciezek na 6-8 mil
+przelotki zmiana na 0.3/0.6 mm
+zmiana layer stack na JLC04161H-3313
+
+
+
+- pomiar prądu 
+- rozne konfiguracje laser 
++ umascienie katody 
+- ba slepo pomiar pradu diody /moc
+czy sa kunary ?
+
+TEC - dlaczego niski prad
+- ddoac zabzpiecznie na pinach IO
+dodać zabezpiczenie do diody laserowej
+
+tylko jeden scalak na BOT !!!!! U3 U6
+
+
+
+
+
+
+
